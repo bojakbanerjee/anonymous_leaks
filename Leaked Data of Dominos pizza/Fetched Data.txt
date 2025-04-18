@@ -1,0 +1,22 @@
++ Target IP:          104.91.49.119
++ Target Hostname:    www.dominos.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=US/ST=Michigan/L=Ann Arbor/jurisdictionC=US/jurisdictionST=Michigan/O=Domino's Pizza LLC/businessCategory=Private Organization/serialNumber=801136884/CN=www.dominos.com
+                   Altnames: www.dominos.com, dominos.com, api.dominos.com, authproxy.dominos.com, cache.dominos.com, cca.us.dominos.com, cheese-pepperoni.api.dominos.com, order.dominos.com, tracker.dominos.com
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=US/O=Entrust, Inc./OU=See www.entrust.net\/legal-terms/OU=(c) 2014 Entrust, Inc. - for authorized use only/CN=Entrust Certification Authority - L1M
++ Start Time:         2023-06-30 22:50:31 (GMT3)
+---------------------------------------------------------------------------
++ Server: AkamaiGHost
++ /index.intl.html/: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /index.intl.html/: The site uses TLS and the Strict-Transport-Security HTTP header is not defined. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
++ /index.intl.html/: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ Root page /index.intl.html redirects to: https://www.dominos.com/index.intl.html
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ : Server banner changed from 'AkamaiGHost' to 'Apache'.
++ /index.intl.html: Cookie ECOM31578 created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /index.intl.html: Cookie restaurants created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /index.intl.html: Retrieved x-powered-by header: Express.
++ /index.intl.html: Server may leak inodes via ETags, header found with file /index.intl.html, inode: b0b8, size: c+CJy1N1gjK4+1da2E+JgLWH7vg, mtime: gzip. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1418
++ /index.intl.html/SiteServer/admin/: Site Server components admin. Default account may be 'LDAP_Anonymous', pass is 'LdapPassword_1'. See: https://github.com/sullo/advisory-archives/blob/master/RFP2201.txt

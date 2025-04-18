@@ -1,0 +1,26 @@
++ Multiple IPs found: 157.240.224.174, 2a03:2880:f265:e9:face:b00c:0:4420
++ Target IP:          157.240.224.174
++ Target Hostname:    www.instagram.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=US/ST=California/L=Menlo Park/O=Meta Platforms, Inc./CN=*.www.instagram.com
+                   Altnames: *.www.instagram.com, www.instagram.com
+                   Ciphers:  TLS_CHACHA20_POLY1305_SHA256
+                   Issuer:   /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
++ Start Time:         2023-07-12 21:16:41 (GMT3)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ /guyritchie/: Uncommon header 'accept-ch' found, with contents: viewport-width,Sec-CH-Prefers-Color-Scheme,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Platform-Version.
++ /guyritchie/: Uncommon header 'x-fb-debug' found, with contents: 2PayNTJTddwDJIgk+fLFAGFe7unWwLSvARcPkRb7M4HZoNPz1JP6OD7OlvH9UPBiFY9g+v8SsisukdK0gDikWw==.
++ /guyritchie/: Uncommon header 'critical-ch' found, with contents: Sec-CH-UA-Model.
++ /guyritchie/: Uncommon header 'accept-ch-lifetime' found, with contents: 4838400.
++ /guyritchie/: Uncommon header 'document-policy' found, with contents: force-load-at-top.
++ /guyritchie/: Uncommon header 'reporting-endpoints' found, with contents: default="https://www.instagram.com/error/ig_web_error_reports/?device_level=unknown".
++ /guyritchie/: An alt-svc header was found which is advertising HTTP/3. The endpoint is: ':443'. Nikto cannot test HTTP/3 over QUIC. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/alt-svc
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /guyritchie: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ /guyritchie/: Uncommon header 'proxy-status' found, with contents: http_request_error; e_clientaddr="AcLRSVzvzuDhfzyV89MlQqDj6xUwIoEQk-RcrmP7lt54sgLWcKMd5nuM1Ko3U8I3z_iOuwZmyjyLYTuaXlU"; e_fb_vipaddr="AcK697le0t4h0TBrPLGg6j0002QfiB6pIyNRFptu03p22PAiS8-q0GDwFcfaqiw4tsBG0GWl0-Wf"; e_fb_builduser="AcK5S9wN_zwftgU3Xyv-A94NEJM7vprphjmREVMdsLEusjOIxVIoZ7b-z6SQnRVU0t4"; e_fb_binaryversion="AcLR520Nl5Elf2pEjapsJBr6GGT9Kgz1QOxyCNitIryaNKv5Q2emp5Xts3OgQjvtTyevxguW_wA8vVsyTV47LAuI9WcyvGrsO2M"; e_proxy="AcK-fX1hEtvfQ6HarBKW4aVwRfaNxc3iUx9Xc-2l7DTbWSZUecM6Jwc_No9okoD3AzfaqIhKcDe6Qq4".
++ /guyritchie/com.war: Retrieved access-control-allow-origin header: *.
++ /guyritchie/: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/
++ Server is using a wildcard certificate: *.www.instagram.com. See: https://en.wikipedia.org/wiki/Wildcard_certificate
++ /guyritchie/members/: This might be interesting.

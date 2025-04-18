@@ -1,0 +1,15 @@
++ Target IP:          195.245.250.84
++ Target Hostname:    www.krka.biz
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /serialNumber=5043611000/jurisdictionC=SI/businessCategory=Private Organization/C=SI/ST=Novo Mesto/O=Krka, tovarna zdravil, d. d., Novo mesto/CN=www.krka.biz
+                   Altnames: www.krka.biz, krka.at, krka.be, krka.bg, krka.biz, krka.co.hu, krka.co.uk, krka.com.es, krka.cz, krka.fi, krka.fr, krka.ie, krka.it, krka.lt, krka.lv, krka.pt, krka.rs, krka.se, krka.si, krka.ua, www.krka.at, www.krka.be, www.krka.bg, www.krka.co.hu, www.krka.co.uk, www.krka.com.es, www.krka.cz, www.krka.fi, www.krka.fr, www.krka.ie, www.krka.it, www.krka.lt, www.krka.lv, www.krka.pt, www.krka.rs, www.krka.se, www.krka.si, www.krka.ua
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo RSA Extended Validation Secure Server CA
++ Start Time:         2023-06-18 14:01:19 (GMT3)
+---------------------------------------------------------------------------
++ Server: nginx
++ /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /: The site uses TLS and the Strict-Transport-Security HTTP header is not defined. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
++ /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)

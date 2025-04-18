@@ -1,0 +1,22 @@
++ Multiple IPs found: 18.193.10.243, 3.68.132.0, 3.123.216.210
++ Target IP:          18.193.10.243
++ Target Hostname:    www.koton.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /CN=koton.com
+                   Altnames: koton.com, *.koton.com
+                   Ciphers:  ECDHE-RSA-AES128-GCM-SHA256
+                   Issuer:   /C=US/O=Amazon/CN=Amazon RSA 2048 M02
++ Start Time:         2023-06-18 14:02:47 (GMT3)
+---------------------------------------------------------------------------
++ Server: nginx
++ /: Cookie csrftoken created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ : Server banner changed from 'nginx' to 'awselb/2.0'.
++ /Jx7eKQsi.nsconfig: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /robots.txt: contains 10 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt
++ /: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/
++ Server is using a wildcard certificate: *.koton.com. See: https://en.wikipedia.org/wiki/Wildcard_certificate
++ OPTIONS: Allowed HTTP Methods: GET, HEAD, OPTIONS .
++ /config/: Configuration information may be available remotely.
++ /register/: This might be interesting.

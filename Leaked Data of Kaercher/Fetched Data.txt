@@ -1,0 +1,17 @@
++ Multiple IPs found: 143.204.215.111, 143.204.215.60, 143.204.215.2, 143.204.215.7
++ Target IP:          143.204.215.111
++ Target Hostname:    www.kaercher.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /CN=cloudfront.prod.globalwebsite.app.kaercher.com
+                   Altnames: cloudfront.prod.globalwebsite.app.kaercher.com, karcher.cn, www.woma-group.com, www.kaercher.com, karcher.com.br, kaercher.com, wmaze.com, www.karcher.com.br, www.wmaze.com, s3.kaercher-media.com, www.kaercher-stiftung.de, www.hotsy.com, woma-group.com, landa.com, karcher.cz, karcher-futuretech.com, www.kaercher-used-equipment.com, kaercher-used-equipment.com, s1.kaercher-media.com, www.karcher-futuretech.com, globalweb-webservice.app.kaercher.com, kaercher-stiftung.de, www.karcher.cn, www.karcher.cz, hotsy.com, www.landa.com
+                   Ciphers:  TLS_AES_128_GCM_SHA256
+                   Issuer:   /C=US/O=Amazon/CN=Amazon RSA 2048 M01
++ Start Time:         2023-06-20 16:09:18 (GMT3)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ /int/: Retrieved via header: 1.1 269bfdd288bfea5423a4e9e701777da6.cloudfront.net (CloudFront).
++ /int/: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /int/: Uncommon header 'ua-compatible' found, with contents: IE=edge.
++ /int/: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)

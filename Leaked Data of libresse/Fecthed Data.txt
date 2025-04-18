@@ -1,0 +1,16 @@
++ Target IP:          20.93.46.244
++ Target Hostname:    www.libresse.ru
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /CN=libresse.ru.temp
+                   Altnames: libresse.ru, www.libresse.ru
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /CN=libresse.ru.temp
++ Start Time:         2023-06-17 12:52:18 (GMT3)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ /:  IP address found in the 'NSC_MCWT_MW_mjcsfttf_sv_80_IUUQ' cookie. The IP is "142.49.188.234".
++ /: Uncommon header 'service-worker-allowed' found, with contents: /.
++ /JYr03qCS.htw: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /robots.txt: contains 12 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt

@@ -1,0 +1,15 @@
++ Multiple IPs found: 65.9.66.42, 65.9.66.88, 65.9.66.10, 65.9.66.123
++ Target IP:          65.9.66.42
++ Target Hostname:    www.dilmahtea.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /CN=dilmahtea.com
+                   Altnames: dilmahtea.com, www.dilmahtea.com
+                   Ciphers:  TLS_AES_128_GCM_SHA256
+                   Issuer:   /C=US/O=Amazon/CN=Amazon RSA 2048 M02
++ Start Time:         2023-06-20 16:13:58 (GMT3)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ /: Retrieved via header: 1.1 14b10bd09a0531ef477d0a404ca26900.cloudfront.net (CloudFront).
++ : Server banner changed from 'CloudFront' to 'awselb/2.0'.
++ No CGI Directories found (use '-C all' to force check all possible dirs)

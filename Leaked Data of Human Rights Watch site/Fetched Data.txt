@@ -1,0 +1,35 @@
++ Multiple IPs found: 23.185.0.2, 2620:12a:8001::2, 2620:12a:8000::2
++ Target IP:          23.185.0.2
++ Target Hostname:    www.hrw.org
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /CN=hrw.org
+                   Altnames: admin.hrw.org, archive.hrw.org, backend.hrw.org, china.hrw.org, dailybrief.hrw.org, edit.hrw.org, hrw.org, humanrightswatch.com, humanrightswatch.org, internap.hrw.org, legacy.hrw.org, pantheon.hrw.org, search.hrw.org, www.hrw.org, www.humanrightswatch.com, www.humanrightswatch.org, www.legacy.hrw.org
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=US/O=Let's Encrypt/CN=R3
++ Start Time:         2023-07-14 20:40:03 (GMT3)
+---------------------------------------------------------------------------
++ Server: nginx
++ /: Retrieved via header: 1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish.
++ /: Retrieved x-served-by header: cache-chi-klot8100023-CHI, cache-vie6361-VIE, cache-vie6361-VIE, cache-vie6324-VIE, cache-vie6324-VIE.
++ /: Drupal 9 was identified via the x-generator header. See: https://www.drupal.org/project/remove_http_headers
++ /: Fastly CDN was identified by the x-timer header. See: https://www.fastly.com/
++ /: Uncommon header 'x-pantheon-styx-hostname' found, with contents: styx-fe2-b-579886598f-fnt6g.
++ /: Uncommon header 'x-styx-req-id' found, with contents: 6c90508c-226b-11ee-ad9d-fa29b1107d35.
++ /: Uncommon header 'x-served-by' found, with contents: cache-chi-klot8100023-CHI, cache-vie6361-VIE, cache-vie6361-VIE, cache-vie6324-VIE, cache-vie6324-VIE.
++ /BfXkHHKM.gif: Uncommon header 'fastly-stats' found, with contents: io=1.
++ /BfXkHHKM.gif: Uncommon header 'fastly-io-error' found, with contents: invalid status.
++ /BfXkHHKM.: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ /index.php?: Uncommon header 'x-drupal-route-normalizer' found, with contents: 1.
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /robots.txt: Entry '/README.txt' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ : Server banner changed from 'nginx' to 'Varnish'.
++ /robots.txt: contains 79 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt
++ /www.pem: Uncommon header 'x-pantheon-fun-extended' found, with contents: Please double-check that you are using the correct url. If so, make sure it matches your dashboard's custom domain settings, and try again in 2 minutes.
++ /www.pem: Uncommon header 'x-pantheon-fun-reason' found, with contents: The gods are wise, but do not know of the site which you seek.
++ /index.html: Uncommon header 'x-redirect-id' found, with contents: 263903.
++ /: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/
++ /ganglia/: Ganglia Cluster reports reveal detailed information.
++ /pub/english.cgi?op=rmail: Uncommon header 'x-redirect-inc' found, with contents: 9.
++ /reports/: Fastly CDN was identified by the fastly-restarts header. See: https://www.fastly.com/
++ /reports/: Uncommon header 'fastly-restarts' found, with contents: 1.

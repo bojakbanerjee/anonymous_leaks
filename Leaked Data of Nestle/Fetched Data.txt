@@ -1,0 +1,18 @@
++ Multiple IPs found: 104.18.26.142, 104.18.27.142, 2606:4700::6812:1b8e, 2606:4700::6812:1a8e
++ Target IP:          104.18.26.142
++ Target Hostname:    www.nestle.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=US/ST=California/L=San Francisco/O=Cloudflare, Inc./CN=sni.cloudflaressl.com
+                   Altnames: www.nestle.com, sni.cloudflaressl.com
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=US/O=Cloudflare, Inc./CN=Cloudflare Inc ECC CA-3
+---------------------------------------------------------------------------
++ Server: cloudflare
++ /: Retrieved via header: varnish.
++ /: Drupal was identified via the x-drupal-cache header. See: https://support.acquia.com/hc/en-us/articles/360005275013-How-Drupal-page-cache-works
++ /: Uncommon header 'x-ah-environment' found, with contents: prod.
++ /: Uncommon header 'x-drupal-dynamic-cache' found, with contents: UNCACHEABLE.
++ /: Uncommon header 'x-request-id' found, with contents: v-47126a94-09fe-11ee-a633-8fecba5f8ea1.
++ /: The site uses TLS and the Strict-Transport-Security HTTP header is not defined. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
++ /efubf9nb.pl: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/

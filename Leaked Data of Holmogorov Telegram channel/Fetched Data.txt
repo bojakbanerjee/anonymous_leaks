@@ -1,0 +1,936 @@
++ Multiple IPs found: 149.154.167.99, 2001:67c:4e8:f004::9
++ Target IP:          149.154.167.99
++ Target Hostname:    t.me
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /CN=*.t.me
+                   Altnames: *.t.me, t.me
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http:\/\/certs.godaddy.com\/repository\//CN=Go Daddy Secure Certificate Authority - G2
++ Start Time:         2023-07-25 23:18:39 (GMT3)
+---------------------------------------------------------------------------
++ Server: nginx/1.18.0
++ /s/holmogortalks/: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /149.154.167.99.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.sql: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.sql: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.sql: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.sql: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.sql: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.sql: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.sql: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.sql: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.sql: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.sql: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.sql: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tme.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /me.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /149.154.167.99.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t.me.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /t_me.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ Multiple index files found: /s/holmogortalks/index.do, /s/holmogortalks/index.jhtml, /s/holmogortalks/index.cfm, /s/holmogortalks/index.asp, /s/holmogortalks/index.shtml, /s/holmogortalks/default.asp, /s/holmogortalks/index.pl, /s/holmogortalks/index.aspx, /s/holmogortalks/index.cgi, /s/holmogortalks/index.jsp, /s/holmogortalks/default.aspx, /s/holmogortalks/index.php, /s/holmogortalks/index.php5, /s/holmogortalks/index.php3, /s/holmogortalks/index.php4, /s/holmogortalks/index.php7.
++ /s/holmogortalks/: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/
++ Server is using a wildcard certificate: *.t.me. See: https://en.wikipedia.org/wiki/Wildcard_certificate
++ /s/holmogortalks/kboard/: KBoard Forum 0.3.0 and prior have a security problem in forum_edit_post.php, forum_post.php and forum_reply.php.
++ /s/holmogortalks/lists/admin/: PHPList pre 2.6.4 contains a number of vulnerabilities including remote administrative access, harvesting user info and more. Default login to admin interface is admin/phplist.
++ /s/holmogortalks/splashAdmin.php: Cobalt Qube 3 admin is running. This may have multiple security problems which could not be tested remotely. See: https://seclists.org/bugtraq/2002/Jul/262
++ /s/holmogortalks/ssdefs/: Siteseed pre 1.4.2 has 'major' security problems.
++ /s/holmogortalks/sshome/: Siteseed pre 1.4.2 has 'major' security problems.
++ /s/holmogortalks/tiki/: Tiki 1.7.2 and previous allowed restricted Wiki pages to be viewed via a 'URL trick'. Default login/pass could be admin/admin.
++ /s/holmogortalks/tiki/tiki-install.php: Tiki 1.7.2 and previous allowed restricted Wiki pages to be viewed via a 'URL trick'. Default login/pass could be admin/admin.
++ /s/holmogortalks/scripts/samples/details.idc: NT ODBC Remote Compromise. See: http://attrition.org/security/advisory/individual/rfp/rfp.9901.nt_odbc
++ /s/holmogortalks/_vti_bin/shtml.exe: Attackers may be able to crash FrontPage by requesting a DOS device, like shtml.exe/aux.htm -- a DoS was not attempted. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0709
++ /s/holmogortalks/~root/: Allowed to browse root's home directory. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-1013
++ /s/holmogortalks/cgi-bin/wrap: comes with IRIX 6.2; allows to view directories.
++ /s/holmogortalks/forums//admin/config.php: PHP Config file may contain database IDs and passwords.
++ /s/holmogortalks/forums//adm/config.php: PHP Config file may contain database IDs and passwords.
++ /s/holmogortalks/forums//administrator/config.php: PHP Config file may contain database IDs and passwords.
++ /s/holmogortalks/forums/config.php: PHP Config file may contain database IDs and passwords.
++ /s/holmogortalks/guestbook/guestbookdat: PHP-Gastebuch 1.60 Beta reveals sensitive information about its configuration.
++ /s/holmogortalks/guestbook/pwd: PHP-Gastebuch 1.60 Beta reveals the md5 hash of the admin password.
++ /s/holmogortalks/help/: Help directory should not be accessible.
++ /s/holmogortalks/hola/admin/cms/htmltags.php?datei=./sec/data.php: hola-cms-1.2.9-10 may reveal the administrator ID and password. See: https://vulners.com/exploitdb/EDB-ID:23027
++ /s/holmogortalks/global.inc: PHP-Survey's include file should not be available via the web. Configure the web server to ignore .inc files or change this to global.inc.php. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0614
++ /s/holmogortalks/inc/common.load.php: Bookmark4U v1.8.3 include files are not protected and may contain remote source injection by using the 'prefix' variable. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1253
++ /s/holmogortalks/inc/config.php: Bookmark4U v1.8.3 include files are not protected and may contain remote source injection by using the 'prefix' variable. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1253
++ /s/holmogortalks/inc/dbase.php: Bookmark4U v1.8.3 include files are not protected and may contain remote source injection by using the 'prefix' variable. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1253
++ /s/holmogortalks/geeklog/users.php: Geeklog prior to 1.3.8-1sr2 contains a SQL injection vulnerability that lets a remote attacker reset admin password. See: https://vulners.com/osvdb/OSVDB:2703
++ /s/holmogortalks/gb/index.php?login=true: gBook may allow admin login by setting the value 'login' equal to 'true'. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1560
++ /s/holmogortalks/guestbook/admin.php: Guestbook admin page available without authentication.
++ /s/holmogortalks/getaccess: This may be an indication that the server is running getAccess for SSO.
++ /s/holmogortalks/cfdocs/expeval/openfile.cfm: Can use to expose the system/server path.
++ /s/holmogortalks/tsweb/: Microsoft TSAC found. See: https://web.archive.org/web/20040910030506/http://www.dslwebserver.com/main/fr_index.html?/main/sbs-Terminal-Services-Advanced-Client-Configuration.html
++ /s/holmogortalks/vgn/performance/TMT: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/performance/TMT/Report: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/performance/TMT/Report/XML: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/performance/TMT/reset: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/ppstats: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/previewer: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/record/previewer: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/stylepreviewer: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/vr/Deleting: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/vr/Editing: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/vr/Saving: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/vr/Select: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/scripts/iisadmin/bdir.htr: This default script shows host info, may allow file browsing and buffer a overrun in the Chunked Encoding data transfer mechanism, request /scripts/iisadmin/bdir.htr??c:\<dir>. See: https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/MS02-028
++ /s/holmogortalks/scripts/iisadmin/ism.dll: Allows you to mount a brute force attack on passwords.
++ /s/holmogortalks/scripts/tools/ctss.idc: This CGI allows remote users to view and modify SQL DB contents, server paths, docroot and more.
++ /s/holmogortalks/bigconf.cgi: BigIP Configuration CGI.
++ /s/holmogortalks/vgn/style: Vignette server may reveal system information through this file. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0401
++ /s/holmogortalks/SiteServer/Admin/commerce/foundation/domain.asp: Displays known domains of which that server is involved. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1769+ /s/holmogortalks/SiteServer/Admin/commerce/foundation/driver.asp: Displays a list of installed ODBC drivers. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1769
++ /s/holmogortalks/SiteServer/Admin/commerce/foundation/DSN.asp: Displays all DSNs configured for selected ODBC drivers. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1769
++ /s/holmogortalks/SiteServer/admin/findvserver.asp: Gives a list of installed Site Server components. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1769
++ /s/holmogortalks/SiteServer/Admin/knowledge/dsmgr/default.asp: Used to view current search catalog configurations.
++ /s/holmogortalks/basilix/mbox-list.php3: BasiliX webmail application prior to 1.1.1 contains a XSS issue in 'message list' function/page.
++ /s/holmogortalks/basilix/message-read.php3: BasiliX webmail application prior to 1.1.1 contains a XSS issue in 'read message' function/page.
++ /s/holmogortalks/clusterframe.jsp: Macromedia JRun 4 build 61650 remote administration interface is vulnerable to several XSS attacks.
++ /s/holmogortalks/bb-dnbd/faxsurvey: This may allow arbitrary command execution.
++ /s/holmogortalks/cartcart.cgi: If this is Dansie Shopping Cart 3.0.8 or earlier, it contains a backdoor to allow attackers to execute arbitrary commands.
++ /s/holmogortalks/scripts/Carello/Carello.dll: Carello 1.3 may allow commands to be executed on the server by replacing hidden form elements. This could not be tested by Nikto. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0614
++ /s/holmogortalks/scripts/tools/dsnform.exe: Allows creation of ODBC Data Source.
++ /s/holmogortalks/scripts/tools/dsnform: Allows creation of ODBC Data Source.
++ /s/holmogortalks/SiteServer/Admin/knowledge/dsmgr/users/GroupManager.asp: Microsoft Site Server script used to create, modify, and potentially delete LDAP users and groups. See: https://securitytracker.com/id/1003420
++ /s/holmogortalks/SiteServer/Admin/knowledge/dsmgr/users/UserManager.asp: Microsoft Site Server used to create, modify, and potentially delete LDAP users and groups. See: https://securitytracker.com/id/1003420
++ /s/holmogortalks/prd.i/pgen/: Has MS Merchant Server 1.0.
++ /s/holmogortalks/readme.eml: Remote server may be infected with the Nimda virus.
++ /s/holmogortalks/scripts/httpodbc.dll: Possible IIS backdoor found.
++ /s/holmogortalks/scripts/proxy/w3proxy.dll: MSProxy v1.0 installed.
++ /s/holmogortalks/SiteServer/admin/: Site Server components admin. Default account may be 'LDAP_Anonymous', pass is 'LdapPassword_1'. See: https://github.com/sullo/advisory-archives/blob/master/RFP2201.txt
++ /s/holmogortalks/siteseed/: Siteseed pre 1.4.2 have 'major' security problems.
++ /s/holmogortalks/pccsmysqladm/incs/dbconnect.inc: This file should not be accessible, as it contains database connectivity information. Upgrade to version 1.2.5 or higher.
++ /s/holmogortalks/iisadmin/: Access to /iisadmin should be restricted to localhost or allowed hosts only.
++ /s/holmogortalks/PDG_Cart/order.log: PDG Commerce log found. See: http://zodi.com/cgi-bin/shopper.cgi?display=intro&template=Intro/commerce.html
++ /s/holmogortalks/ows/restricted%2eshow: OWS may allow restricted files to be viewed by replacing a character with its encoded equivalent.
++ /s/holmogortalks/view_source.jsp: Resin 2.1.2 view_source.jsp allows any file on the system to be viewed by using \..\ directory traversal. This script may be vulnerable.
++ /s/holmogortalks/w-agora/: w-agora pre 4.1.4 may allow a remote user to execute arbitrary PHP scripts via URL includes in include/*.php and user/*.php files. Default account is 'admin' but password set during install.
++ /s/holmogortalks/vider.php3: MySimpleNews may allow deleting of news items without authentication. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-2320
++ /s/holmogortalks/officescan/cgi/cgiChkMasterPwd.exe: Trend Micro Officescan allows you to skip the login page and access some CGI programs directly. See: https://web.archive.org/web/20030607054822/http://support.microsoft.com/support/exchange/content/whitepapers/owaguide.doc
++ /s/holmogortalks/pbserver/pbserver.dll: This may contain a buffer overflow. See: https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/MS00-094
++ /s/holmogortalks/administrator/gallery/uploadimage.php: Mambo PHP Portal/Server 4.0.12 BETA and below may allow upload of any file type simply putting '.jpg' before the real file extension.
++ /s/holmogortalks/pafiledb/includes/team/file.php: paFileDB 3.1 and below may allow file upload without authentication.
++ /s/holmogortalks/phpEventCalendar/file_upload.php: phpEventCalendar 1.1 and prior are vulnerable to file upload bug.
++ /s/holmogortalks/servlet/com.unify.servletexec.UploadServlet: This servlet allows attackers to upload files to the server.
++ /s/holmogortalks/scripts/cpshost.dll: Posting acceptor possibly allows you to upload files.
++ /s/holmogortalks/upload.asp: An ASP page that allows attackers to upload files to server.
++ /s/holmogortalks/uploadn.asp: An ASP page that allows attackers to upload files to server.
++ /s/holmogortalks/uploadx.asp: An ASP page that allows attackers to upload files to server.
++ /s/holmogortalks/wa.exe: An ASP page that allows attackers to upload files to server.
++ /s/holmogortalks/basilix/compose-attach.php3: BasiliX webmail application prior to 1.1.1 contains a non-descript security vulnerability in compose-attach.php3 related to attachment uploads.
++ /s/holmogortalks/server/: Possibly Macromedia JRun or CRX WebDAV upload.
++ /s/holmogortalks/vgn/ac/data: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/ac/delete: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/ac/edit: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/ac/esave: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/ac/fsave: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/ac/index: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/asp/MetaDataUpdate: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/asp/previewer: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/asp/status: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/asp/style: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/errors: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/jsp/controller: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/jsp/errorpage: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/jsp/initialize: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/jsp/jspstatus: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/jsp/jspstatus56: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/jsp/metadataupdate: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/jsp/previewer: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/jsp/style: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/legacy/edit: Vignette CMS admin/maintenance script available.
++ /s/holmogortalks/vgn/login: Vignette server may allow user enumeration based on the login attempts to this file.
++ /s/holmogortalks/forum/admin/wwforum.mdb: Web Wiz Forums password database found. See: https://seclists.org/bugtraq/2003/Apr/238
++ /s/holmogortalks/fpdb/shop.mdb: MetaCart2 is an ASP shopping cart. The database of customers is available via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/guestbook/admin/o12guest.mdb: Ocean12 ASP Guestbook Manager allows download of SQL database which contains admin password. See: https://www.exploit-db.com/exploits/22484
++ /s/holmogortalks/midicart.mdb: MIDICART database is available for browsing. This should not be allowed via the web server. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1432+ /s/holmogortalks/MIDICART/midicart.mdb: MIDICART database is available for browsing. This should not be allowed via the web server. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1432
++ /s/holmogortalks/mpcsoftweb_guestbook/database/mpcsoftweb_guestdata.mdb: MPCSoftWeb Guest Book passwords retrieved. See: https://www.exploit-db.com/exploits/22513
++ /s/holmogortalks/news/news.mdb: Web Wiz Site News release v3.06 admin password database is available and unencrypted.
++ /s/holmogortalks/shopping300.mdb: VP-ASP shopping cart application allows .mdb files (which may include customer data) to be downloaded via the web. These should not be available. See: https://securitytracker.com/id/1004382
++ /s/holmogortalks/shopping400.mdb: VP-ASP shopping cart application allows .mdb files (which may include customer data) to be downloaded via the web. These should not be available. See: https://securitytracker.com/id/1004382
++ /s/holmogortalks/shoppingdirectory/midicart.mdb: MIDICART database is available for browsing. This should not be allowed via the web server. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1432
++ /s/holmogortalks/database/db2000.mdb: Max Web Portal database is available remotely. It should be moved from the default location to a directory outside the web root. See: https://www.medae.co/en/max/web-app
++ /s/holmogortalks/admin/config.php: PHP Config file may contain database IDs and passwords.
++ /s/holmogortalks/adm/config.php: PHP Config file may contain database IDs and passwords.
++ /s/holmogortalks/administrator/config.php: PHP Config file may contain database IDs and passwords.
++ /s/holmogortalks/contents.php?new_language=elvish&mode=select: Requesting a file with an invalid language selection from DC Portal may reveal the system path.
++ /s/holmogortalks/pw/storemgr.pw: Encrypted ID/Pass for Mercantec's SoftCart. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0609
++ /s/holmogortalks/shopa_sessionlist.asp: VP-ASP shopping cart test application is available from the web. This page may give the location of .mdb files which may also be available.
++ /s/holmogortalks/simplebbs/users/users.php: Simple BBS 1.0.6 allows user information and passwords to be viewed remotely. See: https://www.webhostingtalk.nl/bugtraq-mailing-lijst/23898-simplebbs-1-0-6-default-permissions-vuln.html
++ /s/holmogortalks/typo3conf/: This may contain sensitive TYPO3 files.
++ /s/holmogortalks/cms/typo3conf/: This may contain sensitive TYPO3 files.
++ /s/holmogortalks/site/typo3conf/: This may contain sensitive TYPO3 files.
++ /s/holmogortalks/typo/typo3conf/: This may contain sensitive TYPO3 files.
++ /s/holmogortalks/typo3/typo3conf/: This may contain sensitive TYPO3 files.
++ /s/holmogortalks/typo3conf/database.sql: TYPO3 SQL file found.
++ /s/holmogortalks/cms/typo3conf/database.sql: TYPO3 SQL file found.
++ /s/holmogortalks/site/typo3conf/database.sql: TYPO3 SQL file found.
++ /s/holmogortalks/typo/typo3conf/database.sql: TYPO3 SQL file found.
++ /s/holmogortalks/typo3/typo3conf/database.sql: TYPO3 SQL file found.
++ /s/holmogortalks/typo3conf/localconf.php: TYPO3 config file found.
++ /s/holmogortalks/cms/typo3conf/localconf.php: TYPO3 config file found.
++ /s/holmogortalks/site/typo3conf/localconf.php: TYPO3 config file found.
++ /s/holmogortalks/typo/typo3conf/localconf.php: TYPO3 config file found.
++ /s/holmogortalks/typo3/typo3conf/localconf.php: TYPO3 config file found.
++ /s/holmogortalks/vchat/msg.txt: VChat allows user information to be retrieved. See: https://www.securityfocus.com/bid/7186/info
++ /s/holmogortalks/vgn/license: Vignette server license file found. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0403
++ /s/holmogortalks/webcart-lite/config/import.txt: This may allow attackers to read credit card data. Reconfigure to make this file not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/webcart-lite/orders/import.txt: This may allow attackers to read credit card data. Reconfigure to make this file not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/webcart/carts/: This may allow attackers to read credit card data. Reconfigure to make this dir not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/webcart/config/: This may allow attackers to read credit card data. Reconfigure to make this dir not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/webcart/config/clients.txt: This may allow attackers to read credit card data. Reconfigure to make this file not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/webcart/orders/: This may allow attackers to read credit card data. Reconfigure to make this dir not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/webcart/orders/import.txt: This may allow attackers to read credit card data. Reconfigure to make this file not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/ws_ftp.ini: Can contain saved passwords for FTP sites.
++ /s/holmogortalks/WS_FTP.ini: Can contain saved passwords for FTP sites.
++ /s/holmogortalks/_mem_bin/auoconfig.asp: Displays the default AUO (LDAP) schema, including host and port.
++ /s/holmogortalks/SiteServer/Admin/knowledge/persmbr/vs.asp: Expose various LDAP service and backend configuration parameters. See: https://vulners.com/osvdb/OSVDB:17659
++ /s/holmogortalks/SiteServer/Admin/knowledge/persmbr/VsLsLpRd.asp: Expose various LDAP service and backend configuration parameters. See: https://vulners.com/osvdb/OSVDB:17661
++ /s/holmogortalks/SiteServer/Admin/knowledge/persmbr/VsPrAuoEd.asp: Expose various LDAP service and backend configuration parameters. See: https://vulners.com/osvdb/OSVDB:17662
++ /s/holmogortalks/SiteServer/Admin/knowledge/persmbr/VsTmPr.asp: Expose various LDAP service and backend configuration parameters. See: https://vulners.com/osvdb/OSVDB:17660
++ /s/holmogortalks/tvcs/getservers.exe?action=selects1: Following steps 2-4 of this page may reveal a zip file that contains passwords and system details.
++ /s/holmogortalks/whatever.htr: May reveal physical path. htr files may also be vulnerable to an off-by-one overflow that allows remote command execution. See: https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/MS02-018
++ /s/holmogortalks/nsn/fdir.bas:ShowVolume: You can use ShowVolume and ShowDirectory directly on the Novell server (NW5.1) to view the filesystem without having to log in.
++ /s/holmogortalks/forum/admin/database/wwForum.mdb: Web Wiz Forums pre 7.5 is vulnerable to Cross-Site Scripting attacks. Default login/pass is Administrator/letmein.
++ /s/holmogortalks/jamdb/: JamDB pre 0.9.2 mp3.php and image.php can allow user to read arbitrary file out of docroot.
++ /s/holmogortalks/cgi/cgiproc?: It may be possible to crash Nortel Contivity VxWorks by requesting '/cgi/cgiproc?$' (not attempted!). Upgrade to version 2.60 or later. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0063
++ /s/holmogortalks/servlet/SchedulerTransfer: PeopleSoft SchedulerTransfer servlet found, which may allow remote command execution. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0104
++ /s/holmogortalks/servlet/sunexamples.BBoardServlet: This default servlet lets attackers execute arbitrary commands.
++ /s/holmogortalks/servlets/SchedulerTransfer: PeopleSoft SchedulerTransfer servlet found, which may allow remote command execution. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0104
++ /s/holmogortalks/perl/-e%20print%20Hello: The Perl interpreter on the Novell system may allow any command to be executed. See: http://www.securityfocus.com/bid/5520
++ /s/holmogortalks/vgn/legacy/save: Vignette Legacy Tool may be unprotected. To access this resource, set a cookie called 'vgn_creds' with any value.
++ /s/holmogortalks/IDSWebApp/IDSjsp/Login.jsp: Tivoli Directory Server Web Administration.
++ /s/holmogortalks/quikstore.cfg: Shopping cart config file, http://www.quikstore.com/, http://www.mindsec.com/advisories/post2.txt. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0607
++ /s/holmogortalks/quikstore.cgi: A shopping cart.
++ /s/holmogortalks/securecontrolpanel/: Web Server Control Panel.
++ /s/holmogortalks/siteminder: This may be an indication that the server is running Siteminder for SSO.
++ /s/holmogortalks/webmail/: Web based mail package installed.
++ /s/holmogortalks/_cti_pvt/: FrontPage directory found.
++ /s/holmogortalks/smg_Smxcfg30.exe?vcc=3560121183d3: This may be a Trend Micro Officescan 'backdoor'.
++ /s/holmogortalks/nsn/..%5Cutil/attrib.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/chkvol.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/copy.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/del.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/dir.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/dsbrowse.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/glist.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/lancard.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/md.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/rd.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/ren.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/send.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/set.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/slist.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/type.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cutil/userlist.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cweb/env.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cweb/fdir.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cwebdemo/env.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/nsn/..%5Cwebdemo/fdir.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /s/holmogortalks/upd/: WASD Server can allow directory listings by requesting /upd/directory/. Upgrade to a later version and secure according to the documents on the WASD web site.
++ /s/holmogortalks/CVS/Entries: CVS Entries file may contain directory listing information.
++ /s/holmogortalks/3rdparty/phpMyAdmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536
++ /s/holmogortalks/phpMyAdmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536
++ /s/holmogortalks/3rdparty/phpmyadmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536
++ /s/holmogortalks/phpmyadmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536
++ /s/holmogortalks/pma/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536
++ /s/holmogortalks/.tools/phpMyAdmin/current/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536
++ /s/holmogortalks/LOGIN.PWD: MIPCD password file with unencrypted passwords. MIPDCD should not have the web interface enabled.
++ /s/holmogortalks/USER/CONFIG.AP: MIPCD configuration information. MIPCD should not have the web interface enabled.
++ /s/holmogortalks/admin-serv/config/admpw: This file contains the encrypted Netscape admin password. It should not be accessible via the web.
++ /s/holmogortalks/cgi-bin/cgi_process: WASD reveals a lot of system information in this script. It should be removed.
++ /s/holmogortalks/ht_root/wwwroot/-/local/httpd$map.conf: WASD reveals the http configuration file. Upgrade to a later version and secure according to the documents on the WASD web site.
++ /s/holmogortalks/local/httpd$map.conf: WASD reveals the http configuration file. Upgrade to a later version and secure according to the documents on the WASD web site.
++ /s/holmogortalks/tree: WASD Server reveals the entire web root structure and files via this URL. Upgrade to a later version and secure according to the documents on the WASD web site.
++ /s/holmogortalks/examples/servlet/AUX: Apache Tomcat versions below 4.1 may be vulnerable to DoS by repeatedly requesting this file.
++ /s/holmogortalks/contents/extensions/asp/1: The IIS system may be vulnerable to a DOS. See: https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/MS02-018
++ /s/holmogortalks/WebAdmin.dll?View=Logon: Some versions of WebAdmin are vulnerable to a remote DoS (not tested). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1247
++ /s/holmogortalks/cgi-win/cgitest.exe: This CGI may allow the server to be crashed remotely. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0128
++ /s/holmogortalks/cgi-shl/win-c-sample.exe: win-c-sample.exe has a buffer overflow.
++ /s/holmogortalks/.nsf/../winnt/win.ini: This win.ini file can be downloaded.
++ /s/holmogortalks/................../config.sys: PWS allows files to be read by prepending multiple '.' characters. At worst, IIS, not PWS, should be used.
++ /s/holmogortalks/..\..\..\..\..\..\temp\temp.class: Cisco ACS 2.6.x and 3.0.1 (build 40) allows authenticated remote users to retrieve any file from the system. Upgrade to the latest version.
++ /s/holmogortalks/admentor/adminadmin.asp: Version 2.11 of AdMentor is vulnerable to SQL injection during login, in the style of: ' or =. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0308
++ /s/holmogortalks/My_eGallery/public/displayCategory.php: My_eGallery prior to 3.1.1.g are vulnerable to a remote execution bug via SQL command injection. displayCategory.php calls imageFunctions.php without checking URL/location arguments. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6795
++ /s/holmogortalks/postnuke/My_eGallery/public/displayCategory.php: My_eGallery prior to 3.1.1.g are vulnerable to a remote execution bug via SQL command injection. displayCategory.php calls imageFunctions.php without checking URL/location arguments. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6795+ /s/holmogortalks/postnuke/html/My_eGallery/public/displayCategory.php: My_eGallery prior to 3.1.1.g are vulnerable to a remote execution bug via SQL command injection. displayCategory.php calls imageFunctions.php without checking URL/location arguments. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6795
++ /s/holmogortalks/modules/My_eGallery/public/displayCategory.php: My_eGallery prior to 3.1.1.g are vulnerable to a remote execution bug via SQL command injection. displayCategory.php calls imageFunctions.php without checking URL/location arguments. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6795
++ /s/holmogortalks/phpBB/My_eGallery/public/displayCategory.php: My_eGallery prior to 3.1.1.g are vulnerable to a remote execution bug via SQL command injection. displayCategory.php calls imageFunctions.php without checking URL/location arguments. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6795
++ /s/holmogortalks/forum/My_eGallery/public/displayCategory.php: My_eGallery prior to 3.1.1.g are vulnerable to a remote execution bug via SQL command injection. displayCategory.php calls imageFunctions.php without checking URL/location arguments. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6795
++ /s/holmogortalks/author.asp: May be FactoSystem CMS, which could include SQL injection problems that could not be tested remotely. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1499
++ /s/holmogortalks/phpimageview.php?pic=javascript:alert(8754): PHP Image View 1.0 is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1724
++ /s/holmogortalks/openautoclassifieds/friendmail.php?listing=<script>alert(document.domain);</script>: OpenAutoClassifieds 1.0 is vulnerable to a XSS attack. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1145
++ /s/holmogortalks/modules.php?op=modload&name=FAQ&file=index&myfaq=yes&id_cat=1&categories=%3Cimg%20src=javascript:alert(9456);%3E&parent_id=0: Post Nuke 0.7.2.3-Phoenix is vulnerable to Cross Site Scripting (XSS).
++ /s/holmogortalks/modules.php?letter=%22%3E%3Cimg%20src=javascript:alert(document.cookie);%3E&op=modload&name=Members_List&file=index: Post Nuke 0.7.2.3-Phoenix is vulnerable to Cross Site Scripting (XSS).
++ /s/holmogortalks/members.asp?SF=%22;}alert(223344);function%20x()\{v%20=%22: Web Wiz Forums ver. 7.01 and below is vulnerable to Cross Site Scripting (XSS). See: OSVDB-4598
++ /s/holmogortalks/jigsaw/: Jigsaw server may be installed. Versions lower than 2.2.1 are vulnerable to Cross Site Scripting (XSS) in the error page. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1053
++ /s/holmogortalks/guestbook/?number=5&lng=%3Cscript%3Ealert(document.domain);%3C/script%3E: MPM Guestbook 1.2 and previous are vulnreable to XSS attacks. See: OSVDB-2754
++ /s/holmogortalks/forum_members.asp?find=%22;}alert(9823);function%20x()\{v%20=%22: Web Wiz Forums ver. 7.01 and below is vulnerable to Cross Site Scripting (XSS). See: OSVDB-2946
++ /s/holmogortalks/anthill/login.php: Anthill bug tracking system may be installed. Versions lower than 0.1.6.1 allow XSS and may allow users to bypass login requirements.
++ /s/holmogortalks/cfdocs/expeval/sendmail.cfm: Can be used to send email; go to the page and fill in the form.
++ /s/holmogortalks/cgi-bin/bigconf.cgi: BigIP Configuration CGI. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-1550
++ /s/holmogortalks/ammerum/: Ammerum pre 0.6-1 had several security issues.
++ /s/holmogortalks/ariadne/: Ariadne pre 2.1.2 has several vulnerabilities. The default login/pass to the admin page is admin/muze.
++ /s/holmogortalks/cbms/cbmsfoot.php: CBMS Billing Management has had many vulnerabilities in versions 0.7.1 and below. None could be confirmed here, but they should be manually checked if possible. http://freshmeat.net/projects/cbms/.
++ /s/holmogortalks/cbms/changepass.php: CBMS Billing Management has had many vulnerabilities in versions 0.7.1 and below. None could be confirmed here, but they should be manually checked if possible. http://freshmeat.net/projects/cbms/.
++ /s/holmogortalks/cbms/editclient.php: CBMS Billing Management has had many vulnerabilities in versions 0.7.1 and below. None could be confirmed here, but they should be manually checked if possible. http://freshmeat.net/projects/cbms/.
++ /s/holmogortalks/cbms/passgen.php: CBMS Billing Management has had many vulnerabilities in versions 0.7.1 and below. None could be confirmed here, but they should be manually checked if possible. http://freshmeat.net/projects/cbms/.
++ /s/holmogortalks/cbms/realinv.php: CBMS Billing Management has had many vulnerabilities in versions 0.7.1 and below. None could be confirmed here, but they should be manually checked if possible. http://freshmeat.net/projects/cbms/.
++ /s/holmogortalks/cbms/usersetup.php: CBMS Billing Management has had many vulnerabilities in versions 0.7.1 and below. None could be confirmed here, but they should be manually checked if possible. http://freshmeat.net/projects/cbms/.
++ /s/holmogortalks/ext.dll?MfcIsapiCommand=LoadPage&page=admin.hts%20&a0=add&a1=root&a2=%5C: This check (A) sets up the next BadBlue test (B) for possible exploit. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0595
++ /s/holmogortalks/db/users.dat: upb PB allows the user database to be retrieved remotely. See: OSVDB-59412
++ /s/holmogortalks/dcshop/auth_data/auth_user_file.txt: The DCShop installation allows credit card numbers to be viewed remotely. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0821 https://packetstormsecurity.com/files/32406/xmas.txt.html+ /s/holmogortalks/dcshop/orders/orders.txt: The DCShop installation allows credit card numbers to be viewed remotely. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0821 https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/Admin_files/order.log: Selena Sol's WebStore 1.0 exposes order information. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/admin/cplogfile.log: DevBB 1.0 final log file is readable remotely. Upgrade to the latest version. See: http://www.mybboard.com
++ /s/holmogortalks/admin/system_footer.php: myphpnuke version 1.8.8_final_7 reveals detailed system information.
++ /s/holmogortalks/cfdocs/snippets/fileexists.cfm: Can be used to verify the existence of files (on the same drive info as the web tree/file).
++ /s/holmogortalks/cgi-bin/MachineInfo: Gives out information on the machine (IRIX), including hostname.
++ /s/holmogortalks/chat/!nicks.txt: WF-Chat 1.0 Beta allows retrieval of user information. See: OSVDB-59646
++ /s/holmogortalks/chat/!pwds.txt: WF-Chat 1.0 Beta allows retrieval of user information. See: OSVDB-59645
++ /s/holmogortalks/chat/data/usr: SimpleChat! 1.3 allows retrieval of user information. See: OSVDB-53304
++ /s/holmogortalks/config.php: PHP Config file may contain database IDs and passwords.
++ /s/holmogortalks/config/: Configuration information may be available remotely.
++ /s/holmogortalks/cplogfile.log: XMB Magic Lantern forum 1.6b final log file is readable remotely. Upgrade to the latest version. See: https://securitytracker.com/id/1004318,http://www.xmbforum.com
++ /s/holmogortalks/examples/jsp/snp/anything.snp: Tomcat servlet gives lots of host information.
++ /s/holmogortalks/cfdocs/snippets/evaluate.cfm: This allows you to enter Coldfusion code to be evaluated, or potentially create denial of service.
++ /s/holmogortalks/cd-cgi/sscd_suncourier.pl: Sunsolve CD script may allow users to execute arbitrary commands. The script was confirmed to exist, but the test was not done. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0436
++ /s/holmogortalks/cgi-bin/handler: Comes with IRIX 5.3 - 6.4; allows to run arbitrary commands.
++ /s/holmogortalks/cgi-bin/webdist.cgi: Comes with IRIX 5.0 - 6.3; allows to run arbitrary commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0039
++ /s/holmogortalks/ews/ews/architext_query.pl: Versions older than 1.1 of Excite for Web Servers allow attackers to execute arbitrary commands. http://www.securityfocus.com/bid/2665. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0279
++ /s/holmogortalks/instantwebmail/message.php: Instant Web Mail is installed. Versions 0.59 and lower can allow remote users to embed POP3 commands in URLs contained in email. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0490
++ /s/holmogortalks/admin.php?en_log_id=0&action=config: EasyNews version 4.3 allows remote admin access. This PHP file should be protected. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5412
++ /s/holmogortalks/admin.php?en_log_id=0&action=users: EasyNews version 4.3 allows remote admin access. This PHP file should be protected. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5412
++ /s/holmogortalks/admin.php4?reg_login=1: Mon Album version 0.6.2d allows remote admin access. This should be protected.
++ /s/holmogortalks/admin/admin_phpinfo.php4: Mon Album version 0.6.2d allows remote admin access. This should be protected.
++ /s/holmogortalks/admin/login.php?action=insert&username=test&password=test: phpAuction may allow user admin accounts to be inserted without proper authentication. Attempt to log in with user 'test' password 'test' to verify. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0995
++ /s/holmogortalks/dostuff.php?action=modify_user: Blahz-DNS allows unauthorized users to edit user information. Upgrade to version 0.25 or higher. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0599,https://sourceforge.net/projects/blahzdns/
++ /s/holmogortalks/accounts/getuserdesc.asp: Hosting Controller 2002 administration page is available. This should be protected. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0776
++ /s/holmogortalks/agentadmin.php: Immobilier agentadmin.php contains multiple SQL injection vulnerabilities. See: OSVDB-35876+ /s/holmogortalks/sqldump.sql: Database SQL?.
++ /s/holmogortalks/structure.sql: Database SQL?.
++ /s/holmogortalks/servlet/SessionManager: IBM WebSphere reconfigure servlet (user=servlet, password=manager). All default code should be removed from servers.
++ /s/holmogortalks/ip.txt: This may be User Online version 2.0, which has a remotely accessible log file.
++ /s/holmogortalks/level/42/exec/show%20conf: Retrieved Cisco configuration file.
++ /s/holmogortalks/livehelp/: LiveHelp may reveal system information.
++ /s/holmogortalks/LiveHelp/: LiveHelp may reveal system information.
++ /s/holmogortalks/logicworks.ini: web-erp 0.1.4 and earlier allow .ini files to be read remotely. See: OSVDB-59536
++ /s/holmogortalks/logs/str_err.log: Bmedia error log, contains invalid login attempts which include the invalid usernames and passwords entered (could just be typos & be very close to the right entries).
++ /s/holmogortalks/mall_log_files/order.log: EZMall2000 exposes order information. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0606
++ /s/holmogortalks/megabook/files/20/setup.db: Megabook guestbook configuration available remotely. See: OSVDB-3204
++ /s/holmogortalks/officescan/hotdownload/ofscan.ini: OfficeScan from Trend Micro allows anyone to read the ofscan.ini file, which may contain passwords. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-1151
++ /s/holmogortalks/order/order_log.dat: Web shopping system exposes order information. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0606
++ /s/holmogortalks/orders/order_log_v12.dat: Web shopping system exposes order information. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0606
++ /s/holmogortalks/pmlite.php: A Xoops CMS script was found. Version RC3 and below allows all users to view all messages (untested). See: https://seclists.org/bugtraq/2002/Dec/129
++ /s/holmogortalks/session/admnlogin: SessionServlet Output, has session cookie info.
++ /s/holmogortalks/pp.php?action=login: Pieterpost 0.10.6 allows anyone to access the 'virtual' account which can be used to relay/send e-mail. See: OSVDB-2881
++ /s/holmogortalks/isapi/count.pl?: AN HTTPd default script may allow writing over arbitrary files with a new content of '1', which could allow a trivial DoS. Append /../../../../../ctr.dll to replace this file's contents, for example.
++ /s/holmogortalks/krysalis/: Krysalis pre 1.0.3 may allow remote users to read arbitrary files outside docroot.
++ /s/holmogortalks/logjam/showhits.php: Logjam may possibly allow remote command execution via showhits.php page.
++ /s/holmogortalks/manual.php: Does not filter input before passing to shell command. Try 'ls -l' as the man page entry.
++ /s/holmogortalks/smssend.php: PhpSmssend may allow system calls if a ' is passed to it. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0220
++ /s/holmogortalks/ncl_items.shtml?SUBJECT=1: This may allow attackers to reconfigure your Tektronix printer. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0484
++ /s/holmogortalks/photo/manage.cgi: My Photo Gallery management interface. May allow full access to photo galleries and more.+ /s/holmogortalks/photodata/manage.cgi: My Photo Gallery management interface. May allow full access to photo galleries and more.
++ /s/holmogortalks/pub/english.cgi?op=rmail: BSCW self-registration may be enabled. This could allow untrusted users semi-trusted access to the software. 3.x version (and probably some 4.x) allow arbitrary commands to be executed remotely. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0095
++ /s/holmogortalks/pvote/ch_info.php?newpass=password&confirm=password%20: PVote administration page is available. Versions 1.5b and lower do not require authentication to reset the administration password.
++ /s/holmogortalks/scripts/wsisa.dll/WService=anything?WSMadmin: Allows Webspeed to be remotely administered. Edit unbroker.properties and set AllowMsngrCmds to 0. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0127
++ /s/holmogortalks/SetSecurity.shm: Cisco System's My Access for Wireless. This resource should be password protected.
++ /s/holmogortalks/submit?setoption=q&option=allowed_ips&value=255.255.255.255: MLdonkey 2.x allows administrative interface access to be access from any IP. This is typically only found on port 4080. See: OSVDB-3126
++ /s/holmogortalks/thebox/admin.php?act=write&username=admin&password=admin&aduser=admin&adpass=admin: paBox 1.6 may allow remote users to set the admin password. If successful, the 'admin' password is now 'admin'. See: OSVDB-2225
++ /s/holmogortalks/shopadmin.asp: VP-ASP shopping cart admin may be available via the web. Default ID/PW are vpasp/vpasp and admin/admin.
++ /s/holmogortalks/_vti_txt/_vti_cnf/: FrontPage directory found.
++ /s/holmogortalks/_vti_txt/: FrontPage directory found.
++ /s/holmogortalks/_vti_pvt/deptodoc.btr: FrontPage file found. This may contain useful information.
++ /s/holmogortalks/_vti_pvt/doctodep.btr: FrontPage file found. This may contain useful information.
++ /s/holmogortalks/_vti_pvt/services.org: FrontPage file found. This may contain useful information.
++ /s/holmogortalks/_vti_bin/_vti_aut/dvwssr.dll: This dll allows anyone with authoring privs to change other users file, and may contain a buffer overflow for unauthenticated users. See: https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/MS00-025
++ /s/holmogortalks/_vti_bin/_vti_aut/fp30reg.dll: Some versions of the FrontPage fp30reg.dll are vulnerable to a buffer overflow. See: https://docs.microsoft.com/en-us/security-updates/securitybulletins/2003/MS03-051
++ /s/holmogortalks/_vti_pvt/access.cnf: Contains HTTP server-specific access control information. Remove or ACL if FrontPage is not being used. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1717
++ /s/holmogortalks/_vti_pvt/service.cnf: Contains meta-information about the web server Remove or ACL if FrontPage is not being used. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1717
++ /s/holmogortalks/_vti_pvt/services.cnf: Contains the list of subwebs. Remove or ACL if FrontPage is not being used. May reveal server version if Admin has changed it. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1717
++ /s/holmogortalks/_vti_pvt/svacl.cnf: File used to store whether subwebs have unique permissions settings and any IP address restrictions. Can be used to discover information about subwebs, remove or ACL if FrontPage is not being used. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1717
++ /s/holmogortalks/_vti_pvt/writeto.cnf: Contains information about form handler result files. Remove or ACL if FrontPage is not being used. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1717
++ /s/holmogortalks/_vti_pvt/linkinfo.cnf: IIS file shows http links on and off site. Might show host trust relationships and other machines on network. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1717
++ /s/holmogortalks/doc/: The /doc/ directory is browsable. This may be /usr/doc. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0678
++ /s/holmogortalks/doc: The /doc directory is browsable. This may be /usr/doc. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0678
++ /s/holmogortalks/cgis/wwwboard/wwwboard.cgi: Versions 2.0 Alpha and below have multiple problems. This could allow over-write of messages. Default ID 'WebAdmin' with pass 'WebBoard'. See: http://www.securityfocus.com/bid/1795 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0930
++ /s/holmogortalks/cgis/wwwboard/wwwboard.pl: Versions 2.0 Alpha and below have multiple problems. This could allow over-write of messages. Default ID 'WebAdmin' with pass 'WebBoard'. See: http://www.securityfocus.com/bid/1795 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0930
++ /s/holmogortalks/blahb.ida: Reveals physical path. To fix: Preferences -> Home directory -> Application & check 'Check if file exists' for the ISAPI mappings. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/MS01-033. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0500
++ /s/holmogortalks/blahb.idq: Reveals physical path. To fix: Preferences -> Home directory -> Application & check 'Check if file exists' for the ISAPI mappings. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/MS01-033. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0500
++ /s/holmogortalks/BACLIENT: IBM Tivoli default file found. See: OSVDB-2117
++ /s/holmogortalks/level/16/exec/-///pwd: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/16/exec/-///show/configuration: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/16: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/16/exec/: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/16/exec//show/access-lists: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/16/level/16/exec//show/configuration: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/16/level/16/exec//show/interfaces: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/16/level/16/exec//show/interfaces/status: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/16/level/16/exec//show/version: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/16/level/16/exec//show/running-config/interface/FastEthernet: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/16/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/17/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/18/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/19/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/20/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/21/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/22/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/23/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/24/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/25/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/26/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/27/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/28/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/29/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/30/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/31/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/32/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/33/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/34/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/35/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/36/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/37/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/38/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/39/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/40/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/41/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/42/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/43/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/44/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/45/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/46/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/47/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/48/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/49/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/50/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/51/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/52/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/53/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/54/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/55/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/56/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/57/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/58/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/59/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/60/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/61/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/62/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/63/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/64/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/65/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/66/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/67/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/68/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/69/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/70/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/71/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/72/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/73/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/74/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/75/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/76/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/77/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/78/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/79/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/80/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/81/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/82/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/83/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/84/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/85/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/86/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/87/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/88/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/89/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/90/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/91/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/92/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/93/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/94/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/95/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/96/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/97/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/98/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/level/99/exec//show: CISCO HTTP service allows remote execution of commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0537
++ /s/holmogortalks/users.lst: LocalWEB2000 users.lst passwords found. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1353
++ /s/holmogortalks/WS_FTP.LOG: WS_FTP.LOG file was found. It may contain sensitive information. See: OSVDB-13405
++ /s/holmogortalks/nsn/env.bas: Novell web server shows the server environment and is vulnerable to cross-site scripting. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2104
++ /s/holmogortalks/lcgi/lcgitest.nlm: Novell web server shows the server environment. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2104
++ /s/holmogortalks/com/: Novell web server allows directory listing. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2106
++ /s/holmogortalks/com/novell/: Novell web server allows directory listing. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2106
++ /s/holmogortalks/com/novell/webaccess: Novell web server allows directory listing. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2106
++ /s/holmogortalks//admin/admin.shtml: Axis network camera may allow admin bypass by using double-slashes before URLs. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0240
++ /s/holmogortalks/axis-cgi/buffer/command.cgi: Axis WebCam 2400 may allow overwriting or creating files on the system. See: https://www.securityfocus.com/archive/1/313485
++ /s/holmogortalks/support/messages: Axis WebCam allows retrieval of messages file (/var/log/messages). See: https://www.securityfocus.com/archive/1/313485
++ /s/holmogortalks/upload.cgi+: The upload.cgi allows attackers to upload arbitrary files to the server. See: OSVDB-228
++ /s/holmogortalks/server-status: This reveals Apache information. Comment out appropriate line in the Apache conf file or restrict access to allowed sources. See: OSVDB-561
++ /s/holmogortalks/publisher/: Netscape Enterprise Server with Web Publishing can allow attackers to edit web pages and/or list arbitrary directories via Java applet. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0237
++ /s/holmogortalks/cgi-bin/pfdisplay.cgi?../../../../../../etc/passwd: Comes with IRIX 6.2-6.4; allows to run arbitrary commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0270
++ /s/holmogortalks/counter/1/n/n/0/3/5/0/a/123.gif: The Roxen Counter may eat up excessive CPU time with image requests. See: OSVDB-155
++ /s/holmogortalks/iissamples/exair/search/search.asp: Scripts within the Exair package on IIS 4 can be used for a DoS against the server. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0449
++ /s/holmogortalks/cpanel/: Web-based control panel. See: OSVDB-2117
++ /s/holmogortalks/shopping/diag_dbtest.asp: VP-ASP Shopping Cart 5.0 contains multiple SQL injection vulnerabilities. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0560
++ /s/holmogortalks/wwwboard/passwd.txt: The wwwboard password file is browsable. Change wwwboard to store this file elsewhere, or upgrade to the latest version. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0930
++ /s/holmogortalks/photo/: My Photo Gallery pre 3.6 contains multiple vulnerabilities including directory traversal, unspecified vulnerabilities and remote management interface access. See: OSVDB-2695
++ /s/holmogortalks/photodata/: My Photo Gallery pre 3.6 contains multiple vulnerabilities including directory traversal, unspecified vulnerabilities and remote management interface access. See: OSVDB-2695
++ /s/holmogortalks/msadc/msadcs.dll: . See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-1011 BID-529 https://docs.microsoft.com/en-us/security-updates/securitybulletins/2098/MS98-004 https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-025 http://attrition.org/security/advisory/individual/rfp/rfp.9902.rds_iis
++ /s/holmogortalks/musicqueue.cgi: Musicqueue 1.20 is vulnerable to a buffer overflow. Ensure the latest version is installed (exploit not attempted). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1140,http://musicqueue.sourceforge.net/
++ /s/holmogortalks/scripts/tools/newdsn.exe: This can be used to make DSNs, useful in use with an ODBC exploit and the RDS exploit (with msadcs.dll). Also may allow files to be created on the server. See: http://www.securityfocus.com/bid/1818 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0191 http://attrition.org/security/advisory/individual/rfp/rfp.9901.nt_odbc
++ /s/holmogortalks/admin/database/wwForum.mdb: Web Wiz Forums pre 7.5 is vulnerable to Cross-Site Scripting attacks. Default login/pass is Administrator/letmein. See: OSVDB-2813
++ /s/holmogortalks/admin/wg_user-info.ml: WebGate Web Eye exposes user names and passwords. See: OSVDB-2922
++ /s/holmogortalks/c32web.exe/ChangeAdminPassword: This CGI may contain a backdoor and may allow attackers to change the Cart32 admin password. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0429
++ /s/holmogortalks/showmail.pl: @Mail WebMail 3.52 allows attacker to read arbitrary user's mailbox. Requires knowing valid user name and appending ?Folder=../../victim@somehost.com/mbox/Inbox to the showmail.pl file. See: OSVDB-2944
++ /s/holmogortalks/reademail.pl: @Mail WebMail 3.52 contains an SQL injection that allows attacker to read any email message for any address registered in the system. Example to append to reademail.pl: ?id=666&folder=qwer'%20or%20EmailDatabase_v.Account='victim@atmail.com&print=1. See: OSVDB-2948
++ /s/holmogortalks/iissamples/exair/search/query.asp: Scripts within the Exair package on IIS 4 can be used for a DoS against the server. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0449
++ /s/holmogortalks/buddies.blt: Buddy List?.
++ /s/holmogortalks/buddy.blt: Buddy List?.
++ /s/holmogortalks/buddylist.blt: Buddy List?.
++ /s/holmogortalks/sqlnet.log: Oracle log file found.
++ /s/holmogortalks/acceso/: This might be interesting.
++ /s/holmogortalks/access-log: This might be interesting.
++ /s/holmogortalks/access.log: This might be interesting.
++ /s/holmogortalks/access/: This might be interesting.
++ /s/holmogortalks/access_log: This might be interesting.
++ /s/holmogortalks/acciones/: This might be interesting.
++ /s/holmogortalks/account/: This might be interesting.
++ /s/holmogortalks/accounting/: This might be interesting.
++ /s/holmogortalks/activex/: This might be interesting.
++ /s/holmogortalks/adm/: This might be interesting.
++ /s/holmogortalks/admin.php: This might be interesting.
++ /s/holmogortalks/admin.php3: This might be interesting.
++ /s/holmogortalks/admin.shtml: This might be interesting.
++ /s/holmogortalks/admin/: This might be interesting.
++ /s/holmogortalks/Administration/: This might be interesting.
++ /s/holmogortalks/administration/: This might be interesting.
++ /s/holmogortalks/administrator/: This might be interesting.
++ /s/holmogortalks/Admin_files/: This might be interesting.
++ /s/holmogortalks/advwebadmin/: This might be interesting: probably HostingController, www.hostingcontroller.com.
++ /s/holmogortalks/Agent/: This might be interesting.
++ /s/holmogortalks/Agentes/: This might be interesting.
++ /s/holmogortalks/agentes/: This might be interesting.
++ /s/holmogortalks/Agents/: This might be interesting.
++ /s/holmogortalks/analog/: This might be interesting.
++ /s/holmogortalks/apache/: This might be interesting.
++ /s/holmogortalks/app/: This might be interesting.
++ /s/holmogortalks/applicattion/: This might be interesting.
++ /s/holmogortalks/applicattions/: This might be interesting.
++ /s/holmogortalks/apps/: This might be interesting.
++ /s/holmogortalks/archivar/: This might be interesting.
++ /s/holmogortalks/archive/: This might be interesting.
++ /s/holmogortalks/archives/: This might be interesting.
++ /s/holmogortalks/archivo/: This might be interesting.
++ /s/holmogortalks/asp/: This might be interesting.
++ /s/holmogortalks/Asp/: This might be interesting.
++ /s/holmogortalks/atc/: This might be interesting.
++ /s/holmogortalks/auth/: This might be interesting.
++ /s/holmogortalks/awebvisit.stat: This might be interesting.
++ /s/holmogortalks/ayuda/: This might be interesting.
++ /s/holmogortalks/backdoor/: This might be interesting.
++ /s/holmogortalks/backup/: This might be interesting.
++ /s/holmogortalks/bak/: This might be interesting.
++ /s/holmogortalks/banca/: This might be interesting.
++ /s/holmogortalks/banco/: This might be interesting.
++ /s/holmogortalks/bank/: This might be interesting.
++ /s/holmogortalks/bbv/: This might be interesting.
++ /s/holmogortalks/bdata/: This might be interesting.
++ /s/holmogortalks/bdatos/: This might be interesting.
++ /s/holmogortalks/beta/: This might be interesting.
++ /s/holmogortalks/bin/: This might be interesting.
++ /s/holmogortalks/boot/: This might be interesting.
++ /s/holmogortalks/buy/: This might be interesting.
++ /s/holmogortalks/buynow/: This might be interesting.
++ /s/holmogortalks/c/: This might be interesting.
++ /s/holmogortalks/cache-stats/: This might be interesting.
++ /s/holmogortalks/caja/: This might be interesting.
++ /s/holmogortalks/card/: This might be interesting.
++ /s/holmogortalks/cards/: This might be interesting.
++ /s/holmogortalks/cart/: This might be interesting.
++ /s/holmogortalks/cash/: This might be interesting.
++ /s/holmogortalks/ccard/: This might be interesting.
++ /s/holmogortalks/ccbill/secure/ccbill.log: CC Bill log file. Seen in carding forums. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/cdrom/: This might be interesting.
++ /s/holmogortalks/cert/: This might be interesting.
++ /s/holmogortalks/certificado/: This might be interesting.
++ /s/holmogortalks/certificate: This might be interesting.
++ /s/holmogortalks/certificates: This might be interesting.
++ /s/holmogortalks/cfdocs/exampleapp/email/application.cfm: This might be interesting.
++ /s/holmogortalks/cfdocs/exampleapp/publish/admin/addcontent.cfm: This might be interesting.
++ /s/holmogortalks/cfdocs/exampleapp/publish/admin/application.cfm: This might be interesting.
++ /s/holmogortalks/cfdocs/examples/httpclient/mainframeset.cfm: This might be interesting.
++ /s/holmogortalks/client/: This might be interesting.
++ /s/holmogortalks/cliente/: This might be interesting.
++ /s/holmogortalks/clientes/: This might be interesting.
++ /s/holmogortalks/clients/: This might be interesting.
++ /s/holmogortalks/communicator/: This might be interesting.
++ /s/holmogortalks/compra/: This might be interesting.
++ /s/holmogortalks/compras/: This might be interesting.
++ /s/holmogortalks/compressed/: This might be interesting.
++ /s/holmogortalks/conecta/: This might be interesting.
++ /s/holmogortalks/config/checks.txt: This might be interesting.
++ /s/holmogortalks/connect/: This might be interesting.
++ /s/holmogortalks/console: This might be interesting.
++ /s/holmogortalks/correo/: This might be interesting.
++ /s/holmogortalks/crypto/: This might be interesting.
++ /s/holmogortalks/css/: This might be interesting.
++ /s/holmogortalks/cuenta/: This might be interesting.
++ /s/holmogortalks/cuentas/: This might be interesting.
++ /s/holmogortalks/dan_o.dat: This might be interesting.
++ /s/holmogortalks/dat/: This might be interesting.
++ /s/holmogortalks/data/: This might be interesting.
++ /s/holmogortalks/dato/: This might be interesting.
++ /s/holmogortalks/datos/: This might be interesting.
++ /s/holmogortalks/db/: This might be interesting.
++ /s/holmogortalks/dbase/: This might be interesting.
++ /s/holmogortalks/demo/: This might be interesting.
++ /s/holmogortalks/demos/: This might be interesting.
++ /s/holmogortalks/dev/: This might be interesting.
++ /s/holmogortalks/devel/: This might be interesting.
++ /s/holmogortalks/development/: This might be interesting.
++ /s/holmogortalks/dir/: This might be interesting.
++ /s/holmogortalks/directory/: This might be interesting.
++ /s/holmogortalks/DMR/: This might be interesting.
++ /s/holmogortalks/doc-html/: This might be interesting.
++ /s/holmogortalks/down/: This might be interesting.
++ /s/holmogortalks/download/: This might be interesting.
++ /s/holmogortalks/downloads/: This might be interesting.
++ /s/holmogortalks/ejemplo/: This might be interesting.
++ /s/holmogortalks/ejemplos/: This might be interesting.
++ /s/holmogortalks/employees/: This might be interesting.
++ /s/holmogortalks/envia/: This might be interesting.
++ /s/holmogortalks/enviamail/: This might be interesting.
++ /s/holmogortalks/error_log: This might be interesting.
++ /s/holmogortalks/excel/: This might be interesting.
++ /s/holmogortalks/Excel/: This might be interesting.
++ /s/holmogortalks/EXE/: This might be interesting.
++ /s/holmogortalks/exe/: This might be interesting.
++ /s/holmogortalks/fbsd/: This might be interesting.
++ /s/holmogortalks/file/: This might be interesting.
++ /s/holmogortalks/fileadmin/: This might be interesting.
++ /s/holmogortalks/files/: This might be interesting.
++ /s/holmogortalks/forum/: This might be interesting.
++ /s/holmogortalks/forums/: This might be interesting.
++ /s/holmogortalks/foto/: This might be interesting.
++ /s/holmogortalks/fotos/: This might be interesting.
++ /s/holmogortalks/fpadmin/: This might be interesting.
++ /s/holmogortalks/ftp/: This might be interesting.
++ /s/holmogortalks/gfx/: This might be interesting.
++ /s/holmogortalks/global/: This might be interesting.
++ /s/holmogortalks/graphics/: This might be interesting.
++ /s/holmogortalks/guest/: This might be interesting.
++ /s/holmogortalks/guestbook/: This might be interesting.
++ /s/holmogortalks/guests/: This might be interesting.
++ /s/holmogortalks/hidden/: This might be interesting.
++ /s/holmogortalks/hitmatic/: This might be interesting.
++ /s/holmogortalks/hitmatic/analyse.cgi: This might be interesting.
++ /s/holmogortalks/hits.txt: This might be interesting.
++ /s/holmogortalks/hit_tracker/: This might be interesting.
++ /s/holmogortalks/home/: This might be interesting.
++ /s/holmogortalks/homepage/: This might be interesting.
++ /s/holmogortalks/htdocs/: This might be interesting.
++ /s/holmogortalks/html/: This might be interesting.
++ /s/holmogortalks/htpasswd: This might be interesting.
++ /s/holmogortalks/hyperstat/stat_what.log: This might be interesting. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/ibill/: This might be interesting.
++ /s/holmogortalks/idea/: This might be interesting.
++ /s/holmogortalks/ideas/: This might be interesting.
++ /s/holmogortalks/imagenes/: This might be interesting.
++ /s/holmogortalks/img/: This might be interesting.
++ /s/holmogortalks/imgs/: This might be interesting.
++ /s/holmogortalks/import/: This might be interesting.
++ /s/holmogortalks/impreso/: This might be interesting.
++ /s/holmogortalks/includes/: This might be interesting.
++ /s/holmogortalks/incoming/: This might be interesting.
++ /s/holmogortalks/info/: This might be interesting.
++ /s/holmogortalks/informacion/: This might be interesting.
++ /s/holmogortalks/information/: This might be interesting.
++ /s/holmogortalks/ingresa/: This might be interesting.
++ /s/holmogortalks/ingreso/: This might be interesting.
++ /s/holmogortalks/install/: This might be interesting.
++ /s/holmogortalks/internal/: This might be interesting.
++ /s/holmogortalks/intranet/: This might be interesting.
++ /s/holmogortalks/invitado/: This might be interesting.
++ /s/holmogortalks/invitados/: This might be interesting.
++ /s/holmogortalks/java/: This might be interesting.
++ /s/holmogortalks/jdbc/: This might be interesting.
++ /s/holmogortalks/job/: This might be interesting.
++ /s/holmogortalks/jrun/: This might be interesting.
++ /s/holmogortalks/js: This might be interesting.
++ /s/holmogortalks/lib/: This might be interesting.
++ /s/holmogortalks/library/: This might be interesting.
++ /s/holmogortalks/libro/: This might be interesting.
++ /s/holmogortalks/linux/: This might be interesting.
++ /s/holmogortalks/log.txt: This might be interesting.
++ /s/holmogortalks/logfile: This might be interesting.
++ /s/holmogortalks/logfile.txt: This might be interesting.
++ /s/holmogortalks/logfile/: This might be interesting.
++ /s/holmogortalks/logfiles/: This might be interesting.
++ /s/holmogortalks/logger/: This might be interesting.
++ /s/holmogortalks/logging/: This might be interesting.
++ /s/holmogortalks/login/: This might be interesting.
++ /s/holmogortalks/logs.txt: This might be interesting.
++ /s/holmogortalks/logs/: This might be interesting.
++ /s/holmogortalks/logs/access_log: This might be interesting.
++ /s/holmogortalks/logs/error_log: This might be interesting.
++ /s/holmogortalks/lost+found/: This might be interesting.
++ /s/holmogortalks/mail/: This might be interesting.
++ /s/holmogortalks/manage/cgi/cgiproc: This might be interesting.
++ /s/holmogortalks/marketing/: This might be interesting.
++ /s/holmogortalks/master.password: This might be interesting.
++ /s/holmogortalks/mbox: This might be interesting.
++ /s/holmogortalks/members/: This might be interesting.
++ /s/holmogortalks/message/: This might be interesting.
++ /s/holmogortalks/messaging/: This might be interesting.
++ /s/holmogortalks/ministats/admin.cgi: This might be interesting.
++ /s/holmogortalks/misc/: This might be interesting.
++ /s/holmogortalks/mkstats/: This might be interesting.
++ /s/holmogortalks/movimientos/: This might be interesting.
++ /s/holmogortalks/mp3/: This might be interesting.
++ /s/holmogortalks/mqseries/: This might be interesting.
++ /s/holmogortalks/msql/: This might be interesting.
++ /s/holmogortalks/msword/: This might be interesting.
++ /s/holmogortalks/Msword/: This might be interesting.
++ /s/holmogortalks/MSword/: This might be interesting.
++ /s/holmogortalks/NetDynamic/: This might be interesting.
++ /s/holmogortalks/NetDynamics/: This might be interesting.
++ /s/holmogortalks/netscape/: This might be interesting.
++ /s/holmogortalks/new: This might be interesting.
++ /s/holmogortalks/new/: This might be interesting.
++ /s/holmogortalks/news: This might be interesting.
++ /s/holmogortalks/noticias/: This might be interesting.
++ /s/holmogortalks/odbc/: This might be interesting.
++ /s/holmogortalks/officescan/cgi/jdkRqNotify.exe: This might be interesting.
++ /s/holmogortalks/old/: This might be interesting.
++ /s/holmogortalks/oracle: This might be interesting.
++ /s/holmogortalks/oradata/: This might be interesting.
++ /s/holmogortalks/order/: This might be interesting.
++ /s/holmogortalks/orders/: This might be interesting.
++ /s/holmogortalks/orders/checks.txt: Seen in carding forums. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/orders/mountain.cfg: Seen in carding forums. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/orders/orders.log: Seen in carding forums. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/orders/orders.txt: Seen in carding forums. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /s/holmogortalks/outgoing/: This might be interesting.
++ /s/holmogortalks/ows/: This might be interesting: Oracle Web Services?.
++ /s/holmogortalks/pages/: This might be interesting.
++ /s/holmogortalks/Pages/: This might be interesting.
++ /s/holmogortalks/passwd: This might be interesting.
++ /s/holmogortalks/passwd.adjunct: This might be interesting.
++ /s/holmogortalks/passwd.txt: This might be interesting.
++ /s/holmogortalks/passwdfile: This might be interesting.
++ /s/holmogortalks/password: This might be interesting.
++ /s/holmogortalks/passwords.txt: This might be interesting.
++ /s/holmogortalks/passwords/: This might be interesting.
++ /s/holmogortalks/PDG_Cart/: This might be interesting.
++ /s/holmogortalks/people.list: This might be interesting.
++ /s/holmogortalks/perl5/: This might be interesting.
++ /s/holmogortalks/php/: This might be interesting.
++ /s/holmogortalks/pics/: This might be interesting.
++ /s/holmogortalks/piranha/secure/passwd.php3: This might be interesting.
++ /s/holmogortalks/pix/: This might be interesting.
++ /s/holmogortalks/poll: This might be interesting.
++ /s/holmogortalks/polls: This might be interesting.
++ /s/holmogortalks/porn/: This might be interesting.
++ /s/holmogortalks/pr0n/: This might be interesting.
++ /s/holmogortalks/privado/: This might be interesting.
++ /s/holmogortalks/private/: This might be interesting.
++ /s/holmogortalks/prod/: This might be interesting.
++ /s/holmogortalks/pron/: This might be interesting.
++ /s/holmogortalks/prueba/: This might be interesting.
++ /s/holmogortalks/pruebas/: This might be interesting.
++ /s/holmogortalks/pub/: This might be interesting.
++ /s/holmogortalks/public/: This might be interesting.
++ /s/holmogortalks/publica/: This might be interesting.
++ /s/holmogortalks/publicar/: This might be interesting.
++ /s/holmogortalks/publico/: This might be interesting.
++ /s/holmogortalks/purchase/: This might be interesting.
++ /s/holmogortalks/purchases/: This might be interesting.
++ /s/holmogortalks/pwd.db: This might be interesting.
++ /s/holmogortalks/python/: This might be interesting.
++ /s/holmogortalks/readme: This might be interesting.
++ /s/holmogortalks/README.TXT: This might be interesting.
++ /s/holmogortalks/readme.txt: This might be interesting.
++ /s/holmogortalks/register/: This might be interesting.
++ /s/holmogortalks/registered/: This might be interesting.
++ /s/holmogortalks/reports/: This might be interesting.
++ /s/holmogortalks/reseller/: This might be interesting.
++ /s/holmogortalks/restricted/: This might be interesting.
++ /s/holmogortalks/retail/: This might be interesting.
++ /s/holmogortalks/reviews/newpro.cgi: This might be interesting.
++ /s/holmogortalks/sales/: This might be interesting.
++ /s/holmogortalks/sample/: This might be interesting.
++ /s/holmogortalks/samples/: This might be interesting.
++ /s/holmogortalks/save/: This might be interesting.
++ /s/holmogortalks/scr/: This might be interesting.
++ /s/holmogortalks/scratch: This might be interesting.
++ /s/holmogortalks/scripts/weblog: This might be interesting.
++ /s/holmogortalks/search.vts: This might be interesting.
++ /s/holmogortalks/search97.vts: This might be interesting.
++ /s/holmogortalks/secret/: This might be interesting.
++ /s/holmogortalks/sell/: This might be interesting.
++ /s/holmogortalks/service/: This might be interesting.
++ /s/holmogortalks/servicio/: This might be interesting.
++ /s/holmogortalks/servicios/: This might be interesting.
++ /s/holmogortalks/setup/: This might be interesting.
++ /s/holmogortalks/shop/: This might be interesting.
++ /s/holmogortalks/shopper/: This might be interesting.
++ /s/holmogortalks/solaris/: This might be interesting.
++ /s/holmogortalks/Sources/: This might be interesting: may be YaBB.
++ /s/holmogortalks/spwd: This might be interesting.
++ /s/holmogortalks/srchadm: This might be interesting.
++ /s/holmogortalks/ss.cfg: This might be interesting.
++ /s/holmogortalks/staff/: This might be interesting.
++ /s/holmogortalks/stat/: This might be interesting.
++ /s/holmogortalks/statistic/: This might be interesting.
++ /s/holmogortalks/Statistics/: This might be interesting.
++ /s/holmogortalks/statistics/: This might be interesting.
++ /s/holmogortalks/stats.txt: This might be interesting.
++ /s/holmogortalks/stats/: This might be interesting.
++ /s/holmogortalks/Stats/: This might be interesting.
++ /s/holmogortalks/status/: This might be interesting.
++ /s/holmogortalks/store/: This might be interesting.
++ /s/holmogortalks/StoreDB/: This might be interesting.
++ /s/holmogortalks/stylesheet/: This might be interesting.
++ /s/holmogortalks/stylesheets/: This might be interesting.
++ /s/holmogortalks/subir/: This might be interesting.
++ /s/holmogortalks/sun/: This might be interesting.
++ /s/holmogortalks/super_stats/access_logs: Web logs are exposed..
++ /s/holmogortalks/super_stats/error_logs: Web logs are exposed.
++ /s/holmogortalks/support/: This might be interesting.
++ /s/holmogortalks/swf: This might be interesting: Flash files?.
++ /s/holmogortalks/sys/: This might be interesting.
++ /s/holmogortalks/system/: This might be interesting.
++ /s/holmogortalks/tar/: This might be interesting.
++ /s/holmogortalks/tarjetas/: This might be interesting.
++ /s/holmogortalks/temp/: This might be interesting.

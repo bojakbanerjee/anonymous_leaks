@@ -1,0 +1,107 @@
++ Multiple IPs found: 13.107.213.45, 13.107.246.45, 2620:1ec:46::45, 2620:1ec:bdf::45
++ Target IP:          13.107.213.45
++ Target Hostname:    www.mondelezinternational.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=US/ST=Illinois/O=Mondelez  International, Inc./CN=*.mondelezinternational.com
+                   Altnames: *.mondelezinternational.com, mondelezinternational.com
+                   Ciphers:  ECDHE-RSA-AES256-GCM-SHA384
+                   Issuer:   /C=US/ST=DE/L=Wilmington/O=Corporation Service Company/CN=Trusted Secure Certificate Authority 5
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ /: Cookie sxa_site created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /: Cookie sxa_site created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /: Uncommon header 'x-azure-ref' found, with contents: 0aI+IZAAAAAC69W16xwerRbdqOneZN39KUFJHMDFFREdFMDkxNQA3MTRmOTAwMS1mMzg5LTQ2ZTEtOWUzYi01NjhmZDVjNDhiN2E=.
++ /: The site uses TLS and the Strict-Transport-Security HTTP header is not defined. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
++ /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /: Cookie ASP.NET_SessionId created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /robots.txt: Entry '/~/media/MondelezCorporate/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/*.pdf$' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: contains 2 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt
++ /site.tar.bz2: Uncommon header 'x-msedge-ref' found, with contents: 0u4+IZAAAAAA/dfYQAFMiSq0RQLIyz1llUFJHMDFFREdFMDkxOQBFZGdl.
++ /: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/
++ Server is using a wildcard certificate: *.mondelezinternational.com. See: https://en.wikipedia.org/wiki/Wildcard_certificate+ /: Web Server returns a valid response with junk HTTP methods which may cause false positives.
++ /sitemap.xml: This gives a nice listing of the site content.
++ /home/: This might be interesting.
++ /news: This might be interesting.
++ /README.TXT: This might be interesting.
++ /readme.txt: This might be interesting.
++ /se/?sys:/novonyx/suitespot/docs/sewse/misc/allfield.jse: Cookie mondelez#lang created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /se/?sys:/novonyx/suitespot/docs/sewse/misc/allfield.jse: Cookie mondelez#lang created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /af/: This might be interesting: potential country code (Afghanistan).
++ /as/: This might be interesting: potential country code (American Samoa).
++ /ar/: This might be interesting: potential country code (Argentina).
++ /am/: This might be interesting: potential country code (Armenia).
++ /az/: This might be interesting: potential country code (Azerbaijan).
++ /bs/: This might be interesting: potential country code (Bahamas).
++ /be/: This might be interesting: potential country code (Belgium).
++ /bo/: This might be interesting: potential country code (Bolivia).
++ /ba/: This might be interesting: potential country code (Bosnia And Herzegovina).
++ /bn/: This might be interesting: potential country code (Brunei Darussalam).
++ /bg/: This might be interesting: potential country code (Bulgaria).
++ /ca/: This might be interesting: potential country code (Canada).
++ /ky/: This might be interesting: potential country code (Cayman Islands).
++ /co/: This might be interesting: potential country code (Colombia).
++ /km/: This might be interesting: potential country code (Comoros).
++ /hr/: This might be interesting: potential country code (Croatia).
++ /cy/: This might be interesting: potential country code (Cyprus).
++ /sv/: This might be interesting: potential country code (El Salvador).
++ /et/: This might be interesting: potential country code (Ethiopia).
++ /fo/: This might be interesting: potential country code (Faroe Islands).
++ /fi/: This might be interesting: potential country code (Finland).
++ /fr/: This might be interesting: potential country code (France).
++ /ga/: This might be interesting: potential country code (Gabon).
++ /de/: This might be interesting: potential country code (Germany).
++ /gl/: This might be interesting: potential country code (Greenland).
++ /gd/: This might be interesting: potential country code (Grenada).
++ /gu/: This might be interesting: potential country code (Guam).
++ /gn/: This might be interesting: potential country code (Guinea).
++ /hu/: This might be interesting: potential country code (Hungary).
++ /is/: This might be interesting: potential country code (Iceland).
++ /id/: This might be interesting: potential country code (Indonesia).
++ /it/: This might be interesting: potential country code (Italy).
++ /kr/: This might be interesting: potential country code (Republic Of Korea).
++ /la/: This might be interesting: potential country code (Lao People's Democratic Republic).
++ /lv/: This might be interesting: potential country code (Latvia).
++ /lb/: This might be interesting: potential country code (Lebanon).
++ /lt/: This might be interesting: potential country code (Lithuania).
++ /mk/: This might be interesting: potential country code (Macedonia).
++ /my/: This might be interesting: potential country code (Malaysia).
++ /ml/: This might be interesting: potential country code (Mali).
++ /mt/: This might be interesting: potential country code (Malta).
++ /mr/: This might be interesting: potential country code (Mauritania).
++ /mn/: This might be interesting: potential country code (Mongolia).
++ /ms/: This might be interesting: potential country code (Montserrat).
++ /nl/: This might be interesting: potential country code (Netherlands).
++ /ne/: This might be interesting: potential country code (Niger).
++ /no/: This might be interesting: potential country code (Norway).
++ /om/: This might be interesting: potential country code (Oman).
++ /ps/: This might be interesting: potential country code (Palestinian Territory).
++ /pa/: This might be interesting: potential country code (Panama).
++ /pl/: This might be interesting: potential country code (Poland).
++ /pt/: This might be interesting: potential country code (Portugal).
++ /ro/: This might be interesting: potential country code (Romania).
++ /rw/: This might be interesting: potential country code (Rwanda).
++ /kn/: This might be interesting: potential country code (Saint Kitts And Nevis).
++ /st/: This might be interesting: potential country code (Sao Tome And Principe).
++ /sa/: This might be interesting: potential country code (Saudi Arabia).
++ /sl/: This might be interesting: potential country code (Sierra Leone).
++ /sk/: This might be interesting: potential country code (Slovakia).
++ /si/: This might be interesting: potential country code (Slovenia).
++ /so/: This might be interesting: potential country code (Somalia).
++ /es/: This might be interesting: potential country code (Spain).
++ /sd/: This might be interesting: potential country code (Sudan).
++ /sr/: This might be interesting: potential country code (Suriname).
++ /se/: This might be interesting: potential country code (Sweden).
++ /th/: This might be interesting: potential country code (Thailand).
++ /tg/: This might be interesting: potential country code (Togo).
++ /tk/: This might be interesting: potential country code (Tokelau).
++ /tt/: This might be interesting: potential country code (Trinidad And Tobago).
++ /tn/: This might be interesting: potential country code (Tunisia).
++ /tr/: This might be interesting: potential country code (Turkey).
++ /ug/: This might be interesting: potential country code (Uganda).
++ /uz/: This might be interesting: potential country code (Uzbekistan).
++ /ve/: This might be interesting: potential country code (Venezuela).
++ /vi/: This might be interesting: potential country code (U.S. Virgin Islands).
