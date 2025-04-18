@@ -1,0 +1,4 @@
+1.parameter 'Referer' appears to be 'HAVING boolean-based blind - WHERE, GROUP BY clause' injectable
+2.parameter 'User-Agent' appears to be 'PostgreSQL OR boolean-based blind - WHERE or HAVING clause (CAST)' injectable
+3.--string="Восточный П"
+4.--string="Карта сайта"

@@ -1,0 +1,26 @@
++ Target IP:          104.244.42.129
++ Target Hostname:    twitter.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=US/ST=California/L=San Francisco/O=Twitter, Inc./CN=twitter.com
+                   Altnames: twitter.com, www.twitter.com
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=US/O=DigiCert Inc/CN=DigiCert TLS Hybrid ECC SHA384 2020 CA1
++ Start Time:         2023-07-19 21:07:54 (GMT3)
+---------------------------------------------------------------------------
++ Server: tsa_o
++ /GovRonDeSantis/: Cookie guest_id_marketing created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /GovRonDeSantis/: Cookie guest_id_ads created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /GovRonDeSantis/: Cookie personalization_id created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /GovRonDeSantis/: Cookie guest_id created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /GovRonDeSantis/: Retrieved x-powered-by header: Express.
++ /GovRonDeSantis/: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /GovRonDeSantis/: Uncommon header 'x-transaction-id' found, with contents: 2bbc1cf8e3748bfc.
++ /GovRonDeSantis/: Uncommon header 'x-response-time' found, with contents: 117.
++ /GovRonDeSantis/: Uncommon header 'x-connection-hash' found, with contents: 6fcaa949472c8756879f6871942729f0bc9e0900e756def3e770d50147908a9d.
++ /GovRonDeSantis/: Uncommon header 'perf' found, with contents: 7626143928.
++ /GovRonDeSantis/: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ Root page /GovRonDeSantis redirects to: /i/flow/login?redirect_after_login=%2FGovRonDeSantis%2F
++ /GovRonDeSantis/GMw5bTxG.json: Cookie ; Max-Age created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /GovRonDeSantis/GMw5bTxG.json: Uncommon header 'cross-origin-embedder-policy' found, with contents: unsafe-none.
++ /GovRonDeSantis/GMw5bTxG.json: Uncommon header 'expiry' found, with contents: Tue, 31 Mar 1981 05:00:00 GMT.

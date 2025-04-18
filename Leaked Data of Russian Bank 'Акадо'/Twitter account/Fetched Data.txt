@@ -1,0 +1,265 @@
++ Target IP:          104.244.42.65
++ Target Hostname:    twitter.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=US/ST=California/L=San Francisco/O=Twitter, Inc./CN=twitter.com
+                   Altnames: twitter.com, www.twitter.com, x.com, www.x.com
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
++ Start Time:         2024-03-13 20:26:54 (GMT2)
+---------------------------------------------------------------------------
++ Server: tsa_o
++ /ru_akado/: Cookie guest_id_marketing created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /ru_akado/: Cookie guest_id_ads created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /ru_akado/: Cookie personalization_id created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /ru_akado/: Cookie guest_id created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /ru_akado/: Cookie ; Max-Age created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /ru_akado/: Retrieved x-powered-by header: Express.
++ /ru_akado/: Uncommon header 'expiry' found, with contents: Tue, 31 Mar 1981 05:00:00 GMT.
++ /ru_akado/: Uncommon header 'x-response-time' found, with contents: 129.
++ /ru_akado/: Uncommon header 'cross-origin-embedder-policy' found, with contents: unsafe-none.
++ /ru_akado/: Uncommon header 'x-connection-hash' found, with contents: 76f433a960da7e0f7367a0c987913a974c2d975eb6f109c2a7ef68973351c008.
++ /ru_akado/: Uncommon header 'perf' found, with contents: 7469935968.
++ /ru_akado/: Uncommon header 'x-transaction-id' found, with contents: dfbdbb709c70acc6.
++ /ru_akado/okvziPrO.exe|dir: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /robots.txt: contains 1 entry which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt
++ Multiple index files found: /ru_akado/index.pl, /ru_akado/index.php4, /ru_akado/index.php5, /ru_akado/index.aspx, /ru_akado/default.asp, /ru_akado/index.html, /ru_akado/index.shtml, /ru_akado/index.cfm, /ru_akado/index.php, /ru_akado/index.cgi, /ru_akado/index.php7, /ru_akado/index.jhtml, /ru_akado/index.xml, /ru_akado/index.do, /ru_akado/default.htm, /ru_akado/index.php3, /ru_akado/index.jsp, /ru_akado/default.aspx, /ru_akado/index.asp, /ru_akado/index.htm.
++ /ru_akado/: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/
++ /ru_akado/kboard/: KBoard Forum 0.3.0 and prior have a security problem in forum_edit_post.php, forum_post.php and forum_reply.php.
++ /ru_akado/lists/admin/: PHPList pre 2.6.4 contains a number of vulnerabilities including remote administrative access, harvesting user info and more. Default login to admin interface is admin/phplist.
++ /ru_akado/splashAdmin.php: Cobalt Qube 3 admin is running. This may have multiple security problems which could not be tested remotely. See: https://seclists.org/bugtraq/2002/Jul/262
++ /ru_akado/ssdefs/: Siteseed pre 1.4.2 has 'major' security problems.
++ /ru_akado/sshome/: Siteseed pre 1.4.2 has 'major' security problems.
++ /ru_akado/tiki/: Tiki 1.7.2 and previous allowed restricted Wiki pages to be viewed via a 'URL trick'. Default login/pass could be admin/admin.
++ /ru_akado/tiki/tiki-install.php: Tiki 1.7.2 and previous allowed restricted Wiki pages to be viewed via a 'URL trick'. Default login/pass could be admin/admin.
++ /ru_akado/scripts/samples/details.idc: NT ODBC Remote Compromise. See: http://attrition.org/security/advisory/individual/rfp/rfp.9901.nt_odbc
++ /ru_akado/_vti_bin/shtml.exe: Attackers may be able to crash FrontPage by requesting a DOS device, like shtml.exe/aux.htm -- a DoS was not attempted. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0709
++ /ru_akado/~root/: Allowed to browse root's home directory. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-1013
++ /ru_akado/cgi-bin/wrap: comes with IRIX 6.2; allows to view directories.
++ /ru_akado/forums//admin/config.php: PHP Config file may contain database IDs and passwords.
++ /ru_akado/forums//adm/config.php: PHP Config file may contain database IDs and passwords.
++ /ru_akado/forums//administrator/config.php: PHP Config file may contain database IDs and passwords.
++ /ru_akado/forums/config.php: PHP Config file may contain database IDs and passwords.
++ /ru_akado/ganglia/: Ganglia Cluster reports reveal detailed information.
++ /ru_akado/guestbook/guestbookdat: PHP-Gastebuch 1.60 Beta reveals sensitive information about its configuration.
++ /ru_akado/guestbook/pwd: PHP-Gastebuch 1.60 Beta reveals the md5 hash of the admin password.
++ /ru_akado/help/: Help directory should not be accessible.
++ /ru_akado/hola/admin/cms/htmltags.php?datei=./sec/data.php: hola-cms-1.2.9-10 may reveal the administrator ID and password. See: https://vulners.com/exploitdb/EDB-ID:23027
++ /ru_akado/global.inc: PHP-Survey's include file should not be available via the web. Configure the web server to ignore .inc files or change this to global.inc.php. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0614
++ /ru_akado/inc/common.load.php: Bookmark4U v1.8.3 include files are not protected and may contain remote source injection by using the 'prefix' variable. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1253
++ /ru_akado/inc/config.php: Bookmark4U v1.8.3 include files are not protected and may contain remote source injection by using the 'prefix' variable. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1253
++ /ru_akado/inc/dbase.php: Bookmark4U v1.8.3 include files are not protected and may contain remote source injection by using the 'prefix' variable. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1253
++ /ru_akado/geeklog/users.php: Geeklog prior to 1.3.8-1sr2 contains a SQL injection vulnerability that lets a remote attacker reset admin password. See: https://vulners.com/osvdb/OSVDB:2703
++ /ru_akado/gb/index.php?login=true: gBook may allow admin login by setting the value 'login' equal to 'true'. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1560
++ /ru_akado/guestbook/admin.php: Guestbook admin page available without authentication.
++ /ru_akado/getaccess: This may be an indication that the server is running getAccess for SSO.
++ /ru_akado/cfdocs/expeval/openfile.cfm: Can use to expose the system/server path.
++ /ru_akado/tsweb/: Microsoft TSAC found. See: https://web.archive.org/web/20040910030506/http://www.dslwebserver.com/main/fr_index.html?/main/sbs-Terminal-Services-Advanced-Client-Configuration.html
++ /ru_akado/vgn/performance/TMT: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/performance/TMT/Report: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/performance/TMT/Report/XML: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/performance/TMT/reset: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/ppstats: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/previewer: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/record/previewer: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/stylepreviewer: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/vr/Deleting: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/vr/Editing: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/vr/Saving: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/vr/Select: Vignette CMS admin/maintenance script available.
++ /ru_akado/scripts/iisadmin/bdir.htr: This default script shows host info, may allow file browsing and buffer a overrun in the Chunked Encoding data transfer mechanism, request /scripts/iisadmin/bdir.htr??c:\<dir>. See: https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/MS02-028
++ /ru_akado/scripts/iisadmin/ism.dll: Allows you to mount a brute force attack on passwords.
++ /ru_akado/scripts/tools/ctss.idc: This CGI allows remote users to view and modify SQL DB contents, server paths, docroot and more.
++ /ru_akado/bigconf.cgi: BigIP Configuration CGI.
++ /ru_akado/blah_badfile.shtml: Allaire ColdFusion allows JSP source viewed through a vulnerable SSI call.
++ /ru_akado/vgn/style: Vignette server may reveal system information through this file. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0401
++ /ru_akado/SiteServer/Admin/commerce/foundation/domain.asp: Displays known domains of which that server is involved. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1769
++ /ru_akado/SiteServer/Admin/commerce/foundation/driver.asp: Displays a list of installed ODBC drivers. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1769
++ /ru_akado/SiteServer/Admin/commerce/foundation/DSN.asp: Displays all DSNs configured for selected ODBC drivers. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1769
++ /ru_akado/SiteServer/admin/findvserver.asp: Gives a list of installed Site Server components. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1769
++ /ru_akado/SiteServer/Admin/knowledge/dsmgr/default.asp: Used to view current search catalog configurations.
++ /ru_akado/basilix/mbox-list.php3: BasiliX webmail application prior to 1.1.1 contains a XSS issue in 'message list' function/page.
++ /ru_akado/basilix/message-read.php3: BasiliX webmail application prior to 1.1.1 contains a XSS issue in 'read message' function/page.
++ /ru_akado/clusterframe.jsp: Macromedia JRun 4 build 61650 remote administration interface is vulnerable to several XSS attacks.
++ /ru_akado/IlohaMail/blank.html: IlohaMail 0.8.10 contains a XSS vulnerability. Previous versions contain other non-descript vulnerabilities.
++ /ru_akado/bb-dnbd/faxsurvey: This may allow arbitrary command execution.
++ /ru_akado/cartcart.cgi: If this is Dansie Shopping Cart 3.0.8 or earlier, it contains a backdoor to allow attackers to execute arbitrary commands.
++ /ru_akado/scripts/Carello/Carello.dll: Carello 1.3 may allow commands to be executed on the server by replacing hidden form elements. This could not be tested by Nikto. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0614
++ /ru_akado/scripts/tools/dsnform.exe: Allows creation of ODBC Data Source.
++ /ru_akado/scripts/tools/dsnform: Allows creation of ODBC Data Source.
++ /ru_akado/SiteServer/Admin/knowledge/dsmgr/users/GroupManager.asp: Microsoft Site Server script used to create, modify, and potentially delete LDAP users and groups. See: https://securitytracker.com/id/1003420
++ /ru_akado/SiteServer/Admin/knowledge/dsmgr/users/UserManager.asp: Microsoft Site Server used to create, modify, and potentially delete LDAP users and groups. See: https://securitytracker.com/id/1003420
++ /ru_akado/prd.i/pgen/: Has MS Merchant Server 1.0.
++ /ru_akado/readme.eml: Remote server may be infected with the Nimda virus.
++ /ru_akado/scripts/httpodbc.dll: Possible IIS backdoor found.
++ /ru_akado/scripts/proxy/w3proxy.dll: MSProxy v1.0 installed.
++ /ru_akado/SiteServer/admin/: Site Server components admin. Default account may be 'LDAP_Anonymous', pass is 'LdapPassword_1'. See: https://github.com/sullo/advisory-archives/blob/master/RFP2201.txt
++ /ru_akado/siteseed/: Siteseed pre 1.4.2 have 'major' security problems.
++ /ru_akado/pccsmysqladm/incs/dbconnect.inc: This file should not be accessible, as it contains database connectivity information. Upgrade to version 1.2.5 or higher.
++ /ru_akado/iisadmin/: Access to /iisadmin should be restricted to localhost or allowed hosts only.
++ /ru_akado/PDG_Cart/order.log: PDG Commerce log found. See: http://zodi.com/cgi-bin/shopper.cgi?display=intro&template=Intro/commerce.html
++ /ru_akado/ows/restricted%2eshow: OWS may allow restricted files to be viewed by replacing a character with its encoded equivalent.
++ /ru_akado/view_source.jsp: Resin 2.1.2 view_source.jsp allows any file on the system to be viewed by using \..\ directory traversal. This script may be vulnerable.
++ /ru_akado/w-agora/: w-agora pre 4.1.4 may allow a remote user to execute arbitrary PHP scripts via URL includes in include/*.php and user/*.php files. Default account is 'admin' but password set during install.
++ /ru_akado/vider.php3: MySimpleNews may allow deleting of news items without authentication. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-2320
++ /ru_akado/officescan/cgi/cgiChkMasterPwd.exe: Trend Micro Officescan allows you to skip the login page and access some CGI programs directly. See: https://web.archive.org/web/20030607054822/http://support.microsoft.com/support/exchange/content/whitepapers/owaguide.doc
++ /ru_akado/pbserver/pbserver.dll: This may contain a buffer overflow. See: https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/MS00-094
++ /ru_akado/administrator/gallery/uploadimage.php: Mambo PHP Portal/Server 4.0.12 BETA and below may allow upload of any file type simply putting '.jpg' before the real file extension.
++ /ru_akado/pafiledb/includes/team/file.php: paFileDB 3.1 and below may allow file upload without authentication.
++ /ru_akado/phpEventCalendar/file_upload.php: phpEventCalendar 1.1 and prior are vulnerable to file upload bug.
++ /ru_akado/servlet/com.unify.servletexec.UploadServlet: This servlet allows attackers to upload files to the server.
++ /ru_akado/scripts/cpshost.dll: Posting acceptor possibly allows you to upload files.
++ /ru_akado/upload.asp: An ASP page that allows attackers to upload files to server.
++ /ru_akado/uploadn.asp: An ASP page that allows attackers to upload files to server.
++ /ru_akado/uploadx.asp: An ASP page that allows attackers to upload files to server.
++ /ru_akado/wa.exe: An ASP page that allows attackers to upload files to server.
++ /ru_akado/basilix/compose-attach.php3: BasiliX webmail application prior to 1.1.1 contains a non-descript security vulnerability in compose-attach.php3 related to attachment uploads.
++ /ru_akado/server/: Possibly Macromedia JRun or CRX WebDAV upload.
++ /ru_akado/vgn/ac/data: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/ac/delete: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/ac/edit: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/ac/esave: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/ac/fsave: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/ac/index: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/asp/MetaDataUpdate: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/asp/previewer: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/asp/status: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/asp/style: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/errors: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/jsp/controller: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/jsp/errorpage: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/jsp/initialize: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/jsp/jspstatus: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/jsp/jspstatus56: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/jsp/metadataupdate: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/jsp/previewer: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/jsp/style: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/legacy/edit: Vignette CMS admin/maintenance script available.
++ /ru_akado/vgn/login: Vignette server may allow user enumeration based on the login attempts to this file.
++ /ru_akado/forum/admin/wwforum.mdb: Web Wiz Forums password database found. See: https://seclists.org/bugtraq/2003/Apr/238
++ /ru_akado/fpdb/shop.mdb: MetaCart2 is an ASP shopping cart. The database of customers is available via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /ru_akado/guestbook/admin/o12guest.mdb: Ocean12 ASP Guestbook Manager allows download of SQL database which contains admin password. See: https://www.exploit-db.com/exploits/22484
++ /ru_akado/midicart.mdb: MIDICART database is available for browsing. This should not be allowed via the web server. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1432
++ /ru_akado/MIDICART/midicart.mdb: MIDICART database is available for browsing. This should not be allowed via the web server. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1432
++ /ru_akado/mpcsoftweb_guestbook/database/mpcsoftweb_guestdata.mdb: MPCSoftWeb Guest Book passwords retrieved. See: https://www.exploit-db.com/exploits/22513
++ /ru_akado/news/news.mdb: Web Wiz Site News release v3.06 admin password database is available and unencrypted.
++ /ru_akado/shopping300.mdb: VP-ASP shopping cart application allows .mdb files (which may include customer data) to be downloaded via the web. These should not be available. See: https://securitytracker.com/id/1004382
++ /ru_akado/shopping400.mdb: VP-ASP shopping cart application allows .mdb files (which may include customer data) to be downloaded via the web. These should not be available. See: https://securitytracker.com/id/1004382
++ /ru_akado/shoppingdirectory/midicart.mdb: MIDICART database is available for browsing. This should not be allowed via the web server. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1432
++ /ru_akado/database/db2000.mdb: Max Web Portal database is available remotely. It should be moved from the default location to a directory outside the web root. See: https://www.medae.co/en/max/web-app
++ /ru_akado/admin/config.php: PHP Config file may contain database IDs and passwords.
++ /ru_akado/adm/config.php: PHP Config file may contain database IDs and passwords.
++ /ru_akado/administrator/config.php: PHP Config file may contain database IDs and passwords.
++ /ru_akado/contents.php?new_language=elvish&mode=select: Requesting a file with an invalid language selection from DC Portal may reveal the system path.
++ /ru_akado/pw/storemgr.pw: Encrypted ID/Pass for Mercantec's SoftCart. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0609
++ /ru_akado/servlet/com.livesoftware.jrun.plugins.ssi.SSIFilter: Allaire ColdFusion allows JSP source viewed through a vulnerable SSI call.
++ /ru_akado/shopa_sessionlist.asp: VP-ASP shopping cart test application is available from the web. This page may give the location of .mdb files which may also be available.
++ /ru_akado/simplebbs/users/users.php: Simple BBS 1.0.6 allows user information and passwords to be viewed remotely. See: https://www.webhostingtalk.nl/bugtraq-mailing-lijst/23898-simplebbs-1-0-6-default-permissions-vuln.html
++ /ru_akado/sips/sipssys/users/a/admin/user: SIPS v0.2.2 allows user account info (including password) to be retrieved remotely. See: https://vulners.com/exploitdb/EDB-ID:22381
++ /ru_akado/typo3conf/: This may contain sensitive TYPO3 files.
++ /ru_akado/cms/typo3conf/: This may contain sensitive TYPO3 files.
++ /ru_akado/site/typo3conf/: This may contain sensitive TYPO3 files.
++ /ru_akado/typo/typo3conf/: This may contain sensitive TYPO3 files.
++ /ru_akado/typo3/typo3conf/: This may contain sensitive TYPO3 files.
++ /ru_akado/typo3conf/database.sql: TYPO3 SQL file found.
++ /ru_akado/cms/typo3conf/database.sql: TYPO3 SQL file found.
++ /ru_akado/site/typo3conf/database.sql: TYPO3 SQL file found.
++ /ru_akado/typo/typo3conf/database.sql: TYPO3 SQL file found.
++ /ru_akado/typo3/typo3conf/database.sql: TYPO3 SQL file found.
++ /ru_akado/typo3conf/localconf.php: TYPO3 config file found.
++ /ru_akado/cms/typo3conf/localconf.php: TYPO3 config file found.
++ /ru_akado/site/typo3conf/localconf.php: TYPO3 config file found.
++ /ru_akado/typo/typo3conf/localconf.php: TYPO3 config file found.
++ /ru_akado/typo3/typo3conf/localconf.php: TYPO3 config file found.
++ /ru_akado/vchat/msg.txt: VChat allows user information to be retrieved. See: https://www.securityfocus.com/bid/7186/info
++ /ru_akado/vgn/license: Vignette server license file found. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0403
++ /ru_akado/webcart-lite/config/import.txt: This may allow attackers to read credit card data. Reconfigure to make this file not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /ru_akado/webcart-lite/orders/import.txt: This may allow attackers to read credit card data. Reconfigure to make this file not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /ru_akado/webcart/carts/: This may allow attackers to read credit card data. Reconfigure to make this dir not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /ru_akado/webcart/config/: This may allow attackers to read credit card data. Reconfigure to make this dir not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /ru_akado/webcart/config/clients.txt: This may allow attackers to read credit card data. Reconfigure to make this file not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /ru_akado/webcart/orders/: This may allow attackers to read credit card data. Reconfigure to make this dir not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /ru_akado/webcart/orders/import.txt: This may allow attackers to read credit card data. Reconfigure to make this file not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html
++ /ru_akado/ws_ftp.ini: Can contain saved passwords for FTP sites.
++ /ru_akado/WS_FTP.ini: Can contain saved passwords for FTP sites.
++ /ru_akado/_mem_bin/auoconfig.asp: Displays the default AUO (LDAP) schema, including host and port.
++ /ru_akado/SiteServer/Admin/knowledge/persmbr/vs.asp: Expose various LDAP service and backend configuration parameters. See: https://vulners.com/osvdb/OSVDB:17659
++ /ru_akado/SiteServer/Admin/knowledge/persmbr/VsLsLpRd.asp: Expose various LDAP service and backend configuration parameters. See: https://vulners.com/osvdb/OSVDB:17661
++ /ru_akado/SiteServer/Admin/knowledge/persmbr/VsPrAuoEd.asp: Expose various LDAP service and backend configuration parameters. See: https://vulners.com/osvdb/OSVDB:17662
++ /ru_akado/SiteServer/Admin/knowledge/persmbr/VsTmPr.asp: Expose various LDAP service and backend configuration parameters. See: https://vulners.com/osvdb/OSVDB:17660
++ /ru_akado/tvcs/getservers.exe?action=selects1: Following steps 2-4 of this page may reveal a zip file that contains passwords and system details.
++ /ru_akado/whatever.htr: May reveal physical path. htr files may also be vulnerable to an off-by-one overflow that allows remote command execution. See: https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/MS02-018
++ /ru_akado/nsn/fdir.bas:ShowVolume: You can use ShowVolume and ShowDirectory directly on the Novell server (NW5.1) to view the filesystem without having to log in.
++ /ru_akado/forum/admin/database/wwForum.mdb: Web Wiz Forums pre 7.5 is vulnerable to Cross-Site Scripting attacks. Default login/pass is Administrator/letmein.
++ /ru_akado/webmail/blank.html: IlohaMail 0.8.10 contains an XSS vulnerability. Previous versions contain other non-descript vulnerabilities.
++ /ru_akado/jamdb/: JamDB pre 0.9.2 mp3.php and image.php can allow user to read arbitrary file out of docroot.
++ /ru_akado/cgi/cgiproc?: It may be possible to crash Nortel Contivity VxWorks by requesting '/cgi/cgiproc?$' (not attempted!). Upgrade to version 2.60 or later. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0063
++ /ru_akado/servlet/SchedulerTransfer: PeopleSoft SchedulerTransfer servlet found, which may allow remote command execution. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0104
++ /ru_akado/servlet/sunexamples.BBoardServlet: This default servlet lets attackers execute arbitrary commands.
++ /ru_akado/servlets/SchedulerTransfer: PeopleSoft SchedulerTransfer servlet found, which may allow remote command execution. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0104
++ /ru_akado/perl/-e%20print%20Hello: The Perl interpreter on the Novell system may allow any command to be executed. See: http://www.securityfocus.com/bid/5520
++ /ru_akado/vgn/legacy/save: Vignette Legacy Tool may be unprotected. To access this resource, set a cookie called 'vgn_creds' with any value.
++ /ru_akado/IDSWebApp/IDSjsp/Login.jsp: Tivoli Directory Server Web Administration.
++ /ru_akado/quikstore.cfg: Shopping cart config file, http://www.quikstore.com/, http://www.mindsec.com/advisories/post2.txt. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0607
++ /ru_akado/quikstore.cgi: A shopping cart.
++ /ru_akado/securecontrolpanel/: Web Server Control Panel.
++ /ru_akado/siteminder: This may be an indication that the server is running Siteminder for SSO.
++ /ru_akado/webmail/: Web based mail package installed.
++ /ru_akado/_cti_pvt/: FrontPage directory found.
++ /ru_akado/smg_Smxcfg30.exe?vcc=3560121183d3: This may be a Trend Micro Officescan 'backdoor'.
++ /ru_akado/nsn/..%5Cutil/attrib.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/chkvol.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/copy.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/del.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/dir.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/dsbrowse.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/glist.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/lancard.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/md.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/rd.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/ren.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/send.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/set.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/slist.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/type.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cutil/userlist.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cweb/env.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cweb/fdir.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cwebdemo/env.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/nsn/..%5Cwebdemo/fdir.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ /ru_akado/upd/: WASD Server can allow directory listings by requesting /upd/directory/. Upgrade to a later version and secure according to the documents on the WASD web site.
++ /ru_akado/CVS/Entries: CVS Entries file may contain directory listing information.
++ /ru_akado/3rdparty/phpMyAdmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536
++ /ru_akado/phpMyAdmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536
++ /ru_akado/3rdparty/phpmyadmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536
++ /ru_akado/phpmyadmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536
++ /ru_akado/pma/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536
++ /ru_akado/.tools/phpMyAdmin/current/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536
++ /ru_akado/LOGIN.PWD: MIPCD password file with unencrypted passwords. MIPDCD should not have the web interface enabled.
++ /ru_akado/USER/CONFIG.AP: MIPCD configuration information. MIPCD should not have the web interface enabled.
++ /ru_akado/admin-serv/config/admpw: This file contains the encrypted Netscape admin password. It should not be accessible via the web.
++ /ru_akado/cgi-bin/cgi_process: WASD reveals a lot of system information in this script. It should be removed.
++ /ru_akado/ht_root/wwwroot/-/local/httpd$map.conf: WASD reveals the http configuration file. Upgrade to a later version and secure according to the documents on the WASD web site.
++ /ru_akado/local/httpd$map.conf: WASD reveals the http configuration file. Upgrade to a later version and secure according to the documents on the WASD web site.
++ /ru_akado/tree: WASD Server reveals the entire web root structure and files via this URL. Upgrade to a later version and secure according to the documents on the WASD web site.
++ /ru_akado/examples/servlet/AUX: Apache Tomcat versions below 4.1 may be vulnerable to DoS by repeatedly requesting this file.
++ /ru_akado/Config1.htm: This may be a D-Link. Some devices have a DoS condition if an oversized POST request is sent. This DoS was not tested. See: https://raw.githubusercontent.com/sullo/advisory-archives/master/phenoelit.de_dp-300.txt
++ /ru_akado/contents/extensions/asp/1: The IIS system may be vulnerable to a DOS. See: https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/MS02-018
++ /ru_akado/WebAdmin.dll?View=Logon: Some versions of WebAdmin are vulnerable to a remote DoS (not tested). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1247
++ /ru_akado/cgi-win/cgitest.exe: This CGI may allow the server to be crashed remotely. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0128
++ /ru_akado/cgi-shl/win-c-sample.exe: win-c-sample.exe has a buffer overflow.
++ /ru_akado/.nsf/../winnt/win.ini: This win.ini file can be downloaded.
++ /ru_akado/................../config.sys: PWS allows files to be read by prepending multiple '.' characters. At worst, IIS, not PWS, should be used.
++ /ru_akado/../../../../winnt/repair/sam._: Sam backup successfully retrieved.
++ /ru_akado/admentor/adminadmin.asp: Version 2.11 of AdMentor is vulnerable to SQL injection during login, in the style of: ' or =. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0308
++ /ru_akado/My_eGallery/public/displayCategory.php: My_eGallery prior to 3.1.1.g are vulnerable to a remote execution bug via SQL command injection. displayCategory.php calls imageFunctions.php without checking URL/location arguments. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6795
++ /ru_akado/postnuke/My_eGallery/public/displayCategory.php: My_eGallery prior to 3.1.1.g are vulnerable to a remote execution bug via SQL command injection. displayCategory.php calls imageFunctions.php without checking URL/location arguments. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6795
++ /ru_akado/postnuke/html/My_eGallery/public/displayCategory.php: My_eGallery prior to 3.1.1.g are vulnerable to a remote execution bug via SQL command injection. displayCategory.php calls imageFunctions.php without checking URL/location arguments. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6795
++ /ru_akado/modules/My_eGallery/public/displayCategory.php: My_eGallery prior to 3.1.1.g are vulnerable to a remote execution bug via SQL command injection. displayCategory.php calls imageFunctions.php without checking URL/location arguments. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6795
++ /ru_akado/phpBB/My_eGallery/public/displayCategory.php: My_eGallery prior to 3.1.1.g are vulnerable to a remote execution bug via SQL command injection. displayCategory.php calls imageFunctions.php without checking URL/location arguments. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6795
++ /ru_akado/forum/My_eGallery/public/displayCategory.php: My_eGallery prior to 3.1.1.g are vulnerable to a remote execution bug via SQL command injection. displayCategory.php calls imageFunctions.php without checking URL/location arguments. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6795
++ /ru_akado/author.asp: May be FactoSystem CMS, which could include SQL injection problems that could not be tested remotely. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1499
++ /ru_akado/phpimageview.php?pic=javascript:alert(8754): PHP Image View 1.0 is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1724
++ /ru_akado/modules.php?op=modload&name=FAQ&file=index&myfaq=yes&id_cat=1&categories=%3Cimg%20src=javascript:alert(9456);%3E&parent_id=0: Post Nuke 0.7.2.3-Phoenix is vulnerable to Cross Site Scripting (XSS).
++ /ru_akado/modules.php?letter=%22%3E%3Cimg%20src=javascript:alert(document.cookie);%3E&op=modload&name=Members_List&file=index: Post Nuke 0.7.2.3-Phoenix is vulnerable to Cross Site Scripting (XSS).

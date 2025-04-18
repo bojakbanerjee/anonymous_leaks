@@ -1,0 +1,23 @@
++ Multiple IPs found: 93.186.225.194, 87.240.129.133, 87.240.132.67, 87.240.132.78, 87.240.132.72, 87.240.137.164
++ Target IP:          93.186.225.194
++ Target Hostname:    vk.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=RU/ST=Saint Petersburg/L=Saint Petersburg/O=V Kontakte LLC/CN=*.vk.com
+                   Altnames: *.vk.com, *.vk-portal.ru, *.vk.cc, *.vk.design, *.vk.link, *.vk.me, *.vk.ru, *.vkontakte.com, *.vkontakte.ru, stats.vk-portal.net, vk.cc, vk.design, vk.link, vk.me, vk.ru, vkontakte.com, vkontakte.ru, vk.com
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Organization Validation CA - SHA256 - G2
++ Start Time:         2023-07-13 12:39:48 (GMT3)
+---------------------------------------------------------------------------
++ Server: kittenx
++ /rt_russian/: Cookie remixlang created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /rt_russian/: Cookie remixlang created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /rt_russian/: Cookie remixstlid created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /rt_russian/: Retrieved x-powered-by header: KPHP/7.4.114154.+ /rt_russian/: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /rt_russian/: Uncommon header 'x-frontend' found, with contents: front605109.
++ /rt_russian/: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ Root page /rt_russian redirects to: https://vk.com/rt_russian+ /rt_russian/tOHmFYP6: Cookie remixstid created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /rt_russian/tOHmFYP6: Cookie remixstemp created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ All CGI directories 'found', use '-C none' to test none
++ /rt_russian/: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/
++ Server is using a wildcard certificate: *.vk.com. See: https://en.wikipedia.org/wiki/Wildcard_certificate

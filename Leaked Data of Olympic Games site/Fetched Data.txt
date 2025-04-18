@@ -1,0 +1,19 @@
++ Multiple IPs found: 96.16.54.178, 96.16.54.144, 2a02:26f0:ab00::214:8f48, 2a02:26f0:ab00::214:8e32
++ Target IP:          96.16.54.178
++ Target Hostname:    olympics.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=ES/ST=Madrid/L=Madrid/O=Olympic Channel Services SL/CN=olympics.com
+                   Altnames: olympics.com, account-ppp.olympics.com, account.olympics.com, athlete365-jobs.olympics.com, audioguide.olympics.com, comhub.olympics.com, comtest.olympics.com, cstatic.olympics.com, dakar2026.com, drawtheline.olympics.com, embed.olympics.com, fanzone.olympics.com, forge-dapi.bp-ppp-green.olympics.com, forge-dapi.bp-prd-green.olympics.com, forge-dapi.bp-uat-green.olympics.com, gamesdeliveryplaybook.olympics.com, gangwon2024.com, gc-id.olympics.com, gstatic.olympics.com, gtimg.tokyo2020.org, img.olympics.com, lb.olympics.com, newsroom.olympics.com, ntest.olympics.com, olympicchannelservices.com, ppp-embed.olympics.com, ppp-img.olympics.com, ppp-lb.olympics.com, ppp-www.olympics.com, proxy-tv-ppp.olympics.com, proxy-tv.olympics.com, sportupyourlife.olympics.com, stacy.olympics.com, static-g.olympics.com, stillimg.olympics.com, stillmed.olympics.com, stillres.olympics.com, stilltestimg.olympics.com, stilltestmed.olympics.com, stilltestres.olympics.com, tokyo2020-results.olympics.com, tokyo2020.jp, tokyo2020.org, uat-embed.olympics.com, uat-lb.olympics.com, uat-www.olympics.com, virtualmuseum.olympics.com, wstatic.olympics.com, www.dakar2026.com, www.gangwon2024.com, www.olympicchannelservices.com, www.olympics.com, www.tokyo2020.jp, www.tokyo2020.org
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=US/O=DigiCert Inc/CN=DigiCert TLS RSA SHA256 2020 CA1
++ Start Time:         2023-06-20 16:09:30 (GMT3)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ /en/: Retrieved access-control-allow-origin header: *.
++ /en/: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /en/: Uncommon header 'x-akamai-transformed' found, with contents: 9 - 0 pmb=mRUM,1.
++ /en/: Uncommon header 'server-timing' found, with contents: ak_p; desc="468685_1611675310_1273950419_3905_10400_32_-_-";dur=1.
++ /en/: Uncommon header 'x-ocs-country-gid' found, with contents: K-EUR.
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /robots.txt: contains 13 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt

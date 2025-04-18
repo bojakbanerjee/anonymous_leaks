@@ -1,0 +1,3 @@
+Reset password without having an existing account: https://www.akado.ru/bitrix/admin/?change_password=yes&login=yes#change_password
+Found as a result of passwords Bruteforcing(yankees): https://www.akado.ru/bitrix/admin/?login=yes
+Found as a result of passwords Bruteforcing(777777): https://www.akado.ru/bitrix/admin/?login=yes

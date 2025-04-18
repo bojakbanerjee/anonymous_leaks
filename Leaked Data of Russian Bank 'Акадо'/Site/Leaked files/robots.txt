@@ -1,0 +1,140 @@
+User-agent: Yandex
+Disallow: /bitrix/
+Allow: /bitrix/*/*.css*
+Allow: /bitrix/*/*.js*
+Disallow: */index.php
+Disallow: */index_ab.php
+Disallow: /?id=*
+Disallow: /_landing/
+Disallow: /500$
+Disallow: /500.html
+Disallow: /about/essential-elements/
+Disallow: /itv.php
+Disallow: /itvapp/
+Disallow: /itvinfo/
+Disallow: /newapp/
+Disallow: /search/
+Disallow: */news/line.php?month=*
+Disallow: */?action_id=*
+Disallow: */?cat=*
+Disallow: */?tag=*
+Disallow: */?utm_source=*
+Disallow: */?news_id=*
+Disallow: */index.html
+Disallow: /*?$
+Disallow: /*.$
+Disallow: /*&$
+Disallow: /super-hdtv/
+Disallow: /test/
+Disallow: */sberbank2/
+Disallow: */sbr2_/
+Disallow: /services/internet_ab/
+Disallow: /sub/all2/
+Disallow: /lp/
+Disallow: /zakaz/
+Disallow: /mobile/
+Allow: */*.pdf
+Clean-param: _currency&_lang&from&fromApp&a&campaign_id&tarif&ref&adgroupid&back&creative&LYDqe&nm&nx&ny&clkt&bg&target&forgot_password&f&Enpass6AutoFill /
+Clean-param: placement&network&gtm_debug&ELEMENT_CODE&_ym_status-check&_ym_lang&text&adposition&feeditemid&ClientIP&URL&cm_id&conf&Enpass6AutoFill&friend&l /
+Clean-param: LYDqe&msclkid&placement&r&K0[K1][K2]&K0.K1.K2&frm&test_ab&text&yandex-source&yqrid&id&itv&bitrix_include_areas&spell&_sm_au_&register&equipment&gift&id&WEB_FORM_ID /
+Clean-param: serviceId&_payInvoice&region_id&_PERSONAL_ACCOUNT&payment&action&cps_user_country_code&customerNumber&netSum&pattern_id&PROPERTY1&scid&shn&ShopArticleID&shopId&ShowCaseID&sum /
+Clean-param: clear_cache&block&__proto__[1]&__proto__.1&constructor[prototype][1]&_ym_debug&aid&back_url_admin&discount_info&fid&height&width&hhtmFrom&locale&name&onepasswdfill&onepasswdvault /
+Clean-param: page&payment&type&source&position&uid&username&utm_partner_id&yadclid&yadordid&news_id&month&year&mdrv&nsextt&press_id&SECTION_CODE&bcsi_scan_1cca0d0b1db58473&c2VjcmV0cGFyYW1ldGVyISExMTE_hm /
+Clean-param: utm_reqid&login /
+Disallow: /actions/diagnostika-kompyutera-i-seti-za-1-rubl/item-264987
+
+User-agent: Googlebot
+Disallow: /bitrix/
+Allow: /bitrix/*/*.css*
+Allow: /bitrix/*/*.js*
+Disallow: */index.php
+Disallow: */index_ab.php
+Disallow: /?id=*
+Disallow: /_landing/
+Disallow: /500$
+Disallow: /500.html
+Disallow: /about/essential-elements/
+Disallow: /itv.php
+Disallow: /itvapp/
+Disallow: /itvinfo/
+Disallow: /newapp/
+Disallow: /search/
+Disallow: */news/line.php?month=*
+Disallow: */*action_id=*
+Disallow: */*category_id=*
+Disallow: */*cat=*
+Disallow: */*tag=*
+Disallow: */*from=*
+Disallow: */*tarif=*
+Disallow: */*block=*
+Disallow: */*year=*
+Disallow: */*month=*
+Disallow: */*utm_source=*
+Disallow: */*news_id=*
+Disallow: */index.html
+Disallow: /*?$
+Disallow: /*.$
+Disallow: /*&$
+Disallow: /super-hdtv/
+Disallow: /test/
+Disallow: */sberbank2/
+Disallow: */sbr2_/
+Disallow: /services/internet_ab/
+Disallow: /sub/all2/
+Disallow: /lp/
+Disallow: /zakaz/
+Disallow: /mobile/
+Allow: */*.pdf
+Disallow: /actions/diagnostika-kompyutera-i-seti-za-1-rubl/item-264987
+
+User-agent: *
+Disallow: /bitrix/
+Allow: /bitrix/*/*.css*
+Allow: /bitrix/*/*.js*
+Disallow: */index.php
+Disallow: */index_ab.php
+Disallow: /?id=*
+Disallow: /_landing/
+Disallow: /500$
+Disallow: /500.html
+Disallow: /about/essential-elements/
+Disallow: /itv.php
+Disallow: /itvapp/
+Disallow: /itvinfo/
+Disallow: /newapp/
+Disallow: /search/
+Disallow: */news/line.php?month=*
+Disallow: */*action_id=*
+Disallow: */*category_id=*
+Disallow: */*cat=*
+Disallow: */*tag=*
+Disallow: */*from=*
+Disallow: */*tarif=*
+Disallow: */*block=*
+Disallow: */*year=*
+Disallow: */*month=*
+Disallow: */*utm_source=*
+Disallow: */?news_id=*
+Disallow: */index.html
+Disallow: /*?$
+Disallow: /*.$
+Disallow: /*&$
+Disallow: /super-hdtv/
+Disallow: /test/
+Disallow: */sberbank2/
+Disallow: */sbr2_/
+Disallow: /services/internet_ab/
+Disallow: /sub/all2/
+Disallow: /lp/
+Disallow: /zakaz/
+Disallow: /mobile/
+Allow: */*.pdf
+Disallow: /actions/diagnostika-kompyutera-i-seti-za-1-rubl/item-264987
+
+User-agent: AdsBot-Google
+Disallow: 
+
+User-agent: Googlebot-Image
+Disallow: 
+
+Sitemap: https://www.akado.ru/sitemap.xml
