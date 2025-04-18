@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Национальный портал в сфере Искусственного интеллекта (ИИ) и применения нейросетей в России</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="Национальный портал в сфере Искусственного интеллекта" />
+<meta name="description" content="Национальный портал в сфере Искусственного интеллекта предлагает ознакомиться с применением ИИ и нейросетей в Российской Федерации" />
+<link href="/bitrix/js/techdir.smartcaptcha/style.css?170205152370" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?170047070720836" type="text/css"  rel="stylesheet" />
+<link href="/local/templates/main/frontend/css/main.css?1707464326283876" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/panel/main/popup.min.css?170047066921279" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+
+<script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1700470709220493"></script>
+
+<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+</script>
+<script type="text/javascript">(window.BX||top.BX).message({'pull_server_enabled':'Y','pull_config_timestamp':'1692687763','pull_guest_mode':'N','pull_guest_user_id':'0'});(window.BX||top.BX).message({'PULL_OLD_REVISION':'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM_AI','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1710872948','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'d58abbc1f8f7a46ffc7cab2ae701f551'});</script>
+
+
+<script type="text/javascript" src="/bitrix/js/techdir.smartcaptcha/script.js?17020515234736"></script>
+<script type="text/javascript" src="/bitrix/js/pull/protobuf/protobuf.min.js?170047070976433"></script>
+<script type="text/javascript" src="/bitrix/js/pull/protobuf/model.min.js?170047070914190"></script>
+<script type="text/javascript" src="/bitrix/js/rest/client/rest.client.min.js?17004707079240"></script>
+<script type="text/javascript" src="/bitrix/js/pull/client/pull.client.min.js?170047070944915"></script>
+<script type="text/javascript" src="/bitrix/js/main/pageobject/pageobject.min.js?1700470713570"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_window.min.js?170047070976326"></script>
+<script type="text/javascript" src="/bitrix/js/other_main/pagination/script.js?17004707071140"></script>
+<script src="https://captcha-api.yandex.ru/captcha.js?render=onload&onload=techdirSmartCaptchaOnloadFunction" defer></script>
+
+
+
+<script type="text/javascript" src="/local/templates/main/frontend/js/scripts.min.js?1708603366772645"></script>
+<script type="text/javascript" src="/local/templates/main/frontend/js/common.js?170860336625297"></script>
+<script type="text/javascript" src="/local/templates/main/js/main.js?170557164711682"></script>
+<script type="text/javascript" src="/local/templates/main/js/share.js?17004705643773"></script>
+<script type="text/javascript" src="/local/templates/main/js/favoriteItems.js?17004705642219"></script>
+<script type="text/javascript" src="/local/templates/main/js/ajax.js?17013637022076"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "0879150a0f0c881d35ff73a4579392c4"]); _ba.push(["host", "ai.gov.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+<script>new Image().src='https://ruvents.pwd.ru/bitrix/spread.php?s=QklUUklYX1NNX0FJX0dVRVNUX0lEATY1NTY5MwExNzQxOTc2OTQ4AS8BAQECQklUUklYX1NNX0FJX0xBU1RfVklTSVQBMTkuMDMuMjAyNCAyMToyOTowOAExNzQxOTc2OTQ4AS8BAQEC&k=ed056bebb32821782552a174dfe2735e';
+</script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="/local/templates/main/frontend/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" sizes="32x32" href="/local/templates/main/frontend/favicon.ico">
+    <script>
+        BX.ready(function () {
+            BX.message({'HEADER_TITLE':'Искусственный интеллект<br />Российской Федерации','PWD_MAIN_FAVORITE_ADD_ACTION':'Добавить в избранное','PWD_MAIN_FAVORITE_REMOVE_ACTION':'Удалить из избранного','PWD_MAIN_SHARE_TITLE':'Поделиться:','PWD_MAIN_LOAD_MORE':'Показать еще','RESUME_IS_SET':'Можно размещать только одно резюме','PWD_MAIN_RESUME_ACCESS_DENIED':'Создание Резюме доступно только Стажерам. Свяжитесь с поддержкой, чтобы аннулировать статус Представителя Компании','PWD_MAIN_VACANCY_ACCESS_DENIED':'Для того чтобы разместить Вакансию вам нужно аннулировать резюме и зарегистрироваться как компания в Личном кабинете'});
+        });
+    </script>
+</head>
+<body>
+<div class="layout ">
+    <div class="wrapperLoader">
+        <span class="loader"></span>
+    </div>
+        <header class="header ">
+        <div class="header__left">
+            <div class="header__burder">
+                <div class="nav-icon close_menu">
+                    <div></div>
+                </div>
+            </div>
+            <a class="logo" href="/"><img
+                        class="logo__image" src="/local/templates/main/frontend/img/logo.svg" alt="AI навигатор"><span
+                        class="logo__title">Искусственный интеллект<br />Российской Федерации</span></a>
+        </div>
+        <form class="headerSearch" id="search-form" action="/search/">
+    <button class="headerSearch__button" type="submit"><img src="/local/templates/main/frontend/img/icons/search-icon.svg"></button>
+    <button class="headerSearch__close showMobile" type="submit"><img src="/local/templates/main/frontend/img/icons/cross.svg"></button>
+    <input class="textInput textInput_textSize14"
+           type="text"
+           id="searchInput2"
+           name="q"
+           placeholder="Введите поисковый запрос"
+           autocomplete="off"
+           value=""
+    />
+</form>
+        <div class="header__right">
+                <a class="lang" href="/en/">EN</a>
+            <div class="loginPanel">
+                                    <a class="loginPanel__login" href="/auth/">
+                        <img src="/local/templates/main/frontend/img/icons/user.svg">
+                    </a>
+                            </div>
+        </div>
+    </header>
+    <div class="dropHeaderMenu">
+        <button class="dropHeaderMenu__bottomClose" type="button">
+            <img src="/local/templates/main/frontend/img/icons/cross-menu.svg">
+        </button>
+        <div class="dropHeaderMenu__wrapper">
+            <nav class="navMenu navMenu_header">
+            <a class="navMenu__item" href="/national-strategy/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/e56/zxbogsxzw7uvs9648ho7m8nygb4n5ajq.svg"
+                 alt="Национальная стратегия">Национальная стратегия        </a>
+                        <a class="navMenu__item" href="/ai/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/cb8/vkf4oka439un0yaf79s528jwu8n2i81v.svg"
+                 alt="ИИ в России">ИИ в России        </a>
+                    <nav class="navSubMenu">
+                                    <a class="navSubMenu__item" href="/ai/regulatory/">Регуляторика</a>
+                                    <a class="navSubMenu__item" href="/ai/education/">Образование</a>
+                                    <a class="navSubMenu__item" href="/ai/research/">Исследования</a>
+                                    <a class="navSubMenu__item" href="/ai/development/">Разработка</a>
+                                    <a class="navSubMenu__item" href="/ai/implementation/">Внедрение</a>
+                                    <a class="navSubMenu__item" href="/ai/import-substitution/">Импортозамещение</a>
+                                    <a class="navSubMenu__item" href="/ai/ecosystem/">Экосистема</a>
+                                    <a class="navSubMenu__item" href="/ai/operational-staff/">Оперштаб по ИИ</a>
+                            </nav>
+                </nav><nav class="navMenu navMenu_header">        <a class="navMenu__item" href="/services/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/7d6/4gjn3u9decuquki01mjmx1j4pmsmf3n9.svg"
+                 alt="Сервисы">Сервисы        </a>
+                    <nav class="navSubMenu">
+                                    <a class="navSubMenu__item" href="/services/find-a-professional/">Разместить вакансию/найти специалиста</a>
+                            </nav>
+                        <a class="navMenu__item" href="/knowledgebase/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/d88/nx495mxvhu2xrvn9ksf0skj0ggza0as3.svg"
+                 alt="База знаний">База знаний        </a>
+                        <a class="navMenu__item" href="/ncpii/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/c7d/artezwzbdpwwrac5pyy5icvf0w54uked.svg"
+                 alt="НЦРИИ">НЦРИИ        </a>
+                </nav><nav class="navMenu navMenu_header">        <a class="navMenu__item" href="/mediacenter/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/255/uf8rind5pg12ls7p3oudoxlnwnq85g29.svg"
+                 alt="Новости">Новости        </a>
+                        <a class="navMenu__item" href="/events/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/3cc/mino0pl0zwr5lbcb39b0tl1i6k5xhhda.svg"
+                 alt="Календарь мероприятий">Календарь мероприятий        </a>
+                </nav>
+        </div>
+    </div>
+    <main>
+        <div class="wrapper">
+            
+
+<section class="stories">
+    <div class="swiper storiesSlider-js">
+        <div class="swiper-wrapper">
+                            <a class="swiper-slide open-modal-js stories-modal-js" href="#storiesModal"
+                   data-slider="1" data-id="2539">
+                    <div class="stories__item"><img src="/upload/iblock/a7e/mfmln761b10zbkmfr92uib0moqf783sp.png" loading="lazy" alt="Новость дня"></div>
+                    <div class="stories__text">Новость дня</div>
+                </a>
+                            <a class="swiper-slide open-modal-js stories-modal-js" href="#storiesModal"
+                   data-slider="2" data-id="2548">
+                    <div class="stories__item"><img src="/upload/iblock/5b1/odvkxd9fh1vobwek3k3vmugkxee7uwt2.png" loading="lazy" alt="Мнение экспертов"></div>
+                    <div class="stories__text">Мнение экспертов</div>
+                </a>
+                            <a class="swiper-slide open-modal-js stories-modal-js" href="#storiesModal"
+                   data-slider="3" data-id="2545">
+                    <div class="stories__item"><img src="/upload/iblock/343/zvfdyumdo11o0yhpt968cp21whg8h6tf.png" loading="lazy" alt="Китайский путь AI"></div>
+                    <div class="stories__text">Китайский путь AI</div>
+                </a>
+                            <a class="swiper-slide open-modal-js stories-modal-js" href="#storiesModal"
+                   data-slider="4" data-id="2546">
+                    <div class="stories__item"><img src="/upload/iblock/96d/2qs7mk9kl5uj9dgv1mntbi0nt9wb8w8j.png" loading="lazy" alt="Доверие ИИ"></div>
+                    <div class="stories__text">Доверие ИИ</div>
+                </a>
+                            <a class="swiper-slide open-modal-js stories-modal-js" href="#storiesModal"
+                   data-slider="5" data-id="2544">
+                    <div class="stories__item"><img src="/upload/iblock/062/atpdd5s8f4nmkcmw38g1qd7m2nmsxjzv.png" loading="lazy" alt="Исследование"></div>
+                    <div class="stories__text">Исследование</div>
+                </a>
+                            <a class="swiper-slide open-modal-js stories-modal-js" href="#storiesModal"
+                   data-slider="6" data-id="2543">
+                    <div class="stories__item"><img src="/upload/iblock/bb7/qpw6utoqo7i2j1z8tig2tu5t2lhebf05.png" loading="lazy" alt="Образование"></div>
+                    <div class="stories__text">Образование</div>
+                </a>
+                            <a class="swiper-slide open-modal-js stories-modal-js" href="#storiesModal"
+                   data-slider="7" data-id="2542">
+                    <div class="stories__item"><img src="/upload/iblock/ed5/b4ej6eoy8k5hcw6n5wd33v4bv3seajle.png" loading="lazy" alt="Кейс внедрения ИИ"></div>
+                    <div class="stories__text">Кейс внедрения ИИ</div>
+                </a>
+                    </div>
+        <div class="stories__next"><img src="/local/templates/main/frontend/img/icons/arrow-stories-slider.svg"></div>
+        <div class="stories__prev"><img src="/local/templates/main/frontend/img/icons/arrow-stories-slider.svg"></div>
+    </div>
+</section>
+<nav class="menuTop">        <div class="menuTop__group">
+            <a class="menuTop__item" href="/national-strategy/">
+                <img class="menuTop__itemIcon" src="/upload/iblock/e56/zxbogsxzw7uvs9648ho7m8nygb4n5ajq.svg"
+                     alt="Национальная стратегия">
+                Национальная стратегия            </a>
+                    </div>
+                <div class="menuTop__group">
+            <a class="menuTop__item" href="/ai/">
+                <img class="menuTop__itemIcon" src="/upload/iblock/cb8/vkf4oka439un0yaf79s528jwu8n2i81v.svg"
+                     alt="ИИ в России">
+                ИИ в России            </a>
+                            <ul class="menuTop__dropDown">
+                                            <li><a href="/ai/regulatory/">Регуляторика</a></li>
+                                            <li><a href="/ai/education/">Образование</a></li>
+                                            <li><a href="/ai/research/">Исследования</a></li>
+                                            <li><a href="/ai/development/">Разработка</a></li>
+                                            <li><a href="/ai/implementation/">Внедрение</a></li>
+                                            <li><a href="/ai/import-substitution/">Импортозамещение</a></li>
+                                            <li><a href="/ai/ecosystem/">Экосистема</a></li>
+                                            <li><a href="/ai/operational-staff/">Оперштаб по ИИ</a></li>
+                                    </ul>
+                    </div>
+                <div class="menuTop__group">
+            <a class="menuTop__item" href="/services/">
+                <img class="menuTop__itemIcon" src="/upload/iblock/7d6/4gjn3u9decuquki01mjmx1j4pmsmf3n9.svg"
+                     alt="Сервисы">
+                Сервисы            </a>
+                            <ul class="menuTop__dropDown">
+                                            <li><a href="/services/find-a-professional/">Разместить вакансию/найти специалиста</a></li>
+                                    </ul>
+                    </div>
+                <div class="menuTop__group">
+            <a class="menuTop__item" href="/knowledgebase/">
+                <img class="menuTop__itemIcon" src="/upload/iblock/d88/nx495mxvhu2xrvn9ksf0skj0ggza0as3.svg"
+                     alt="База знаний">
+                База знаний            </a>
+                    </div>
+                <div class="menuTop__group">
+            <a class="menuTop__item" href="/ncpii/">
+                <img class="menuTop__itemIcon" src="/upload/iblock/c7d/artezwzbdpwwrac5pyy5icvf0w54uked.svg"
+                     alt="НЦРИИ">
+                НЦРИИ            </a>
+                    </div>
+                <div class="menuTop__group">
+            <a class="menuTop__item" href="/mediacenter/">
+                <img class="menuTop__itemIcon" src="/upload/iblock/255/uf8rind5pg12ls7p3oudoxlnwnq85g29.svg"
+                     alt="Новости">
+                Новости            </a>
+                    </div>
+                <div class="menuTop__group">
+            <a class="menuTop__item" href="/events/">
+                <img class="menuTop__itemIcon" src="/upload/iblock/3cc/mino0pl0zwr5lbcb39b0tl1i6k5xhhda.svg"
+                     alt="Календарь мероприятий">
+                Календарь мероприятий            </a>
+                    </div>
+        </nav>
+
+<form class="search" id="search-form" action="/search/">
+    <div class="search__buttonClose"><img src="/local/templates/main/frontend/img/icons/cross.svg" alt=""></div>
+    <button class="buttonSearch" type="submit" id="submit">
+        <img src="/local/templates/main/frontend/img/icons/search-icon.svg" alt="">
+    </button>
+    <label class="search__buttonSearch" for="searchInput">
+        <img src="/local/templates/main/frontend/img/icons/search-icon.svg" alt="">
+    </label>
+    <span class="search__bage">Что бы вы хотели узнать?</span>
+    <input class="search__input"
+           id="searchInput"
+           type="text"
+           name="q"
+           value=""
+           placeholder="Введите запрос"
+           autocomplete="off" />
+    <div class="searchInfo searchInfo_variants" style="display: none;">
+        <div class="searchInfo__title">Варианты:</div>
+        <div class="searchInfo__tags variants_tags"></div>
+    </div>
+    <div class="searchInfo searchInfo_commonRequests">
+        <div class="searchInfo__title">Чаще ищут:</div>
+        <div class="searchInfo__tags commonRequests_tags"></div>
+    </div>
+</form>
+
+<script>
+    BX.ready(() => {
+        window.searchApiUrl = 'https://aigo.prod.its.xyz/api/v1/';
+
+        let commonRequests = $('.searchInfo_commonRequests');
+        let commonRequestContainer = $('.commonRequests_tags');
+        BX.ajax({
+            url: `${window.searchApiUrl}autocomplete/`,
+            method: 'GET',
+            async: true,
+            cache: false,
+            contentType: 'application/json',
+            onsuccess: (result) => {
+                let response = JSON.parse(result);
+                if (0 < response.length) {
+                    commonRequests.css('display', 'flex');
+                    let tags = '';
+                    let url = new URL(window.location.href.split('?')[0]).toString();
+                    for (let i in response) {
+                        tags += `<a class='searchInfo__tag' href='${url}search/?q=${response[i]}'>${response[i]}</a>`;
+                    }
+                    commonRequestContainer.html(tags);
+                } else {
+                    commonRequests.css('display', 'none');
+                    commonRequestContainer.html('');
+                }
+            },
+            onfailure: (result) => {
+                console.log(result);
+            }
+        });
+    })
+</script>
+
+    <section class="sliderAndDiagramm">
+        <div class="sliderAndDiagramm__card sliderAndDiagramm__card-bgBlue">
+    <div class="swiper mainSlider oneSlideSwiper-js">
+        <div class="swiper-wrapper">                <div class="swiper-slide mainSlider__slide" style="background-color: #5163F8; background-image: url(/upload/iblock/a2a/rkc4qyzbx3jgb0zcoreje89d0mvpuikx.png)">
+                <div class="mainSlider__inner">
+                    <span class="mainSlider__bage">О главном</span>
+                    <div class="mainSlider__title">13 марта на выставке-форуме &quot;Россия&quot; на ВДНХ состоялся День ИИ                    </div>
+                    <div class="mainSlider__text">Вице-премьер Дмитрий Чернышенко и главы Минэкономразвития и Минцифры приняли участие в пленарной дискуссии «Искусственный интеллект – главная технология XXI века». </div>
+                </div>
+                                    <a class="button buttonWhite" href="http://government.ru/news/51092/"><span>Узнать больше</span></a>
+                                </div>                <div class="swiper-slide mainSlider__slide" style="background-color: #5163F8; background-image: url(/upload/iblock/437/wqmrom9yiikyhwvw5z1mxql838mlyan4.png)">
+                <div class="mainSlider__inner">
+                    <span class="mainSlider__bage">О главном</span>
+                    <div class="mainSlider__title">Утверждена Национальная стратегия развития ИИ до 2030 года                    </div>
+                    <div class="mainSlider__text">15 февраля 2024 года Президент России Владимир Путин подписал указ, обновляющий Национальную стратегию развития искусственного интеллекта на период до 2030 года. Согласно опубликованному документу, в стратегию вносится около 40 страниц различных изменений и дополнений. </div>
+                </div>
+                                    <a class="button buttonWhite" href="http://publication.pravo.gov.ru/document/0001202402150063"><span>Узнать больше</span></a>
+                                </div>                <div class="swiper-slide mainSlider__slide" style="background-color: #5163F8; background-image: url(/upload/iblock/788/co3ilr6pso6hdpqhpfy46wcai71ip372.png)">
+                <div class="mainSlider__inner">
+                    <span class="mainSlider__bage">О главном</span>
+                    <div class="mainSlider__title">Президент утвердил перечень поручений по итогам AI Journey 2023                    </div>
+                    <div class="mainSlider__text">Всего 15 поручений, предусматривающих дополнительное финансирование исследований и разработок в области генеративного ИИ, реализацию комплекса мер, направленных на увеличение вычислительных мощностей, запуск программы обучения в области ИИ для руководителей организаций и др.</div>
+                </div>
+                                    <a class="button buttonWhite" href="http://www.kremlin.ru/acts/assignments/orders/73282"><span>Узнать больше</span></a>
+                                </div>                <div class="swiper-slide mainSlider__slide" style="background-color: #5163F8; background-image: url(/upload/iblock/22a/uizz2hop41cau80tbp6vivxpnpzrtocx.png)">
+                <div class="mainSlider__inner">
+                    <span class="mainSlider__bage">О главном</span>
+                    <div class="mainSlider__title">Правительство России отобрало шесть новых ИЦ в сфере ИИ                    </div>
+                    <div class="mainSlider__text">Победителями второй волны стали НМИЦ онкологии им. Н.Н.Блохина, Самарский университет им. академика С.П.Королёва, Новосибирский государственный университет, НИЯУ «МИФИ», ННГУ им. Н.И.Лобачевского, СПбГУ. </div>
+                </div>
+                                    <a class="button buttonWhite" href="http://government.ru/news/50572/"><span>Узнать больше</span></a>
+                                </div>        </div>
+        <div class="mainSlider__navigate"><!-- Add Arrows -->
+            <div class="mainSlider__prev"><img src="/local/templates/main/frontend/img/icons/arrow-left-main-slider.svg"></div>
+            <!-- Add Pagination -->
+            <div class="mainSlider__swiperPagination"></div>
+            <div class="mainSlider__next"><img src="/local/templates/main/frontend/img/icons/arrow-right-main-slider.svg"></div>
+        </div>
+        <!-- таймер на слайдере-->
+        <!--.autoplay-progress.
+        <svg viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20"></circle>
+        </svg>
+        <span></span>
+
+
+        -->
+    </div>
+</div>
+        <div class="sliderAndDiagramm__card">
+            
+<div class="diagram">
+    <div class="diagram__select">
+        <div class="select_container">
+            <select class="js-select charts_select" name="">
+                                    <option value="2648">Новости об ИИ</option>
+                                        <option value="2647">Темы по ИИ</option>
+                                        <option value="2645">Документы по ИИ</option>
+                                        <option value="2644">ИИ в экономике</option>
+                                </select>
+        </div>
+    </div>
+    <div class="tabs">
+                    <div class="tabs__element active" rel="2648">
+                                    <ul class="tabs__caption tabs__caption_right">
+                                                    <li class="active">Все новости</li>
+                                                        <li >Отобранные новости</li>
+                                                </ul>
+                                            <div class="tabs__content active">
+                            <div class="diagram__title">Мониторинг новостей в сфере ИИ (январь-декабрь 2023 г.)</div>
+                            <iframe frameborder="0" src="https://datalens.yandex/qimluv52yu14e?_embedded=1&_no_controls=1" width="100%" height="520px"></iframe>                        </div>
+                                                <div class="tabs__content ">
+                            <div class="diagram__title">Мониторинг новостей в сфере ИИ (январь-декабрь 2023 г.)</div>
+                            <iframe frameborder="0" src="https://datalens.yandex/zrvk1xpwunp6n?_embedded=1&_no_controls=1" width="100%" height="520px"></iframe>                        </div>
+                                    </div>
+                        <div class="tabs__element " rel="2647">
+                                    <ul class="tabs__caption tabs__caption_right">
+                                                    <li class="active">Темы</li>
+                                                        <li >Ньюсмейкеры</li>
+                                                </ul>
+                                            <div class="tabs__content active">
+                            <div class="diagram__title">ТОП тем новостей по ИИ и ньюсмейкеров (июль-декабрь 2023 г.)</div>
+                            <iframe frameborder="0" src="https://datalens.yandex/c5h84obwbq3o0?_embedded=1&_no_controls=1" width="100%" height="400px"></iframe>                        </div>
+                                                <div class="tabs__content ">
+                            <div class="diagram__title">ТОП тем новостей по ИИ и ньюсмейкеров (июль-декабрь 2023 г.)</div>
+                            <iframe frameborder="0" src="https://datalens.yandex/4xf5ucnedncks?_embedded=1&_no_controls=1" width="100%" height="400px"></iframe>                        </div>
+                                    </div>
+                        <div class="tabs__element " rel="2645">
+                                    <ul class="tabs__caption tabs__caption_right">
+                                                    <li class="active">3 квартал</li>
+                                                        <li >4 квартал</li>
+                                                </ul>
+                                            <div class="tabs__content active">
+                            <div class="diagram__title">Мониторинг международных документов и инициатив в сфере ИИ (июль-декабрь 2023 г.)</div>
+                            <iframe frameborder="0" src="https://datalens.yandex/ngzoop6ls9r2b?_embedded=1&_no_controls=1" width="100%" height="540px"></iframe>                        </div>
+                                                <div class="tabs__content ">
+                            <div class="diagram__title">Мониторинг международных документов и инициатив в сфере ИИ (июль-декабрь 2023 г.)</div>
+                            <iframe frameborder="0" src="https://datalens.yandex/1ud5j8wrn8kmp?_embedded=1&_no_controls=1" width="100%" height="500px"></iframe>                        </div>
+                                    </div>
+                        <div class="tabs__element " rel="2644">
+                                    <ul class="tabs__caption tabs__caption_right">
+                                                    <li class="active">Отрасли</li>
+                                                        <li >Регионы РФ</li>
+                                                </ul>
+                                            <div class="tabs__content active">
+                            <div class="diagram__title">Мониторинг внедрения ИИ в отраслях экономики РФ (июль-декабрь 2023 г.)</div>
+                            <iframe frameborder="0" src="https://datalens.yandex/4xgpudk3v5s8s?_embedded=1&_no_controls=1" width="100%" height="540px"></iframe>                        </div>
+                                                <div class="tabs__content ">
+                            <div class="diagram__title">Мониторинг внедрения ИИ в отраслях экономики РФ (июль-декабрь 2023 г.)</div>
+                            <iframe frameborder="0" src="https://datalens.yandex/vo8m1jbg66nyj?_embedded=1&_no_controls=1" width="100%" height="550px"></iframe>                        </div>
+                                    </div>
+                </div>
+</div>        </div>
+    </section>
+    <!--section class="serviceTale">
+        <a class="serviceCard" href="#">
+    <img class="serviceCard__eclipsBottom" src="/local/templates/main/frontend/img/service-card/eclips-bottom.svg" alt="">
+    <img class="serviceCard__eclipsTop" src="/local/templates/main/frontend/img/service-card/eclips-top.svg" alt="">
+    <div class="serviceCard__wrapper">
+        <div class="serviceCard__icon"><img src="/local/templates/main/frontend/img/icons/serviceCard/service-card-icon-1.svg"></div>
+        <div class="serviceCard__title">Подбор продукта/разработчика</div>
+        <div class="serviceCard__descript">Сервис подбора разработчика ИИ-решений</div>
+        <div class="serviceCard__button"><img src="/local/templates/main/frontend/img/icons/arrow-right-button.svg"></div>
+    </div>
+</a>
+<a class="serviceCard" href="#">
+    <img class="serviceCard__eclipsBottom" src="/local/templates/main/frontend/img/service-card/eclips-bottom.svg" alt="">
+    <img class="serviceCard__eclipsTop" src="/local/templates/main/frontend/img/service-card/eclips-top.svg" alt="">
+    <div class="serviceCard__wrapper">
+        <div class="serviceCard__icon"><img src="/local/templates/main/frontend/img/icons/serviceCard/service-card-icon-2.svg"></div>
+        <div class="serviceCard__title">Модельные практики</div>
+        <div class="serviceCard__descript">Для хозяйствующих субъектов для получения субсидий</div>
+        <div class="serviceCard__button"><img src="/local/templates/main/frontend/img/icons/arrow-right-button.svg"></div>
+    </div>
+</a>
+<a class="serviceCard" href="#">
+    <img class="serviceCard__eclipsBottom" src="/local/templates/main/frontend/img/service-card/eclips-bottom.svg" alt="">
+    <img class="serviceCard__eclipsTop" src="/local/templates/main/frontend/img/service-card/eclips-top.svg" alt="">
+    <div class="serviceCard__wrapper">
+        <div class="serviceCard__icon"><img src="/local/templates/main/frontend/img/icons/serviceCard/service-card-icon-3.svg"></div>
+        <div class="serviceCard__title">Банк дата-сетов</div>
+        <div class="serviceCard__descript">Библиотека наборов данных</div>
+        <div class="serviceCard__button"><img src="/local/templates/main/frontend/img/icons/arrow-right-button.svg"></div>
+    </div>
+</a>
+<a class="serviceCard" href="#">
+    <img class="serviceCard__eclipsBottom" src="/local/templates/main/frontend/img/service-card/eclips-bottom.svg" alt="">
+    <img class="serviceCard__eclipsTop" src="/local/templates/main/frontend/img/service-card/eclips-top.svg" alt="">
+    <div class="serviceCard__wrapper">
+        <div class="serviceCard__icon"><img src="/local/templates/main/frontend/img/icons/serviceCard/service-card-icon-4.svg"></div>
+        <div class="serviceCard__title">Биржа стажеров</div>
+        <div class="serviceCard__descript">Лучшие выпускники образовательных интенсивов по ИИ</div>
+        <div class="serviceCard__button"><img src="/local/templates/main/frontend/img/icons/arrow-right-button.svg"></div>
+    </div>
+</a>    </section-->
+    <section class="sectionTale">
+        <div class="sectionCard">
+    <div class="sectionCard__content"><span class="sectionCard__bage">Спецпроект</span>
+        <h3 class="sectionCard__title">Сингулярность ИИ</h3>
+        <p>Искусственный интеллект стремительно развивается и охватывает все новые сферы жизни общества. Ученые даже ввели специальный термин «сингулярность ИИ» - явление, при котором технология превзойдет когнитивные способности людей и появится новый уровень интеллекта, недостижимый для людей. 
+<br/>
+<br/>
+Эксперты НЦРИИ в новом спецпроекте рассказали о том, какое политическое, экономическое, социальное и этическое влияние окажет на людей сингулярность ИИ, насколько управляемы современные технологии в эпоху GPT, а также заглянули за горизонт и показали, какие изменения ждут человечество с развитием ИИ по модели Курцвейла до конца 21 века.
+<br/>
+<br/>
+Также эти вопросы поднимали российские эксперты на прошедшем «Форуме этики в сфере ИИ: Поколение GPT. Красные линИИ».</p>
+
+    </div><a class="button buttonBlue" href="https://иивроссии.рф/"><span>Узнать больше</span></a>
+</div>
+        <div class="sectionCard sectionCard_withBg">
+    <video class="sectionCard__bg" playsinline="" width="100%" height="100%" preload="auto" autoplay="true" muted="true" loop="" src="/local/templates/main/frontend/video/спецпроект.mp4"></video>
+    <div class="sectionCard__content"><span class="sectionCard__bage">Спецпроект</span>
+        <h3 class="sectionCard__title">Алиса вместо бабушки. Сингулярность искусственного интеллекта в эпоху GPT</h3>
+    </div>
+    <a class="button buttonWhite sectionCard__button" href="https://иивроссии.рф/singularity" target="_blank">Узнать больше</a>
+</div><br>    </section>
+
+</section></div>
+</main>
+<div id="overlay"></div>
+<div class="cookie_notice">
+    <div class="cookie_notice__text">
+        <p>Мы используем файлы cookies для улучшения работы сайта НИУ ВШЭ и большего удобства его использования. Более подробную информацию об использовании файлов cookies можно найти <a href="/Политика_использования_Cookies_27_11_23.docx" target='_blank'>здесь</a>, наши правила обработки персональных данных – <a href="https://www.hse.ru/data_protection_regulation" target='_blank'>здесь</a>. Продолжая пользоваться сайтом, вы подтверждаете, что были проинформированы об использовании файлов cookies сайтом НИУ ВШЭ и согласны с нашими правилами обработки персональных данных. Вы можете отключить файлы cookies в настройках Вашего браузера</p>
+    </div>
+    <div class="cookie_notice__button">
+        <button class="button buttonBlue" id="cookie_close" type="button">
+            <span>Принять все</span>
+        </button>
+    </div>
+</div>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footerWrapper">
+            <div class="footerWrapper__top">
+                <div class="footerWrapper__col">
+                    <div class="footerWrapper__logosWrapper">
+                        <a class="footerLogo" href="/">
+                            <img class="footerLogo__image" src="/include/img/logo.svg" alt="">
+                            <span class="footerLogo__title">Искусственный интеллект<br />Российской Федерации</span>
+                        </a>
+                        <a class="footerLogo" href="/ncpii/" target="_blank">
+                            <img class="footerLogo__image" src="/include/img/logo2.svg" alt="">
+                            <span class="footerLogo__title">Национальный центр развития<br>искусственного интеллекта<br>при Правительстве Российской Федерации</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footerWrapper__col">
+                    <nav class="navMenu">
+            <a class="navMenu__item" href="/national-strategy/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/e56/zxbogsxzw7uvs9648ho7m8nygb4n5ajq.svg"
+                 alt="Национальная стратегия">Национальная стратегия        </a>
+                        <a class="navMenu__item" href="/ai/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/cb8/vkf4oka439un0yaf79s528jwu8n2i81v.svg"
+                 alt="ИИ в России">ИИ в России        </a>
+                    <nav class="navSubMenu">
+                                    <a class="navSubMenu__item" href="/ai/regulatory/">Регуляторика</a>
+                                    <a class="navSubMenu__item" href="/ai/education/">Образование</a>
+                                    <a class="navSubMenu__item" href="/ai/research/">Исследования</a>
+                                    <a class="navSubMenu__item" href="/ai/development/">Разработка</a>
+                                    <a class="navSubMenu__item" href="/ai/implementation/">Внедрение</a>
+                                    <a class="navSubMenu__item" href="/ai/import-substitution/">Импортозамещение</a>
+                                    <a class="navSubMenu__item" href="/ai/ecosystem/">Экосистема</a>
+                                    <a class="navSubMenu__item" href="/ai/operational-staff/">Оперштаб по ИИ</a>
+                            </nav>
+                </nav><nav class="navMenu">        <a class="navMenu__item" href="/services/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/7d6/4gjn3u9decuquki01mjmx1j4pmsmf3n9.svg"
+                 alt="Сервисы">Сервисы        </a>
+                    <nav class="navSubMenu">
+                                    <a class="navSubMenu__item" href="/services/find-a-professional/">Разместить вакансию/найти специалиста</a>
+                            </nav>
+                        <a class="navMenu__item" href="/knowledgebase/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/d88/nx495mxvhu2xrvn9ksf0skj0ggza0as3.svg"
+                 alt="База знаний">База знаний        </a>
+                        <a class="navMenu__item" href="/ncpii/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/c7d/artezwzbdpwwrac5pyy5icvf0w54uked.svg"
+                 alt="НЦРИИ">НЦРИИ        </a>
+                </nav><nav class="navMenu">        <a class="navMenu__item" href="/mediacenter/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/255/uf8rind5pg12ls7p3oudoxlnwnq85g29.svg"
+                 alt="Новости">Новости        </a>
+                        <a class="navMenu__item" href="/events/">
+            <img class="navMenu__itemIcon" src="/upload/iblock/3cc/mino0pl0zwr5lbcb39b0tl1i6k5xhhda.svg"
+                 alt="Календарь мероприятий">Календарь мероприятий        </a>
+                </nav>
+                </div>
+            </div>
+            <div class="footerWrapper__info">
+                <div class="footerWrapper__info__left">
+                    <div class="socials">
+                        <a class="socials__item tg" href="https://t.me/testuring" rel="nofollow" target="_blank" style="width: 100%; text-decoration: none;">
+                            <img src="/local/templates/main/frontend/img/icons/socials/tg.svg">
+                            <span class="footerLogo__title" style="margin-left: 12px;">Тест Тьюринга</span>
+                        </a>
+                    </div>
+
+                    <address class="address">г. Москва, Покровский бульвар, д. 11</address>
+                    <p class="copy">2024. Национальный портал в сфере искусственного интеллекта</p>
+                </div>
+                <div class="footerWrapper__info__right">
+                    <div class="feedBack">Обратная связь - <a href="mailto:info@ai.gov.ru">info@ai.gov.ru</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+                        <a href="https://www.hse.ru/data_protection_regulation" target="_blank">Политика в отношении обработки персональных данных</a>
+        </div>
+    </div>
+</footer>
+    <div class="modal scroll fade storiesModal" id="storiesModal" tabindex="-1">
+        <div class="swiper storiesModalSlider-js">
+            <div class="storiesModalSlider-js__next">
+                <img src="/local/templates/main/frontend/img/icons/arrow-stories-slider.svg">
+            </div>
+            <div class="storiesModalSlider-js__prev">
+                <img src="/local/templates/main/frontend/img/icons/arrow-stories-slider.svg">
+            </div>
+            <div class="swiper-wrapper">
+                                    <div class="swiper-slide" data-swiper-autoplay="15000">
+                                                    <div class="storiesModal__pic">
+                                <img src="/upload/iblock/148/ao6ecdzz2y8237olrqo1gw715jo32a9j.jpg" loading="lazy" alt="">
+                            </div>
+                                                <div class="storiesModal__content">
+                            <div class="storiesModal__contentHeader">
+                                <div class="storiesModal__title">Новость дня</div>
+                                <div class="storiesModal__info">
+                                    <span class="storiesModal__date">19.03.2024 14:00</span>
+                                    <a class="storiesModal__website" target="_blank"
+                                       href="https://tass.ru/novosti-partnerov/20281005">tass.ru</a>
+                                </div>
+                            </div>
+                            <div class="storiesModal__contentTop">
+                                <div class="storiesVerticalSlider-js">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <h3>Группа ЦРТ представила новое ИИ-решение для оптимизации процессов крупного бизнеса<br>
+ </h3>
+ Генеральный директор группы ЦРТ Дмитрий Дырмовский объявил о создании новых ИИ-решений для оптимизации процессов крупного бизнеса, в которых применяются передовые речевые технологии, а также методика RAG и нейросетевая модель GigaChat. Разработка позволяет создать простой интерфейс для быстрого получения ответов на вопросы пользователей с использованием информации из различных внутренних систем компании.<br>                                        </div>
+                                    </div>
+                                    <div class="swiper-scrollbar"></div>
+                                </div>
+                            </div>
+                                                            <div class="storiesModal__contentBottom">
+                                    <a class="button buttonBlue storiesModal__button" href="https://tass.ru/novosti-partnerov/20281005"
+                                       target="_blank"><span>Перейти к источнику</span></a>
+                                </div>
+                                                    </div>
+                    </div>
+                                        <div class="swiper-slide" data-swiper-autoplay="15000">
+                                                    <div class="storiesModal__pic">
+                                <img src="/upload/iblock/8cd/k8vx1e9107m72jww4rfou1o7fng81wox.jpeg" loading="lazy" alt="">
+                            </div>
+                                                <div class="storiesModal__content">
+                            <div class="storiesModal__contentHeader">
+                                <div class="storiesModal__title">Мнение экспертов</div>
+                                <div class="storiesModal__info">
+                                    <span class="storiesModal__date">27.12.2023 11:15</span>
+                                    <a class="storiesModal__website" target="_blank"
+                                       href="https://ai.gov.ru/mediacenter/drony-spasateli-kak-ii-pomogaet-nakhodit-poteryavshikhsya-lyudey-v-lesu/">ai.gov.ru</a>
+                                </div>
+                            </div>
+                            <div class="storiesModal__contentTop">
+                                <div class="storiesVerticalSlider-js">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <h3>Дроны-спасатели: как ИИ помогает находить потерявшихся людей в лесу<br>
+ </h3>
+ Ученые Центра математической робототехники и искусственного интеллекта Санкт-Петербургского государственного университета разработали новый метод поиска людей: специалисты сделали упор на акустическую систему. <br>
+<br>
+ О том, в чем заключается новизна разработки и как нейросети помогают искать людей поисково-спасательному отряду "Лиза Алерт", в интервью НЦРИИ рассказали:<br>
+ <br>
+ - Директор научно-образовательного центра "Математическая робототехника и искусственный интеллект" Санкт-Петербургского университета Константин Амелин<br>
+<br>
+- Руководитель направления беспилотной авиации поисково-спасательного отряда "Лиза Алерт" Евгений Герасимов                                        </div>
+                                    </div>
+                                    <div class="swiper-scrollbar"></div>
+                                </div>
+                            </div>
+                                                            <div class="storiesModal__contentBottom">
+                                    <a class="button buttonBlue storiesModal__button" href="https://ai.gov.ru/mediacenter/drony-spasateli-kak-ii-pomogaet-nakhodit-poteryavshikhsya-lyudey-v-lesu/"
+                                       target="_blank"><span>Перейти к источнику</span></a>
+                                </div>
+                                                    </div>
+                    </div>
+                                        <div class="swiper-slide" data-swiper-autoplay="15000">
+                                                    <div class="storiesModal__pic">
+                                <img src="/upload/iblock/edc/81h8tojip14dqryxqp1kubmbhkszvnlb.jpeg" loading="lazy" alt="">
+                            </div>
+                                                <div class="storiesModal__content">
+                            <div class="storiesModal__contentHeader">
+                                <div class="storiesModal__title">Китайский путь AI</div>
+                                <div class="storiesModal__info">
+                                    <span class="storiesModal__date">12.02.2024 14:13</span>
+                                    <a class="storiesModal__website" target="_blank"
+                                       href="https://ai.gov.ru/knowledgebase/natsionalnye-dokumenty-po-razvitiyu-ii-v-rossii/2024_monitoring_novostey_v_sfere_ii_kitayskiy_puty_ai_novosti_i_tehnologii_za_yanvary_2024_ncrii/">ai.gov.ru</a>
+                                </div>
+                            </div>
+                            <div class="storiesModal__contentTop">
+                                <div class="storiesVerticalSlider-js">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <h3>Опубликован мониторинг новостей в сфере ИИ «Китайский путь AI: новости и технологии» за январь 2024</h3>
+ Национальный центр развития искусственного интеллекта при Правительстве Российской Федерации подготовил ежемесячный мониторинг новостей в сфере ИИ «Китайский путь AI: новости и технологии» за январь 2024 г.<br>
+ <br>
+ - Изображения к каждой новости сгенерированы Kandinsky 2.2<br>
+ - Заголовки и текст подготовлены Large Language Model на основе мониторинга новостей<br>
+ <br>
+Скачать документ можно в разделе «База знаний».                                        </div>
+                                    </div>
+                                    <div class="swiper-scrollbar"></div>
+                                </div>
+                            </div>
+                                                            <div class="storiesModal__contentBottom">
+                                    <a class="button buttonBlue storiesModal__button" href="https://ai.gov.ru/knowledgebase/natsionalnye-dokumenty-po-razvitiyu-ii-v-rossii/2024_monitoring_novostey_v_sfere_ii_kitayskiy_puty_ai_novosti_i_tehnologii_za_yanvary_2024_ncrii/"
+                                       target="_blank"><span>Перейти к источнику</span></a>
+                                </div>
+                                                    </div>
+                    </div>
+                                        <div class="swiper-slide" data-swiper-autoplay="15000">
+                                                    <div class="storiesModal__pic">
+                                <img src="/upload/iblock/01d/i0kap0fcgz4lh8dgqr8oog5se2iochxt.jpg" loading="lazy" alt="">
+                            </div>
+                                                <div class="storiesModal__content">
+                            <div class="storiesModal__contentHeader">
+                                <div class="storiesModal__title">Доверие ИИ</div>
+                                <div class="storiesModal__info">
+                                    <span class="storiesModal__date">19.03.2024 16:14</span>
+                                    <a class="storiesModal__website" target="_blank"
+                                       href="https://rg.ru/2024/03/19/youtube-blogerov-obiazali-markirovat-kontent-sozdannyj-ii.html">rg.ru</a>
+                                </div>
+                            </div>
+                            <div class="storiesModal__contentTop">
+                                <div class="storiesVerticalSlider-js">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <h3>YouTube обязал блогеров маркировать контент, созданный с помощью генеративного ИИ<br>
+ </h3>
+<p>
+	 Руководство YouTube внесло новое правило, согласно которому блогеры должны уведомлять пользователей о том, если их видео содержит контент, созданный генеративным ИИ. Пользователям необязательно раскрывать все детали применения нейросети, но ярлыки с пометкой "присутствия" ИИ будут видны на платформе.<br>
+</p>                                        </div>
+                                    </div>
+                                    <div class="swiper-scrollbar"></div>
+                                </div>
+                            </div>
+                                                            <div class="storiesModal__contentBottom">
+                                    <a class="button buttonBlue storiesModal__button" href="https://rg.ru/2024/03/19/youtube-blogerov-obiazali-markirovat-kontent-sozdannyj-ii.html"
+                                       target="_blank"><span>Перейти к источнику</span></a>
+                                </div>
+                                                    </div>
+                    </div>
+                                        <div class="swiper-slide" data-swiper-autoplay="15000">
+                                                    <div class="storiesModal__pic">
+                                <img src="/upload/iblock/430/3liyp54zjcn9vbazz5qm91sxxg1zmeyq.bmp" loading="lazy" alt="">
+                            </div>
+                                                <div class="storiesModal__content">
+                            <div class="storiesModal__contentHeader">
+                                <div class="storiesModal__title">Исследование</div>
+                                <div class="storiesModal__info">
+                                    <span class="storiesModal__date">04.12.2023 14:12</span>
+                                    <a class="storiesModal__website" target="_blank"
+                                       href="https://ai.gov.ru/knowledgebase/investitsionnaya-aktivnost/2023_analiticheskiy_otchet_sistema_gosudarstvennogo_stimulirovaniya_ispolyzovaniya_servisov_iskusstvennogo_intellekta_v_zdravoohranenii_na_osnove_analiza_rossiyskogo_i_zarubeghnogo_opyta_ncrii/">ai.gov.ru</a>
+                                </div>
+                            </div>
+                            <div class="storiesModal__contentTop">
+                                <div class="storiesVerticalSlider-js">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <h3>Аналитический отчет "Система государственного стимулирования использования сервисов искусственного интеллекта в&nbsp;здравоохранении на&nbsp;основе анализа российского и&nbsp;зарубежного опыта"<br>
+ </h3>
+<p>
+	 Национальный центр развития искусственного интеллекта при Правительстве РФ совместно с NtechLab&nbsp;и ГК "Эксперт" подготовил аналитический отчет <b>"Система государственного стимулирования использования сервисов искусственного интеллекта в здравоохранении на основе анализа российского и зарубежного опыта"</b>.<br>
+</p>
+<p>
+	 &nbsp;В рамках исследования проанализировано:<br>
+	 • <b>более 60 национальных ИИ-стратегий</b>, содержащих цели в сфере здравоохранения<br>
+	 • <b>3 ИИ-стратегии</b> в здравоохранении (США, Великобритания, ЕС)<br>
+	 • <b>более 100 конкретных инициатив</b> по внедрению и развитию ИИ в медицинской сфере<br>
+</p>
+<p>
+	 В отчете представлены выводы о методах и тенденциях в сфере поддержки внедрения ИИ в здравоохранении в мире и в России, а также подготовлены рекомендации для России.
+</p>                                        </div>
+                                    </div>
+                                    <div class="swiper-scrollbar"></div>
+                                </div>
+                            </div>
+                                                            <div class="storiesModal__contentBottom">
+                                    <a class="button buttonBlue storiesModal__button" href="https://ai.gov.ru/knowledgebase/investitsionnaya-aktivnost/2023_analiticheskiy_otchet_sistema_gosudarstvennogo_stimulirovaniya_ispolyzovaniya_servisov_iskusstvennogo_intellekta_v_zdravoohranenii_na_osnove_analiza_rossiyskogo_i_zarubeghnogo_opyta_ncrii/"
+                                       target="_blank"><span>Перейти к источнику</span></a>
+                                </div>
+                                                    </div>
+                    </div>
+                                        <div class="swiper-slide" data-swiper-autoplay="15000">
+                                                    <div class="storiesModal__pic">
+                                <img src="/upload/iblock/16b/ztipkcjruwu9r4jlex99iupr4ejwfr6l.jpg" loading="lazy" alt="">
+                            </div>
+                                                <div class="storiesModal__content">
+                            <div class="storiesModal__contentHeader">
+                                <div class="storiesModal__title">Образование</div>
+                                <div class="storiesModal__info">
+                                    <span class="storiesModal__date">18.03.2024 15:11</span>
+                                    <a class="storiesModal__website" target="_blank"
+                                       href="https://www.comnews.ru/content/232037/2024-03-15/2024-w11/1010/dosrochnuyu-sdachu-ege-2024-g-budut-kontrolirovat-pochti-35-tysyachi-videokamer-rostelekoma">www.comnews.ru</a>
+                                </div>
+                            </div>
+                            <div class="storiesModal__contentTop">
+                                <div class="storiesVerticalSlider-js">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <h3>
+<p>
+	 Досрочную сдачу ЕГЭ в 2024 г. будут контролировать почти 3,5 тысячи видеокамер "Ростелекома" с компьютерным зрением<br>
+</p>
+ </h3>
+<p>
+	 "Ростелеком" установил систему видеонаблюдения во всех аудиториях для проведения ЕГЭ. Система настроена на обнаружение подозрительного поведения участников экзамена: использования запрещенных предметов (средств связи и шпаргалок) и выноса контрольно-измерительных материалов. Подобный способ контроля позволяет повысить объективность оценки выпускных экзаменов.<br>
+</p>                                        </div>
+                                    </div>
+                                    <div class="swiper-scrollbar"></div>
+                                </div>
+                            </div>
+                                                            <div class="storiesModal__contentBottom">
+                                    <a class="button buttonBlue storiesModal__button" href="https://www.comnews.ru/content/232037/2024-03-15/2024-w11/1010/dosrochnuyu-sdachu-ege-2024-g-budut-kontrolirovat-pochti-35-tysyachi-videokamer-rostelekoma"
+                                       target="_blank"><span>Перейти к источнику</span></a>
+                                </div>
+                                                    </div>
+                    </div>
+                                        <div class="swiper-slide" data-swiper-autoplay="30000">
+                                                    <div class="storiesModal__pic">
+                                <img src="/upload/iblock/456/3m7ci427q28rbmna932edfcg1tidxp6k.jpg" loading="lazy" alt="">
+                            </div>
+                                                <div class="storiesModal__content">
+                            <div class="storiesModal__contentHeader">
+                                <div class="storiesModal__title">Кейс внедрения ИИ</div>
+                                <div class="storiesModal__info">
+                                    <span class="storiesModal__date">18.03.2024 15:44</span>
+                                    <a class="storiesModal__website" target="_blank"
+                                       href="https://www.cnews.ru/news/line/2024-03-18_ii_v_razy_povysil_effektivnost">www.cnews.ru</a>
+                                </div>
+                            </div>
+                            <div class="storiesModal__contentTop">
+                                <div class="storiesVerticalSlider-js">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <h3>
+<p>
+	 "Билайн" разработал "Интеллектуальный планировщик", который в разы ускорил подготовку планов развития сотовой сети<br>
+</p>
+ </h3>
+ "Билайн" представил новый программный комплекс "Интеллектуальный планировщик", который с помощью ИИ значительно ускорил процесс разработки планов развития сотовой сети. Система определяет проблемные зоны на сети и автоматически разрабатывает адресные планы развития, учитывая множество параметров, включая технические решения для расширения сети.<br>                                        </div>
+                                    </div>
+                                    <div class="swiper-scrollbar"></div>
+                                </div>
+                            </div>
+                                                            <div class="storiesModal__contentBottom">
+                                    <a class="button buttonBlue storiesModal__button" href="https://www.cnews.ru/news/line/2024-03-18_ii_v_razy_povysil_effektivnost"
+                                       target="_blank"><span>Перейти к источнику</span></a>
+                                </div>
+                                                    </div>
+                    </div>
+                                </div>
+        </div>
+    </div>
+<script>
+    BX.ready(() => {
+        window.searchApiUrl = 'https://aigo.prod.its.xyz/api/v1/';
+        favoriteItems.init([]);
+    })
+</script>
+</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(86836684, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/86836684" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></body>
+</html>

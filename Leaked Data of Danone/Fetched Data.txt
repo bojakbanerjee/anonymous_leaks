@@ -1,0 +1,22 @@
++ Multiple IPs found: 13.224.103.29, 13.224.103.39, 13.224.103.63, 13.224.103.103
++ Target IP:          13.224.103.29
++ Target Hostname:    www.danone.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=FR/ST=\xC3\x8Ele-de-France/O=DANONE/CN=prod-cdn1.content.digital4danone.com
+                   Altnames: prod-cdn1.content.digital4danone.com, *.apta.com.hk, *.aptababy.com.pt, *.aptaclub.co.uk, *.aptaclub.de, *.aptaclub.it, *.aptanutricia.ro, *.bledina.com, *.candgbabyclub.co.uk, *.cgbabyclub.co.uk, *.cghappykids.com.hk, *.laboratoire-gallia.com, *.nutricia.com.au, *.nutriciababy.be, *.nutriciaeln.com.hk, *.nutrilon.nl, aptaclub.co.uk, aptawelt.de, corporate.danone.co.za, corporate.danone.it, corporate.danone.nl, www.aptaadvantage.com.sg, www.aptaclub.at, www.aptaclub.ch, www.aptaclub.com.vn, www.aptaclub.ie, www.aptagro.com.my, www.aptashop.co.uk, www.aptawelt-experten.de, www.aptawelt.de, www.candgbabyclub.ie, www.candgshop.co.uk, www.cvjgtbtoolbox.com, www.danone.com, www.danone.fr, www.danonenutricia.com.br, www.dugro.com.my, www.evianchampionship.com, www.hifamilyclub.com, www.milupa.at, www.milupa.ch, www.milupa.de, www.nutricia.com, www.nutricia.com.hk
+                   Ciphers:  TLS_AES_128_GCM_SHA256
+                   Issuer:   /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo RSA Organization Validation Secure Server CA
++ Start Time:         2023-06-27 17:34:05 (GMT3)
+---------------------------------------------------------------------------
++ Server: Apache
++ /: Retrieved via header: 1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront).
++ /: Uncommon header 'x-dispatcher' found, with contents: dispatcher2eucentral1.
++ /: Uncommon header 'x-vhost' found, with contents: publish.
++ /xyqzA5XH.MVC: Cookie AWSELB created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /xyqzA5XH.MVC: Cookie AWSELB created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /xyqzA5XH.MVC: Cookie AWSELBCORS created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /footer/countries-websites-old.html: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ /robots.txt: Entry '/footer.html' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: contains 5 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt

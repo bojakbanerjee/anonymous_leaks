@@ -1,0 +1,1 @@
+Reset password without having an existing account: https://ai.gov.ru/bitrix/admin/?change_password=yes&login=yes#change_password
