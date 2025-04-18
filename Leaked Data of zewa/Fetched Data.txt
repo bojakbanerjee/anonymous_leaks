@@ -1,0 +1,15 @@
++ Target IP:          104.19.191.28
++ Target Hostname:    www.zewa.net
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /CN=www.zewa.net
+                   Altnames: www.zewa.net
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=US/O=Google Trust Services LLC/CN=GTS CA 1P5
++ Start Time:         2023-06-17 12:49:36 (GMT3)
+---------------------------------------------------------------------------
++ Server: cloudflare
++ /ru/: Retrieved access-control-allow-origin header: *.
++ /ru/sPC2bYbd.java: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /ru/: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/

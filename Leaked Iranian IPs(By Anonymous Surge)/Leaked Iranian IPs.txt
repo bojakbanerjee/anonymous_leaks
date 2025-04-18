@@ -1,0 +1,30 @@
+151.247.214.79 Aria Shabakeh Afagh PJSC
+151.247.231.179 SHATEL DSL Network
+151.247.249.183 SHATEL DSL Network
+176.65.177.217 Iran Telecommunication Company PJS
+176.65.179.116 Iran Telecommunication Company PJS
+176.65.179.219 Iran Telecommunication Company PJS
+178.173.147.144 Shiraz Hamyar Co
+185.136.183.98 ARAAX DADEH GOSTAR information and communication Development Co (Private Joint Stock)
+185.53.141.153 Dade Pardazi Mobinhost Co LTD
+185.88.176.206 Fannavari Etelaate Samane Kavoshgar Ide Ltd
+188.208.155.112 Rightel Communication Service Company PJS
+188.213.77.191 Mobin Net Communication Company (Private Joint Stock)
+2.179.194.208 Information Technology Company (ITC)
+2.180.106.240 Information Technology Company (ITC)
+2.180.19.43 Information Technology Company
+2.180.39.42 Information Technology Company (ITC)
+2.186.12.40 Information Technology Company (ITC)
+31.59.1.239 SHATEL DSL Network
+31.59.1.2 SHATEL DSL Network
+37.156.20.108 Mobin Net Communication Company (Private Joint Stock)
+5.200.66.235 Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS
+5.202.104.135 Pishgaman Toseeh Ertebatat Company (Private Joint Stock)
+62.204.61.170 Saba Hour Yeganeh Co
+80.210.56.187 Telecommunication Company of Tehran
+81.163.7.44 Rasana Pishtaz Iranian Service Cooperative Co
+93.118.110.104 Telecommunication Company of Alborz
+94.139.163.174 FDI-LTE-BSNS-S
+94.183.138.33 Shatel DSL Network
+94.183.252.219 Aria Shatel Company Ltd
+94.183.48.231 SHATEL DSL Network

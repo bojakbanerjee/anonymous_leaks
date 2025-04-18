@@ -1,0 +1,18 @@
++ Target IP:          93.90.220.187
++ Target Hostname:    wi-fi.beeline.ru
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /CN=wi-fi.beeline.ru
+                   Altnames: wi-fi.beeline.ru
+                   Ciphers:  ECDHE-RSA-AES256-GCM-SHA384
+                   Issuer:   /C=BE/O=GlobalSign nv-sa/CN=AlphaSSL CA - SHA256 - G2
++ Start Time:         2023-07-10 00:48:54 (GMT3)
+---------------------------------------------------------------------------
++ Server: nginx
++ /accounts/sign_in/: Retrieved access-control-allow-origin header: *.
++ /accounts/sign_in/: Uncommon header 'x-request-id' found, with contents: 0b72765c-24df-4381-bf48-70827f91e602.
++ /accounts/sign_in/: Uncommon header 'x-runtime' found, with contents: 0.028213.
++ /accounts/sign_in/: Uncommon header 'access-control-request-method' found, with contents: *.
++ /accounts/sign_in/JjwKmEdA.json: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /accounts/sign_in/: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/

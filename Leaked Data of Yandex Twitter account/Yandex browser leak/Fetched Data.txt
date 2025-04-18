@@ -1,0 +1,25 @@
++ Multiple IPs found: 5.255.255.77, 77.88.55.60, 5.255.255.70, 77.88.55.88, 2a02:6b8:a::a
++ Target IP:          5.255.255.77
++ Target Hostname:    yandex.ru
++ Target Port:        80
++ Start Time:         2024-03-13 22:27:33 (GMT2)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ /: Cookie spravka created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /: Cookie _yasc created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /: Uncommon header 'x-yandex-eu-request' found, with contents: 1.
++ /: Uncommon header 'x-yandex-req-id' found, with contents: 1710361653649101-10150940579166938610-balancer-l7leveler-kubr-yp-vla-203-BAL.
++ /: Uncommon header 'accept-ch' found, with contents: Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Platform, Sec-CH-UA-Full-Version, Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT.
++ /: Uncommon header 'x-yandex-captcha' found, with contents: captcha.
++ Root page / redirects to: http://yandex.ru/showcaptcha?cc=1&mt=D5B08BB99490F6F8F97A76451234263E2EFB84164CB98795DF5A688644B8E36B4C8077626799EA41F5715AC02379A10B2AAD661211C000EBE09E39F4C58DAF94D796831D384D8B48358ED11F63ABF8F46EB595C3E429ECDA7702C1D9208E1E914AE17F797DB8CFCC6F33AD2D2D6CCCCD60A4FE69AA23ACCFA430015C31C7E99E6F895E04179BE5617C96E366D3EDF8ABAC1AD1D1E17A2009FA003BEB76E97A6D5B30E339DEDE8F1833CC5851E4EB4E183209724DBA3B5AABE1825B5288B2E202B3222F0C33D1337C3B8238EB8DDF359FF229921153CB8B1634168E5C34&retpath=aHR0cDovL3lhbmRleC5ydS8__2c239b95757a3f2217e103150937f307&t=2/1710361653/a178701f5b52a931835197733d2c8ed3&u=42f0b23c-2dbb98da-2b812879-45b9f4f9&s=f64fdb6e2b6b63f1eb7449c7f25742ce
++ /vvluI1FW.py: Cookie is_gdpr created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /vvluI1FW.py: Cookie is_gdpr_b created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /: Uncommon header 'portal' found, with contents: Home.
++ /: A CSP report-to header was found with the following URLs: https://dr.yandex.net/nel, https://dr2.yandex.net/nel. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-to
++ /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ /search: Cookie yandexuid created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /search: Cookie ys created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /search: Uncommon header 'x-yandex-items-count' found, with contents: 10.
++ /feed/index2.php?m=http://blog.cirt.net/rfiinc.txt: Uncommon header 'x-req-id' found, with contents: 1710362394699880-11853691272831946328-balancer-l7leveler-kubr-yp-sas-150-BAL.

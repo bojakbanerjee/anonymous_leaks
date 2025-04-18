@@ -1,0 +1,1 @@
+parameter 'User-Agent' appears to be 'AND boolean-based blind - WHERE or HAVING clause' injectable

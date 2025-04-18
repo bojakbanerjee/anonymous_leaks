@@ -1,0 +1,21 @@
++ Multiple IPs found: 96.16.54.193, 96.16.54.192, 2a02:26f0:7100::210:158, 2a02:26f0:7100::210:14a
++ Target IP:          96.16.54.193
++ Target Hostname:    www.lcwaikiki.eg
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /CN=www.lcwaikiki.eg
+                   Altnames: api.lcwaikiki.eg, backoffice.lcwaikiki.eg, lcwaikiki.eg, mobileapp.lcwaikiki.eg, mpapi.lcwaikiki.eg, preprod.lcwaikiki.eg, services.lcwaikiki.eg, tulpar.lcwaikiki.eg, www.lcwaikiki.eg
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=US/O=Let's Encrypt/CN=R3
++ Start Time:         2023-06-18 13:27:29 (GMT3)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ /en-US/EG/: Cookie _abck created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /en-US/EG/: Cookie bm_sz created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /en-US/EG/: Cookie bm_sz created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /en-US/EG/: Uncommon header 'x-akamai-transformed' found, with contents: 9 - 0 pmb=mTOE,2mRUM,1.
++ /en-US/EG/: Uncommon header 'server-timing' found, with multiple values: (cdn-cache; desc=HIT,edge; dur=1,ak_p; desc="468634_1611675325_317525951_21_7878_26_-_-";dur=1,).
++ /en-US/EG/: Uncommon header 'x-server-suffix' found, with contents: W1.
++ /en-US/EG/: The site uses TLS and the Strict-Transport-Security HTTP header is not defined. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
++ /en-US/EG/: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)

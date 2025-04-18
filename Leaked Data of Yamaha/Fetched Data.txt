@@ -1,0 +1,24 @@
++ Multiple IPs found: 104.84.62.168, 2a02:26f0:7100:88e::16dc, 2a02:26f0:7100:89b::16dc
++ Target IP:          104.84.62.168
++ Target Hostname:    www.yamaha.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=JP/ST=Shizuoka/L=Hamamatsu/O=Yamaha Corporation/CN=*.yamaha.com
+                   Altnames: *.yamaha.com, yamaha.com, business.member.yamaha.com, admin.business.member.yamaha.com, *.vn.yamaha.com, *.usa.yamaha.com, *.uk.yamaha.com, *.tw.yamaha.com, *.tr.yamaha.com, *.th.yamaha.com, *.sk.yamaha.com, *.sg.yamaha.com, *.se.yamaha.com, *.ru.yamaha.com, *.ro.yamaha.com, *.pt.yamaha.com, *.pl.yamaha.com, *.no.yamaha.com, *.nl.yamaha.com, *.my.yamaha.com, *.mx.yamaha.com, *.mea.yamaha.com, *.kr.yamaha.com, *.jp.yamaha.com, *.it.yamaha.com, *.in.yamaha.com, *.id.yamaha.com, *.hu.yamaha.com, *.fr.yamaha.com, *.fi.yamaha.com, *.europe.yamaha.com, *.es.yamaha.com, *.dk.yamaha.com, *.de.yamaha.com, *.cz.yamaha.com, *.ch.yamaha.com, *.ca.yamaha.com, *.br.yamaha.com, *.au.yamaha.com, *.at.yamaha.com, *.asia.yamaha.com, *.asia-latinamerica-mea.yamaha.com, *.ae.yamaha.com
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=US/O=Entrust, Inc./OU=See www.entrust.net\/legal-terms/OU=(c) 2012 Entrust, Inc. - for authorized use only/CN=Entrust Certification Authority - L1K
++ Start Time:         2023-06-18 13:27:27 (GMT3)
+---------------------------------------------------------------------------
++ Server: Apache
++ /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /: Uncommon header 'server-timing' found, with multiple values: (edge; dur=5,origin; dur=749,cdn-cache; desc=MISS,ak_p; desc="468634_34741583_326174725_75399_1245_19_-_-";dur=1,).
++ /: Uncommon header 'x-akamai-transformed' found, with contents: 9 - 0 pmb=mRUM,2.
++ /: The site uses TLS and the Strict-Transport-Security HTTP header is not defined. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
++ /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ : Server banner changed from 'Apache' to 'Microsoft-IIS/8.5'.+ /qTaJ4eQ3.pt: Retrieved x-powered-by header: ASP.NET.
++ /qTaJ4eQ3.aspx: Retrieved x-aspnet-version header: 4.0.30319.+ /robots.txt: Entry '/warranty/piano/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/vpn/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: contains 19 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt
++ /_common/images/favicon.ico: Uncommon header 'unused62' found, with contents: 8096267.
++ /: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/
++ Server is using a wildcard certificate: *.yamaha.com. See: https://en.wikipedia.org/wiki/Wildcard_certificate

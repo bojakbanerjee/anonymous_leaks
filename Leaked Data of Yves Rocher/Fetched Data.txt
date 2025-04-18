@@ -1,0 +1,30 @@
++ Multiple IPs found: 96.16.54.177, 96.16.54.161
++ Target IP:          96.16.54.177
++ Target Hostname:    www.yves-rocher.fr
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=FR/ST=Bretagne/O=Laboratoires de Biologie Vegetale Yves Rocher/CN=www.yves-rocher.fr
+                   Altnames: www.yves-rocher.fr, auth.yves-rocher.at, auth.yves-rocher.be, auth.yves-rocher.ch, auth.yves-rocher.de, auth.yves-rocher.dk, auth.yves-rocher.es, auth.yves-rocher.fi, auth.yves-rocher.fr, auth.yves-rocher.kz, auth.yves-rocher.nl, auth.yves-rocher.no, auth.yves-rocher.se, auth.yves-rocher.ua, auth.yvesrocher.ca, auth.yvesrocher.com.tr, auth.yvesrocherusa.com, hc-spark.yves-rocher.com, images.yves-rocher.fr, m.yves-rocher.at, m.yves-rocher.be, m.yves-rocher.ch, m.yves-rocher.de, m.yves-rocher.dk, m.yves-rocher.es, m.yves-rocher.fi, m.yves-rocher.fr, m.yves-rocher.kz, m.yves-rocher.nl, m.yves-rocher.no, m.yves-rocher.se, m.yves-rocher.ua, m.yvesrocher.ca, m.yvesrocher.com.tr, m.yvesrocherusa.com, pictures.yves-rocher.com, pictures.yvesrocher.com, spark-ssr-assets.yves-rocher.com, spark-ssr-react.yves-rocher.com, www.yves-rocher-kz.com, www.yves-rocher.at, www.yves-rocher.be, www.yves-rocher.ch, www.yves-rocher.de, www.yves-rocher.dk, www.yves-rocher.es, www.yves-rocher.fi, www.yves-rocher.kz, www.yves-rocher.nl, www.yves-rocher.no, www.yves-rocher.se, www.yves-rocher.ua, www.yvesrocher.ca, www.yvesrocher.com.tr, www.yvesrocherusa.com, yves-rocher.at, yves-rocher.be, yves-rocher.ch, yves-rocher.de, yves-rocher.dk, yves-rocher.es, yves-rocher.fi, yves-rocher.fr, yves-rocher.kz, yves-rocher.nl, yves-rocher.no, yves-rocher.se, yves-rocher.ua, yvesrocher.ca, yvesrocher.com.tr, yvesrocherusa.com
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo ECC Organization Validation Secure Server CA
++ Start Time:         2023-06-20 16:09:26 (GMT3)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ /: Cookie ADRUM_BTa created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /: Cookie SameSite created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /: Cookie ADRUM_BT1 created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /: Cookie _abck created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /: Cookie bm_sz created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /: Cookie bm_sz created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /: Uncommon header 'x-akamai-transformed' found, with contents: 9 - 0 pmb=mTOE,1mRUM,2.
++ /: Uncommon header 'server-timing' found, with multiple values: (cdn-cache; desc=MISS,edge; dur=47,origin; dur=219,ak_p; desc="468685_1611675309_817468306_26482_8108_42_-_-";dur=1,).
++ /8vFmkP1f.idc: Cookie ADRUM_BTs created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
++ /8vFmkP1f.htaccess~: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ All CGI directories 'found', use '-C none' to test none
++ /robots.txt: Uncommon header 'content-disposition' found, with contents: filename=robot.txt.
++ /robots.txt: Entry '/*?_s=/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/*?setLocale=/' is returned a non-forbidden or redirect HTTP code (404). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: contains 79 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt
++ /favicon.ico: Server may leak inodes via ETags, header found with file /favicon.ico, inode: 177e, size: 5eb6122567600, mtime: gzip. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1418
++ /img/favicon/apple-touch-icon-76x76.png: Incapsula WAF is in use. See: https://www.sumasoft.com/incapsula-cloud-based-web-application-firewall-waf/
++ /img/favicon/apple-touch-icon-76x76.png: Uncommon header 'x-iinfo' found, with contents: 13-68014577-0 0CNN RT(1662039704261 25) q(0 -1 -1 0) r(1 -1).
